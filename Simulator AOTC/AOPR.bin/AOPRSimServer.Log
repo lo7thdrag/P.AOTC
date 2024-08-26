@@ -1,0 +1,166 @@
+<22 Aug 2024 08:59:02> [TT3Unit.SetInstanceIndex] InstanceName : Ahmad Yani - 351 ; InstanceIndex : 28350
+<22 Aug 2024 08:59:02> [TT3Unit.SetInstanceIndex] InstanceName : BMP1 ; InstanceIndex : 28371
+<22 Aug 2024 08:59:02> [TT3Unit.SetInstanceIndex] InstanceName : BMP2 ; InstanceIndex : 28348
+<22 Aug 2024 08:59:02> [TT3Unit.SetInstanceIndex] InstanceName : Bontang - 907 ; InstanceIndex : 28352
+<22 Aug 2024 08:59:02> [TT3Unit.SetInstanceIndex] InstanceName : btr40 - 01 ; InstanceIndex : 28372
+<22 Aug 2024 08:59:02> [TT3Unit.SetInstanceIndex] InstanceName : btr40 - 02 ; InstanceIndex : 28373
+<22 Aug 2024 08:59:02> [TT3Unit.SetInstanceIndex] InstanceName : Cakra - 401 ; InstanceIndex : 29427
+<22 Aug 2024 08:59:02> [TT3Unit.SetInstanceIndex] InstanceName : Diponegoro - 365 ; InstanceIndex : 28349
+<22 Aug 2024 08:59:02> [TT3Unit.SetInstanceIndex] InstanceName : HS - 4205 ; InstanceIndex : 29424
+<22 Aug 2024 08:59:02> [TT3Unit.SetInstanceIndex] InstanceName : Kapitan Patimura - 371 ; InstanceIndex : 29426
+<22 Aug 2024 08:59:02> [TT3Unit.SetInstanceIndex] InstanceName : NV - 401 ; InstanceIndex : 29425
+<22 Aug 2024 08:59:02> [TT3Unit.SetInstanceIndex] InstanceName : Tarakan - 905 ; InstanceIndex : 28353
+<22 Aug 2024 08:59:02> [TT3Unit.SetInstanceIndex] InstanceName : Teluk Bintuni - 520 ; InstanceIndex : 28351
+<22 Aug 2024 08:59:02> [TT3Unit.SetInstanceIndex] InstanceName : Teluk Kendari - 518 ; InstanceIndex : 28370
+-------------------------------------------------
+<04 Oct 2023 12:35:21> [TSimMgr_Server.LoadScenarioID] Load Peta
+-------------------------------------------------
+<04 Oct 2023 12:35:21> [TSimMgr_Server.LoadScenarioID] D:\Map\GST_GAME\AOTC\Tanjung Jangkar\Tanjung Jangkar.gst
+-------------------------------------------------
+<04 Oct 2023 12:35:21> [TSimMgr_Server.FNetServerOnClientConnect] 192.168.0.15: _ONLINE_ 
+-------------------------------------------------
+<04 Oct 2023 12:35:21> [TSimMgr_Server.netRecv_TCPRequest] 192.168.0.15: CPID_TCP_REQUEST                  :  Cubicle Assignment
+<04 Oct 2023 12:35:21> [TSimMgr_Server.netSend_CubicleAssignInfo] Cubicle Count : 0
+-------------------------------------------------
+<04 Oct 2023 12:35:21> [TSimMgr_Server.netRecv_TCPRequest] 192.168.0.15: CPID_TCP_REQUEST                  :  Synch Game Ctrl Info
+-------------------------------------------------
+<04 Oct 2023 12:35:21> [TSimMgr_Server.netRecv_TCPRequest] 192.168.0.15: CPID_TCP_REQUEST                  :  Synch Missed Packet
+-------------------------------------------------
+<04 Oct 2023 12:35:21> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 : CPID_CMD_GAME_CTRL               
+-------------------------------------------------
+<04 Oct 2023 12:35:21> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 Game Start
+<04 Oct 2023 12:35:21> [TSimMgr_Server.netRecvMapCmd] BMP1 : On Land ; BMP1 : On Sea , GroundSpeed : 00.0
+-------------------------------------------------
+<04 Oct 2023 12:35:21> [TSimMgr_Server.netRecvMapCmd] Sending Data Map
+<04 Oct 2023 12:35:21> [TSimMgr_Server.netRecvMapCmd] BMP2 : On Land ; BMP2 : On Sea , GroundSpeed : 00.0
+-------------------------------------------------
+<04 Oct 2023 12:35:21> [TSimMgr_Server.netRecvMapCmd] Sending Data Map
+<04 Oct 2023 12:35:21> [TSimMgr_Server.netRecvMapCmd] btr40 - 01 : On Land ; btr40 - 01 : On Sea , GroundSpeed : 00.0
+-------------------------------------------------
+<04 Oct 2023 12:35:21> [TSimMgr_Server.netRecvMapCmd] Sending Data Map
+<04 Oct 2023 12:35:21> [TSimMgr_Server.netRecvMapCmd] btr40 - 02 : On Land ; btr40 - 02 : On Sea , GroundSpeed : 00.0
+-------------------------------------------------
+<04 Oct 2023 12:35:21> [TSimMgr_Server.netRecvMapCmd] Sending Data Map
+<04 Oct 2023 12:35:21> [TSimMgr_Server.netRecvMapCmd] Cakra - 401 : On Sea ; Cakra - 401 : On Grounded , GroundSpeed : 00.0
+-------------------------------------------------
+<04 Oct 2023 12:35:21> [TSimMgr_Server.netRecvMapCmd] Sending Data Map
+<04 Oct 2023 12:35:21> [TSimMgr_Server.netRecvMapCmd] Teluk Bintuni - 520 : On Sea ; Teluk Bintuni - 520 : On Grounded , GroundSpeed : 00.0
+-------------------------------------------------
+<04 Oct 2023 12:35:21> [TSimMgr_Server.netRecvMapCmd] Sending Data Map
+-------------------------------------------------
+<04 Oct 2023 12:35:48> [TSimMgr_Server.netRecv_CmdPlatform_Repair] 192.168.0.15 : Repair Platform id : 28350 >> health >> 0
+<04 Oct 2023 12:35:48> [TT3EventManager.OnPlatformDamageChanged] Ahmad Yani - 351 damage : Vehicle is damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnSensorOperationalStatus] Sensor DA-05 AS-Radar Mount 1, Status : Damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnSensorOperationalStatus] Sensor Decca 1229 SS-Radar Mount 1, Status : Damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnSensorOperationalStatus] Sensor Decca 1229 SS-Radar Mount 2, Status : Damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnSensorOperationalStatus] Sensor LW-03 AS-Radar Mount 1, Status : Damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnSensorOperationalStatus] Sensor M 44 FC-Radar Mount 1, Status : Damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnSensorOperationalStatus] Sensor M 44 FC-Radar Mount 2, Status : Damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnSensorOperationalStatus] Sensor M 45 FC-Radar Port Mount, Status : Damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnSensorOperationalStatus] Sensor AN/SSQ-62 Sonobuoy Mount 3, Status : Damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnSensorOperationalStatus] Sensor CWE-610 (EDO 610) LF HM-Sonar Mount 1, Status : Damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnSensorOperationalStatus] Sensor MF VD Sonar Mount 2, Status : Damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnSensorOperationalStatus] Sensor LIOD Optronic Director Mount 1, Status : Damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnSensorOperationalStatus] Sensor Telegon 4 Comm Intercept Mount 1, Status : Damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnSensorOperationalStatus] Sensor UA-8/9 (Porker) ESM Mount 2, Status : Damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnSensorOperationalStatus] Sensor AN/SSQ-62 DICASS-Sonobuoy Mount 3, Status : Damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnPlatformDamageChanged] Ahmad Yani - 351 damage : Sensor is damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnPlatformDamageChanged] Ahmad Yani - 351 damage : CounterMeasure is damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnPlatformDamageChanged] Ahmad Yani - 351 damage : Weapon is damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnPlatformDamageChanged] Ahmad Yani - 351 damage : Communication is damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnPlatformDamageChanged] Ahmad Yani - 351 damage : Helm is damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnPlatformDamageChanged] Ahmad Yani - 351 damage : Vehicle is damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnPlatformDamageChanged] Ahmad Yani - 351 damage : Sensor is damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnPlatformDamageChanged] Ahmad Yani - 351 damage : CounterMeasure is damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnPlatformDamageChanged] Ahmad Yani - 351 damage : Weapon is damage
+<04 Oct 2023 12:35:48> [TT3EventManager.OnSensorOperationalStatus] Sensor Visual, Status : Damage
+-------------------------------------------------
+<04 Oct 2023 12:36:48> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 : CPID_CMD_GAME_CTRL               
+-------------------------------------------------
+<04 Oct 2023 12:36:48> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 Game speed: 2
+-------------------------------------------------
+<04 Oct 2023 12:36:48> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 : CPID_CMD_GAME_CTRL               
+-------------------------------------------------
+<04 Oct 2023 12:36:48> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 Game speed: 4
+-------------------------------------------------
+<04 Oct 2023 12:36:49> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 : CPID_CMD_GAME_CTRL               
+-------------------------------------------------
+<04 Oct 2023 12:36:49> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 Game speed: 8
+-------------------------------------------------
+<04 Oct 2023 12:37:38> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 : CPID_CMD_GAME_CTRL               
+-------------------------------------------------
+<04 Oct 2023 12:37:38> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 Game Start
+<04 Oct 2023 12:37:38> [TSimMgr_Server.netRecvMapCmd] BMP1 : On Sea ; BMP1 : On Sea , GroundSpeed : 00.0
+-------------------------------------------------
+<04 Oct 2023 12:37:38> [TSimMgr_Server.netRecvMapCmd] Sending Data Map
+<04 Oct 2023 12:37:38> [TSimMgr_Server.netRecvMapCmd] btr40 - 01 : On Sea ; btr40 - 01 : On Sea , GroundSpeed : 00.0
+-------------------------------------------------
+<04 Oct 2023 12:37:38> [TSimMgr_Server.netRecvMapCmd] Sending Data Map
+<04 Oct 2023 12:37:38> [TSimMgr_Server.netRecvMapCmd] btr40 - 02 : On Sea ; btr40 - 02 : On Sea , GroundSpeed : 00.0
+-------------------------------------------------
+<04 Oct 2023 12:37:38> [TSimMgr_Server.netRecvMapCmd] Sending Data Map
+<04 Oct 2023 12:37:48> [TT3EventManager.OnPlatformHancur] Ahmad Yani - 351 Hancur oleh 
+<04 Oct 2023 12:37:48> [TT3EventManager.OnPlatformDestroy] Ahmad Yani - 351 destroyed
+<04 Oct 2023 12:37:48> [TT3ServerEventManager.OnPlatformFreeMe] FreeMe Event By : Ahmad Yani - 351; InstanceIndex : 28350
+-------------------------------------------------
+<04 Oct 2023 12:39:02> [TSimMgr_Server.netRecv_CmdPlatform_Repair] 192.168.0.15 : Repair Platform id : 29427 >> health >> 0
+<04 Oct 2023 12:39:02> [TT3EventManager.OnPlatformDamageChanged] Cakra - 401 damage : Vehicle is damage
+<04 Oct 2023 12:39:02> [TT3EventManager.OnSensorOperationalStatus] Sensor KH Type 1007 SS-Radar Mount 1, Status : Damage
+<04 Oct 2023 12:39:02> [TT3EventManager.OnSensorOperationalStatus] Sensor CSU 3-2 LF HM-Sonar Mount 1, Status : Damage
+<04 Oct 2023 12:39:02> [TT3EventManager.OnSensorOperationalStatus] Sensor Lopas 8300 Mount 3, Status : Damage
+<04 Oct 2023 12:39:02> [TT3EventManager.OnSensorOperationalStatus] Sensor PRS 3-4 Passive Ranging HM-Sonar Mount 2, Status : Damage
+<04 Oct 2023 12:39:02> [TT3EventManager.OnSensorOperationalStatus] Sensor Submarine Periscope Mount 1, Status : Damage
+<04 Oct 2023 12:39:02> [TT3EventManager.OnSensorOperationalStatus] Sensor DR-2000 U ESM Mount 2, Status : Damage
+<04 Oct 2023 12:39:02> [TT3EventManager.OnSensorOperationalStatus] Sensor DR-3000 ESM  Mount 1, Status : Damage
+<04 Oct 2023 12:39:02> [TT3EventManager.OnPlatformDamageChanged] Cakra - 401 damage : Sensor is damage
+<04 Oct 2023 12:39:02> [TT3EventManager.OnPlatformDamageChanged] Cakra - 401 damage : CounterMeasure is damage
+<04 Oct 2023 12:39:02> [TT3EventManager.OnPlatformDamageChanged] Cakra - 401 damage : Weapon is damage
+<04 Oct 2023 12:39:02> [TT3EventManager.OnPlatformDamageChanged] Cakra - 401 damage : Communication is damage
+<04 Oct 2023 12:39:02> [TT3EventManager.OnPlatformDamageChanged] Cakra - 401 damage : Helm is damage
+<04 Oct 2023 12:39:02> [TT3EventManager.OnPlatformDamageChanged] Cakra - 401 damage : Vehicle is damage
+<04 Oct 2023 12:39:02> [TT3EventManager.OnPlatformDamageChanged] Cakra - 401 damage : Sensor is damage
+<04 Oct 2023 12:39:02> [TT3EventManager.OnPlatformDamageChanged] Cakra - 401 damage : CounterMeasure is damage
+<04 Oct 2023 12:39:02> [TT3EventManager.OnPlatformDamageChanged] Cakra - 401 damage : Weapon is damage
+<04 Oct 2023 12:39:02> [TT3EventManager.OnSensorOperationalStatus] Sensor Visual, Status : Damage
+-------------------------------------------------
+<04 Oct 2023 12:39:07> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 : CPID_CMD_GAME_CTRL               
+-------------------------------------------------
+<04 Oct 2023 12:39:07> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 Game speed: 2
+-------------------------------------------------
+<04 Oct 2023 12:39:07> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 : CPID_CMD_GAME_CTRL               
+-------------------------------------------------
+<04 Oct 2023 12:39:07> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 Game speed: 4
+-------------------------------------------------
+<04 Oct 2023 12:39:08> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 : CPID_CMD_GAME_CTRL               
+-------------------------------------------------
+<04 Oct 2023 12:39:08> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 Game speed: 8
+-------------------------------------------------
+<04 Oct 2023 12:39:09> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 : CPID_CMD_GAME_CTRL               
+-------------------------------------------------
+<04 Oct 2023 12:39:09> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 Game speed: 16
+-------------------------------------------------
+<04 Oct 2023 12:39:14> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 : CPID_CMD_GAME_CTRL               
+-------------------------------------------------
+<04 Oct 2023 12:39:14> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 Game speed: 32
+-------------------------------------------------
+<04 Oct 2023 12:39:15> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 : CPID_CMD_GAME_CTRL               
+-------------------------------------------------
+<04 Oct 2023 12:39:15> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 Game speed: 32
+-------------------------------------------------
+<04 Oct 2023 12:40:41> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 : CPID_CMD_GAME_CTRL               
+-------------------------------------------------
+<04 Oct 2023 12:40:41> [TSimMgr_Server.netRecv_CmdGameControl] 192.168.0.15 Game Start
+<04 Oct 2023 12:41:02> [TT3EventManager.OnPlatformHancur] Cakra - 401 Hancur oleh 
+<04 Oct 2023 12:41:02> [TT3EventManager.OnPlatformDestroy] Cakra - 401 destroyed
+<04 Oct 2023 12:41:02> [TT3ServerEventManager.OnPlatformFreeMe] FreeMe Event By : Cakra - 401; InstanceIndex : 29427
+-------------------------------------------------
+<04 Oct 2023 18:26:01> [TSimMgr_Server.FNetServerOnClientDisConnect] 192.168.0.15: _OFFLINE_ 
+-------------------------------------------------
+<04 Oct 2023 18:26:04> [TSimMgr_Server.FNetServerOnClientConnect] 192.168.0.15: _ONLINE_ 
+-------------------------------------------------
+<04 Oct 2023 18:26:04> [TSimMgr_Server.netRecv_TCPRequest] 192.168.0.15: CPID_TCP_REQUEST                  :  Cubicle Assignment
+<04 Oct 2023 18:26:04> [TSimMgr_Server.netSend_CubicleAssignInfo] Cubicle Count : 0
+-------------------------------------------------
+<04 Oct 2023 18:26:04> [TSimMgr_Server.netRecv_TCPRequest] 192.168.0.15: CPID_TCP_REQUEST                  :  Synch Game Ctrl Info
+-------------------------------------------------
+<04 Oct 2023 18:26:04> [TSimMgr_Server.netRecv_TCPRequest] 192.168.0.15: CPID_TCP_REQUEST                  :  Synch Missed Packet
