@@ -1113,7 +1113,7 @@ begin
   FAGroupBox[wcHybrid]                                      := grbHybridMissile ;
 
   FAGroupBox[wcTorpedoStraigth]         := grbStraightRunningTorpedos ;
-  FAGroupBox[wcTorpedoActiveAcoustic]   := grbAcousticTorpedo ;
+  FAGroupBox[wcTorpedoActiveAcoustic]   := grbActivePasiveTorpedo ;
   FAGroupBox[wcTorpedoPassiveAcoustic]  := grbActivePasiveTorpedo ;
   FAGroupBox[wcTorpedoWireGuided]       := grbWireGuidedTorpedo;
   FAGroupBox[wcTorpedoWakeHoming]       := grbWakeHomingTorpedos ;
