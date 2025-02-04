@@ -2265,455 +2265,6 @@ object frmTacticalDisplay: TfrmTacticalDisplay
           end
         end
       end
-      object pnlSensor: TPanel
-        Left = 0
-        Top = 26
-        Width = 339
-        Height = 2000
-        Color = 4012086
-        ParentBackground = False
-        TabOrder = 9
-        inline fmSensor1: TfmSensor
-          Left = 1
-          Top = 1
-          Width = 337
-          Height = 1998
-          Align = alClient
-          TabOrder = 0
-          ExplicitLeft = 1
-          ExplicitTop = 1
-          ExplicitWidth = 337
-          ExplicitHeight = 1998
-          inherited PanelSpace: TPanel
-            Top = 111
-            Width = 337
-            Height = 0
-            ExplicitTop = 111
-            ExplicitWidth = 337
-            ExplicitHeight = 0
-          end
-          inherited PanelSensorChoices: TPanel
-            Width = 337
-            Height = 111
-            ExplicitWidth = 337
-            ExplicitHeight = 111
-            inherited lstSensor: TListView
-              Width = 335
-              Height = 109
-              Font.Color = clActiveCaption
-              ExplicitWidth = 335
-              ExplicitHeight = 109
-            end
-          end
-          inherited PanelALL: TPanel
-            Top = 111
-            Width = 337
-            Height = 1887
-            ExplicitTop = 111
-            ExplicitWidth = 337
-            ExplicitHeight = 1887
-            inherited PanelSensorControl: TPanel
-              Width = 337
-              Height = 1887
-              ExplicitWidth = 337
-              ExplicitHeight = 1887
-              inherited grbAnomalyDetectorSensor: TGroupBox
-                Width = 331
-                Height = 1881
-                ExplicitWidth = 331
-                ExplicitHeight = 1881
-                inherited sbAnomalyDetectorControlModeOn: TSpeedButton
-                  Width = 85
-                  OnClick = btnMADOnClick
-                  ExplicitWidth = 85
-                end
-                inherited sbAnomalyDetectorControlModeOff: TSpeedButton
-                  Width = 85
-                  OnClick = btnMADOnClick
-                  ExplicitWidth = 85
-                end
-              end
-              inherited grbElectroOpticalSensor: TGroupBox
-                Width = 331
-                Height = 1881
-                ExplicitWidth = 331
-                ExplicitHeight = 1881
-                inherited ScrollBox3: TScrollBox
-                  Width = 327
-                  Height = 1861
-                  ExplicitWidth = 327
-                  ExplicitHeight = 1861
-                  inherited sbElectroOpticalSensorDisplayRangeShow: TSpeedButton
-                    OnClick = btnEOOnClick
-                  end
-                  inherited sbElectroOpticalSensorDisplayRangeHide: TSpeedButton
-                    OnClick = btnEOOnClick
-                  end
-                  inherited sbElectroOpticalSensorBlindZoneShow: TSpeedButton
-                    OnClick = btnEOOnClick
-                  end
-                  inherited sbElectroOpticalSensorBlindZoneHide: TSpeedButton
-                    OnClick = btnEOOnClick
-                  end
-                  inherited sbElectroOpticalSensorControlModeOn: TSpeedButton
-                    OnClick = btnEOOnClick
-                  end
-                  inherited sbElectroOpticalSensorControlModeOff: TSpeedButton
-                    OnClick = btnEOOnClick
-                  end
-                end
-              end
-              inherited grbESMSensorControl: TGroupBox
-                Width = 331
-                Height = 1881
-                ExplicitWidth = 331
-                ExplicitHeight = 1881
-                inherited ScrollBox4: TScrollBox
-                  Width = 327
-                  Height = 1861
-                  ExplicitWidth = 327
-                  ExplicitHeight = 1861
-                  inherited Label7: TLabel
-                    Left = 38
-                    ExplicitLeft = 38
-                  end
-                  inherited Bevel4: TBevel
-                    Top = 113
-                    ExplicitTop = 113
-                  end
-                  inherited sbESMSensorControlModeOn: TSpeedButton
-                    Left = 15
-                    OnClick = btnESMOnClick
-                    ExplicitLeft = 15
-                  end
-                  inherited sbESMSensorControlModeOff: TSpeedButton
-                    Left = 15
-                    OnClick = btnESMOnClick
-                    ExplicitLeft = 15
-                  end
-                  inherited sbESMSensorDisplayBlindZoneShow: TSpeedButton
-                    OnClick = btnESMOnClick
-                  end
-                  inherited sbESMSensorDisplayBlindZoneHide: TSpeedButton
-                    OnClick = btnESMOnClick
-                  end
-                end
-              end
-              inherited grbSearchRadarControl: TGroupBox
-                Width = 331
-                Height = 1881
-                ExplicitWidth = 331
-                ExplicitHeight = 1881
-                inherited ScrollBox1: TScrollBox
-                  Width = 327
-                  Height = 1861
-                  ExplicitWidth = 327
-                  ExplicitHeight = 1861
-                  inherited Label194: TLabel
-                    Top = 14
-                    ExplicitTop = 14
-                  end
-                  inherited btnControlComboInterval: TSpeedButton
-                    Width = 24
-                    Height = 21
-                    ExplicitWidth = 24
-                    ExplicitHeight = 21
-                  end
-                  inherited sbControlEccmOn: TSpeedButton
-                    OnClick = OnRadarBtnClick
-                  end
-                  inherited sbControlEccmOff: TSpeedButton
-                    OnClick = OnRadarBtnClick
-                  end
-                  inherited sbRangeShow: TSpeedButton
-                    OnClick = OnRadarBtnClick
-                  end
-                  inherited sbRangeHide: TSpeedButton
-                    OnClick = OnRadarBtnClick
-                  end
-                  inherited sbBlindShow: TSpeedButton
-                    OnClick = OnRadarBtnClick
-                  end
-                  inherited sbBlindHide: TSpeedButton
-                    OnClick = OnRadarBtnClick
-                  end
-                  inherited sbScanShow: TSpeedButton
-                    OnClick = OnRadarBtnClick
-                  end
-                  inherited sbScanHide: TSpeedButton
-                    OnClick = OnRadarBtnClick
-                  end
-                  inherited pnlControlRadar: TPanel [18]
-                    Top = 32
-                    Width = 88
-                    Height = 67
-                    ExplicitTop = 32
-                    ExplicitWidth = 88
-                    ExplicitHeight = 67
-                    inherited btnControlModeOff2: TSpeedButton
-                      Left = 8
-                      Top = 21
-                      Width = 76
-                      ExplicitLeft = 8
-                      ExplicitTop = 21
-                      ExplicitWidth = 76
-                    end
-                    inherited btnControlModeOn: TSpeedButton
-                      Left = 8
-                      Top = 0
-                      Width = 76
-                      Height = 23
-                      ExplicitLeft = 8
-                      ExplicitTop = 0
-                      ExplicitWidth = 76
-                      ExplicitHeight = 23
-                    end
-                  end
-                  inherited pnlControlModeRadar2: TPanel [19]
-                    Height = 68
-                    ExplicitHeight = 68
-                    inherited sbControlModeSearch: TSpeedButton
-                      OnClick = OnRadarBtnClick
-                    end
-                    inherited sbControlModeTrack: TSpeedButton
-                      OnClick = OnRadarBtnClick
-                    end
-                    inherited sbControlModeOff: TSpeedButton
-                      OnClick = OnRadarBtnClick
-                    end
-                  end
-                  inherited pnlScanSector: TPanel [20]
-                    Height = 65
-                    ExplicitHeight = 65
-                    inherited Label201: TLabel
-                      Top = 14
-                      ExplicitTop = 14
-                    end
-                    inherited sbScanModePartial: TSpeedButton
-                      Top = 50
-                      OnClick = OnRadarBtnClick
-                      ExplicitTop = 50
-                    end
-                    inherited sbScanModeFull: TSpeedButton
-                      Top = 30
-                      OnClick = OnRadarBtnClick
-                      ExplicitTop = 30
-                    end
-                    inherited Label205: TLabel
-                      Top = 51
-                      ExplicitTop = 51
-                    end
-                    inherited Label204: TLabel
-                      Top = 28
-                      ExplicitTop = 28
-                    end
-                    inherited btnComboScanStrart: TSpeedButton
-                      Width = 24
-                      Height = 20
-                      ExplicitWidth = 24
-                      ExplicitHeight = 20
-                    end
-                  end
-                  inherited cbActivationInterval: TCheckBox [21]
-                    Height = 14
-                    ExplicitHeight = 14
-                  end
-                  inherited editComboInterval: TEdit [22]
-                  end
-                  inherited btShowRangeAltitude: TButton [23]
-                    Height = 21
-                    OnClick = OnRadarBtnClick
-                    ExplicitHeight = 21
-                  end
-                  inherited btExecuteSingleScan: TButton [24]
-                    Height = 21
-                    OnClick = OnRadarBtnClick
-                    ExplicitHeight = 21
-                  end
-                end
-              end
-              inherited grbSonarControl: TGroupBox
-                Width = 331
-                Height = 1881
-                ExplicitWidth = 331
-                ExplicitHeight = 1881
-                inherited ScrollBox2: TScrollBox
-                  Width = 327
-                  Height = 1861
-                  ExplicitWidth = 327
-                  ExplicitHeight = 1861
-                  inherited Bevel43: TBevel
-                    Left = 51
-                    Top = 219
-                    ExplicitLeft = 51
-                    ExplicitTop = 219
-                  end
-                  inherited sbDisplayBlindHide: TSpeedButton
-                    OnClick = OnSonarBtnClick
-                  end
-                  inherited sbDisplayBlindShow: TSpeedButton
-                    OnClick = OnSonarBtnClick
-                  end
-                  inherited sbDisplayRangeHide: TSpeedButton
-                    OnClick = OnSonarBtnClick
-                  end
-                  inherited sbDisplayRangeShow: TSpeedButton
-                    OnClick = OnSonarBtnClick
-                  end
-                  inherited sbSonarControlModeActive: TSpeedButton
-                    OnClick = OnSonarBtnClick
-                  end
-                  inherited sbSonarControlModePassive: TSpeedButton [12]
-                    OnClick = OnSonarBtnClick
-                  end
-                  inherited lblRangeTIOW: TLabel [13]
-                  end
-                  inherited btnRange1: TSpeedButton [14]
-                  end
-                  inherited btnRAnge2: TSpeedButton [15]
-                  end
-                  inherited btnRange3: TSpeedButton [16]
-                  end
-                  inherited sbSonarControlModeOff: TSpeedButton [17]
-                    OnClick = OnSonarBtnClick
-                  end
-                  inherited pnlDeployment: TPanel
-                    Top = 91
-                    ExplicitTop = 91
-                    inherited Label221: TLabel
-                      Left = 133
-                      ExplicitLeft = 133
-                    end
-                    inherited sbDeploymentActiondeploy: TSpeedButton
-                      OnClick = OnSonarBtnClick
-                    end
-                    inherited sbDeploymentActionShow: TSpeedButton
-                      OnClick = OnSonarBtnClick
-                    end
-                    inherited editCableOrdered: TEdit
-                      Width = 40
-                      ExplicitWidth = 40
-                    end
-                  end
-                end
-              end
-              inherited grbSonobuoyControl: TGroupBox
-                Width = 331
-                Height = 1881
-                ExplicitWidth = 331
-                ExplicitHeight = 1881
-                inherited ScrollBox7: TScrollBox
-                  Width = 327
-                  Height = 1861
-                  ExplicitWidth = 327
-                  ExplicitHeight = 1861
-                  inherited btnSonobuoyControlDeploy: TButton
-                    Width = 84
-                    OnClick = OnSoonobuoyBtnClick
-                    ExplicitWidth = 84
-                  end
-                  inherited editControlDepth: TEdit
-                    Top = 113
-                    ExplicitTop = 113
-                  end
-                end
-              end
-              inherited grbVisualDetectorSensor: TGroupBox
-                Width = 331
-                Height = 1881
-                ExplicitWidth = 331
-                ExplicitHeight = 1881
-                inherited sbVisualDetectorDisplayRangeShow: TSpeedButton
-                  OnClick = OnVisualShowClick
-                end
-                inherited sbVisualDetectorDisplayRangeHide: TSpeedButton
-                  OnClick = OnVisualShowClick
-                end
-                inherited sbVisualDetectorDisplayBlindZonesShow: TSpeedButton
-                  OnClick = OnVisualShowClick
-                end
-                inherited sbVisualDetectorDisplayBlindZonesHide: TSpeedButton
-                  OnClick = OnVisualShowClick
-                end
-              end
-              inherited grbIFFTransponderControl: TGroupBox
-                Width = 331
-                Height = 1881
-                ExplicitWidth = 331
-                ExplicitHeight = 1881
-                inherited ScrollBox6: TScrollBox
-                  Width = 327
-                  Height = 1861
-                  ExplicitWidth = 327
-                  ExplicitHeight = 1861
-                  inherited sbIFFTransponderControlModeOff: TSpeedButton
-                    OnClick = fmSensor1sbIFFTransponderControlModeOffClick
-                  end
-                  inherited sbIFFTransponderControlModeOn: TSpeedButton
-                    OnClick = fmSensor1sbIFFTransponderControlModeOnClick
-                  end
-                  inherited edtIFFTransponderControlMode1: TEdit
-                    Text = '0000'
-                  end
-                end
-              end
-              inherited grbIFFInterrogatorControl: TGroupBox
-                Width = 331
-                Height = 1881
-                ExplicitWidth = 331
-                ExplicitHeight = 1881
-                inherited ScrollBox5: TScrollBox
-                  Width = 327
-                  Height = 1861
-                  ExplicitWidth = 327
-                  ExplicitHeight = 1861
-                  inherited btnIFFInterrogatorTrackSearch: TSpeedButton
-                    OnClick = fmSensor1btnIFFInterrogatorTrackSearchClick
-                  end
-                  inherited sbIFFInterrogatorControlModeOff: TSpeedButton
-                    OnClick = fmSensor1sbIFFInterrogatorControlModeOffClick
-                  end
-                  inherited sbIFFInterrogatorControlModeOn: TSpeedButton
-                    OnClick = fmSensor1sbIFFInterrogatorControlModeOnClick
-                  end
-                  inherited btnManual: TSpeedButton
-                    Top = 62
-                    ExplicitTop = 62
-                  end
-                  inherited cbbtnIFFInterrogatorMode1: TCheckBox
-                    OnClick = fmSensor1cbbtnIFFInterrogatorMode1Click
-                  end
-                  inherited cbbtnIFFInterrogatorMode2: TCheckBox
-                    OnClick = fmSensor1cbbtnIFFInterrogatorMode1Click
-                  end
-                  inherited cbbtnIFFInterrogatorMode3: TCheckBox
-                    OnClick = fmSensor1cbbtnIFFInterrogatorMode1Click
-                  end
-                  inherited cbbtnIFFInterrogatorMode3C: TCheckBox
-                    OnClick = fmSensor1cbbtnIFFInterrogatorMode1Click
-                  end
-                  inherited cbbtnIFFInterrogatorMode4: TCheckBox
-                    OnClick = fmSensor1cbbtnIFFInterrogatorMode1Click
-                  end
-                  inherited edtIFFInterrogatorMode1: TEdit
-                    OnKeyPress = fmSensor1edtIFFInterrogatorMode1KeyPress
-                  end
-                  inherited edtIFFInterrogatorMode2: TEdit
-                    OnKeyPress = fmSensor1edtIFFInterrogatorMode1KeyPress
-                  end
-                  inherited edtIFFInterrogatorMode3: TEdit
-                    OnKeyPress = fmSensor1edtIFFInterrogatorMode1KeyPress
-                  end
-                end
-              end
-            end
-          end
-          inherited pmModeSonobuoy: TPopupMenu
-            Left = 232
-            Top = 440
-          end
-        end
-      end
       object pnlTabOwnShip: TPanel
         Tag = 1
         Left = 0
@@ -2793,57 +2344,6 @@ object frmTacticalDisplay: TfrmTacticalDisplay
                   Height = 1953
                   ExplicitWidth = 333
                   ExplicitHeight = 1953
-                end
-              end
-              inherited grbAirDroppedVECTAC: TGroupBox
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-                inherited ScrollBox13: TScrollBox
-                  Width = 333
-                  Height = 1953
-                  ExplicitWidth = 333
-                  ExplicitHeight = 1953
-                  inherited Label398: TLabel
-                    Top = 351
-                    ExplicitTop = 351
-                  end
-                  inherited lbVectacWeaponExpiry: TLabel
-                    Top = 351
-                    ExplicitTop = 351
-                  end
-                  inherited btnVectacWeaponCarrierDrop: TButton
-                    Left = 253
-                    ExplicitLeft = 253
-                  end
-                  inherited btnVectacWeaponCarrierGround: TButton
-                    Left = 253
-                    ExplicitLeft = 253
-                  end
-                  inherited editVectacTargetTrack: TEdit
-                    Enabled = True
-                    ReadOnly = True
-                  end
-                  inherited editVectacWeaponCarrierDrop: TEdit
-                    Enabled = True
-                    ReadOnly = True
-                  end
-                  inherited editVectacWeaponCarrierGround: TEdit
-                    Enabled = True
-                    ReadOnly = True
-                  end
-                  inherited editVectacWeaponCarrierName: TEdit
-                    Enabled = True
-                    ReadOnly = True
-                  end
-                  inherited editVectacWeaponName: TEdit
-                    Top = 321
-                    Enabled = True
-                    ReadOnly = True
-                    Text = ''
-                    ExplicitTop = 321
-                  end
                 end
               end
               inherited grbHybridMissile: TGroupBox
@@ -3338,49 +2838,6 @@ object frmTacticalDisplay: TfrmTacticalDisplay
                   ExplicitLeft = 101
                 end
               end
-              inherited grbAirDroppedTorpedo: TGroupBox
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-                inherited ScrollBox8: TScrollBox
-                  Width = 333
-                  Height = 1953
-                  ExplicitWidth = 333
-                  ExplicitHeight = 1953
-                  inherited bvl12: TBevel
-                    Top = 125
-                    ExplicitTop = 125
-                  end
-                  inherited bvl9: TBevel
-                    Top = 40
-                    ExplicitTop = 40
-                  end
-                  inherited lbl41: TLabel
-                    Left = 20
-                    ExplicitLeft = 20
-                  end
-                  inherited lbl61: TLabel
-                    Left = 180
-                    ExplicitLeft = 180
-                  end
-                  inherited EdtADTargetTrack: TEdit
-                    Text = '---'
-                  end
-                  inherited EdtADSafetyCeiling: TEdit
-                    Top = 98
-                    ExplicitTop = 98
-                  end
-                  inherited EdtADSearchDepth: TEdit
-                    Top = 74
-                    ExplicitTop = 74
-                  end
-                  inherited EdtADSearchRadius: TEdit
-                    Top = 50
-                    ExplicitTop = 50
-                  end
-                end
-              end
               inherited grbWakeHomingTorpedos: TGroupBox
                 Width = 337
                 Height = 1973
@@ -3465,6 +2922,49 @@ object frmTacticalDisplay: TfrmTacticalDisplay
                 inherited editTacticalAcousticTorpedosSalvo: TEdit
                   Left = 128
                   ExplicitLeft = 128
+                end
+              end
+              inherited grbAirDroppedTorpedo: TGroupBox
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+                inherited ScrollBox8: TScrollBox
+                  Width = 333
+                  Height = 1953
+                  ExplicitWidth = 333
+                  ExplicitHeight = 1953
+                  inherited bvl12: TBevel
+                    Top = 125
+                    ExplicitTop = 125
+                  end
+                  inherited bvl9: TBevel
+                    Top = 40
+                    ExplicitTop = 40
+                  end
+                  inherited lbl41: TLabel
+                    Left = 20
+                    ExplicitLeft = 20
+                  end
+                  inherited lbl61: TLabel
+                    Left = 180
+                    ExplicitLeft = 180
+                  end
+                  inherited EdtADTargetTrack: TEdit
+                    Text = '---'
+                  end
+                  inherited EdtADSafetyCeiling: TEdit
+                    Top = 98
+                    ExplicitTop = 98
+                  end
+                  inherited EdtADSearchDepth: TEdit
+                    Top = 74
+                    ExplicitTop = 74
+                  end
+                  inherited EdtADSearchRadius: TEdit
+                    Top = 50
+                    ExplicitTop = 50
+                  end
                 end
               end
               inherited grbActivePasiveTorpedo: TGroupBox
@@ -3563,6 +3063,57 @@ object frmTacticalDisplay: TfrmTacticalDisplay
                   end
                 end
               end
+              inherited grbAirDroppedVECTAC: TGroupBox
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+                inherited ScrollBox13: TScrollBox
+                  Width = 333
+                  Height = 1953
+                  ExplicitWidth = 333
+                  ExplicitHeight = 1953
+                  inherited Label398: TLabel
+                    Top = 351
+                    ExplicitTop = 351
+                  end
+                  inherited lbVectacWeaponExpiry: TLabel
+                    Top = 351
+                    ExplicitTop = 351
+                  end
+                  inherited btnVectacWeaponCarrierDrop: TButton
+                    Left = 253
+                    ExplicitLeft = 253
+                  end
+                  inherited btnVectacWeaponCarrierGround: TButton
+                    Left = 253
+                    ExplicitLeft = 253
+                  end
+                  inherited editVectacTargetTrack: TEdit
+                    Enabled = True
+                    ReadOnly = True
+                  end
+                  inherited editVectacWeaponCarrierDrop: TEdit
+                    Enabled = True
+                    ReadOnly = True
+                  end
+                  inherited editVectacWeaponCarrierGround: TEdit
+                    Enabled = True
+                    ReadOnly = True
+                  end
+                  inherited editVectacWeaponCarrierName: TEdit
+                    Enabled = True
+                    ReadOnly = True
+                  end
+                  inherited editVectacWeaponName: TEdit
+                    Top = 321
+                    Enabled = True
+                    ReadOnly = True
+                    Text = ''
+                    ExplicitTop = 321
+                  end
+                end
+              end
             end
           end
           inherited PanelWeaponChoices: TPanel
@@ -3623,6 +3174,487 @@ object frmTacticalDisplay: TfrmTacticalDisplay
           inherited TmrAPG: TTimer
             Left = 272
             Top = 520
+          end
+        end
+      end
+      object pnlSensor: TPanel
+        Left = 0
+        Top = 26
+        Width = 339
+        Height = 2000
+        Color = 4012086
+        ParentBackground = False
+        TabOrder = 9
+        inline fmSensor1: TfmSensor
+          Left = 1
+          Top = 1
+          Width = 337
+          Height = 1998
+          Align = alClient
+          TabOrder = 0
+          ExplicitLeft = 1
+          ExplicitTop = 1
+          ExplicitWidth = 337
+          ExplicitHeight = 1998
+          inherited PanelSpace: TPanel
+            Top = 111
+            Width = 337
+            Height = 0
+            ExplicitTop = 111
+            ExplicitWidth = 337
+            ExplicitHeight = 0
+          end
+          inherited PanelSensorChoices: TPanel
+            Width = 337
+            Height = 111
+            ExplicitWidth = 337
+            ExplicitHeight = 111
+            inherited lstSensor: TListView
+              Width = 335
+              Height = 109
+              Font.Color = clActiveCaption
+              ExplicitWidth = 335
+              ExplicitHeight = 109
+            end
+          end
+          inherited PanelALL: TPanel
+            Top = 111
+            Width = 337
+            Height = 1887
+            ExplicitTop = 111
+            ExplicitWidth = 337
+            ExplicitHeight = 1887
+            inherited PanelSensorControl: TPanel
+              Width = 337
+              Height = 1887
+              ExplicitWidth = 337
+              ExplicitHeight = 1887
+              inherited grbAnomalyDetectorSensor: TGroupBox
+                Width = 331
+                Height = 1881
+                ExplicitWidth = 331
+                ExplicitHeight = 1881
+                inherited sbAnomalyDetectorControlModeOn: TSpeedButton
+                  Width = 85
+                  OnClick = btnMADOnClick
+                  ExplicitWidth = 85
+                end
+                inherited sbAnomalyDetectorControlModeOff: TSpeedButton
+                  Width = 85
+                  OnClick = btnMADOnClick
+                  ExplicitWidth = 85
+                end
+              end
+              inherited grbElectroOpticalSensor: TGroupBox
+                Width = 331
+                Height = 1881
+                ExplicitWidth = 331
+                ExplicitHeight = 1881
+                inherited ScrollBox3: TScrollBox
+                  Width = 327
+                  Height = 1861
+                  ExplicitWidth = 327
+                  ExplicitHeight = 1861
+                  inherited sbElectroOpticalSensorDisplayRangeShow: TSpeedButton
+                    OnClick = btnEOOnClick
+                  end
+                  inherited sbElectroOpticalSensorDisplayRangeHide: TSpeedButton
+                    OnClick = btnEOOnClick
+                  end
+                  inherited sbElectroOpticalSensorBlindZoneShow: TSpeedButton
+                    OnClick = btnEOOnClick
+                  end
+                  inherited sbElectroOpticalSensorBlindZoneHide: TSpeedButton
+                    OnClick = btnEOOnClick
+                  end
+                  inherited sbElectroOpticalSensorControlModeOn: TSpeedButton
+                    OnClick = btnEOOnClick
+                  end
+                  inherited sbElectroOpticalSensorControlModeOff: TSpeedButton
+                    OnClick = btnEOOnClick
+                  end
+                end
+              end
+              inherited grbESMSensorControl: TGroupBox
+                Width = 331
+                Height = 1881
+                ExplicitWidth = 331
+                ExplicitHeight = 1881
+                inherited ScrollBox4: TScrollBox
+                  Width = 327
+                  Height = 1861
+                  ExplicitWidth = 327
+                  ExplicitHeight = 1861
+                  inherited Label7: TLabel
+                    Left = 38
+                    ExplicitLeft = 38
+                  end
+                  inherited Bevel4: TBevel
+                    Top = 113
+                    ExplicitTop = 113
+                  end
+                  inherited sbESMSensorControlModeOn: TSpeedButton
+                    Left = 15
+                    OnClick = btnESMOnClick
+                    ExplicitLeft = 15
+                  end
+                  inherited sbESMSensorControlModeOff: TSpeedButton
+                    Left = 15
+                    OnClick = btnESMOnClick
+                    ExplicitLeft = 15
+                  end
+                  inherited sbESMSensorDisplayBlindZoneShow: TSpeedButton
+                    OnClick = btnESMOnClick
+                  end
+                  inherited sbESMSensorDisplayBlindZoneHide: TSpeedButton
+                    OnClick = btnESMOnClick
+                  end
+                end
+              end
+              inherited grbSonarControl: TGroupBox [3]
+                Width = 331
+                Height = 1881
+                ExplicitWidth = 331
+                ExplicitHeight = 1881
+                inherited ScrollBox2: TScrollBox
+                  Width = 327
+                  Height = 1861
+                  ExplicitWidth = 327
+                  ExplicitHeight = 1861
+                  inherited Bevel43: TBevel
+                    Left = 51
+                    Top = 219
+                    ExplicitLeft = 51
+                    ExplicitTop = 219
+                  end
+                  inherited sbDisplayBlindHide: TSpeedButton
+                    OnClick = OnSonarBtnClick
+                  end
+                  inherited sbDisplayBlindShow: TSpeedButton
+                    OnClick = OnSonarBtnClick
+                  end
+                  inherited sbDisplayRangeHide: TSpeedButton
+                    OnClick = OnSonarBtnClick
+                  end
+                  inherited sbDisplayRangeShow: TSpeedButton
+                    OnClick = OnSonarBtnClick
+                  end
+                  inherited sbSonarControlModeActive: TSpeedButton
+                    OnClick = OnSonarBtnClick
+                  end
+                  inherited sbSonarControlModePassive: TSpeedButton [12]
+                    OnClick = OnSonarBtnClick
+                  end
+                  inherited lblRangeTIOW: TLabel [13]
+                  end
+                  inherited btnRange1: TSpeedButton [14]
+                  end
+                  inherited btnRAnge2: TSpeedButton [15]
+                  end
+                  inherited btnRange3: TSpeedButton [16]
+                  end
+                  inherited sbSonarControlModeOff: TSpeedButton [17]
+                    OnClick = OnSonarBtnClick
+                  end
+                  inherited pnlDeployment: TPanel
+                    Top = 91
+                    ExplicitTop = 91
+                    inherited Label221: TLabel
+                      Left = 133
+                      ExplicitLeft = 133
+                    end
+                    inherited sbDeploymentActiondeploy: TSpeedButton
+                      OnClick = OnSonarBtnClick
+                    end
+                    inherited sbDeploymentActionShow: TSpeedButton
+                      OnClick = OnSonarBtnClick
+                    end
+                    inherited editCableOrdered: TEdit
+                      Width = 40
+                      ExplicitWidth = 40
+                    end
+                  end
+                end
+              end
+              inherited grbSonobuoyControl: TGroupBox [4]
+                Width = 331
+                Height = 1881
+                ExplicitWidth = 331
+                ExplicitHeight = 1881
+                inherited ScrollBox7: TScrollBox
+                  Width = 327
+                  Height = 1861
+                  ExplicitWidth = 327
+                  ExplicitHeight = 1861
+                  inherited btnSonobuoyControlDeploy: TButton
+                    Width = 84
+                    OnClick = OnSoonobuoyBtnClick
+                    ExplicitWidth = 84
+                  end
+                  inherited editControlDepth: TEdit
+                    Top = 113
+                    ExplicitTop = 113
+                  end
+                end
+              end
+              inherited grbVisualDetectorSensor: TGroupBox [5]
+                Width = 331
+                Height = 1881
+                ExplicitWidth = 331
+                ExplicitHeight = 1881
+                inherited sbVisualDetectorDisplayRangeShow: TSpeedButton
+                  OnClick = OnVisualShowClick
+                end
+                inherited sbVisualDetectorDisplayRangeHide: TSpeedButton
+                  OnClick = OnVisualShowClick
+                end
+                inherited sbVisualDetectorDisplayBlindZonesShow: TSpeedButton
+                  OnClick = OnVisualShowClick
+                end
+                inherited sbVisualDetectorDisplayBlindZonesHide: TSpeedButton
+                  OnClick = OnVisualShowClick
+                end
+              end
+              inherited grbIFFTransponderControl: TGroupBox [6]
+                Width = 331
+                Height = 1881
+                ExplicitWidth = 331
+                ExplicitHeight = 1881
+                inherited ScrollBox6: TScrollBox
+                  Width = 327
+                  Height = 1861
+                  ExplicitWidth = 327
+                  ExplicitHeight = 1861
+                  inherited sbIFFTransponderControlModeOff: TSpeedButton
+                    OnClick = fmSensor1sbIFFTransponderControlModeOffClick
+                  end
+                  inherited sbIFFTransponderControlModeOn: TSpeedButton
+                    OnClick = fmSensor1sbIFFTransponderControlModeOnClick
+                  end
+                  inherited edtIFFTransponderControlMode1: TEdit
+                    Text = '0000'
+                  end
+                end
+              end
+              inherited grbIFFInterrogatorControl: TGroupBox [7]
+                Width = 331
+                Height = 1881
+                ExplicitWidth = 331
+                ExplicitHeight = 1881
+                inherited ScrollBox5: TScrollBox
+                  Width = 327
+                  Height = 1861
+                  ExplicitWidth = 327
+                  ExplicitHeight = 1861
+                  inherited btnIFFInterrogatorTrackSearch: TSpeedButton
+                    OnClick = fmSensor1btnIFFInterrogatorTrackSearchClick
+                  end
+                  inherited sbIFFInterrogatorControlModeOff: TSpeedButton
+                    OnClick = fmSensor1sbIFFInterrogatorControlModeOffClick
+                  end
+                  inherited sbIFFInterrogatorControlModeOn: TSpeedButton
+                    OnClick = fmSensor1sbIFFInterrogatorControlModeOnClick
+                  end
+                  inherited btnManual: TSpeedButton
+                    Top = 62
+                    ExplicitTop = 62
+                  end
+                  inherited cbbtnIFFInterrogatorMode1: TCheckBox
+                    OnClick = fmSensor1cbbtnIFFInterrogatorMode1Click
+                  end
+                  inherited cbbtnIFFInterrogatorMode2: TCheckBox
+                    OnClick = fmSensor1cbbtnIFFInterrogatorMode1Click
+                  end
+                  inherited cbbtnIFFInterrogatorMode3: TCheckBox
+                    OnClick = fmSensor1cbbtnIFFInterrogatorMode1Click
+                  end
+                  inherited cbbtnIFFInterrogatorMode3C: TCheckBox
+                    OnClick = fmSensor1cbbtnIFFInterrogatorMode1Click
+                  end
+                  inherited cbbtnIFFInterrogatorMode4: TCheckBox
+                    OnClick = fmSensor1cbbtnIFFInterrogatorMode1Click
+                  end
+                  inherited edtIFFInterrogatorMode1: TEdit
+                    OnKeyPress = fmSensor1edtIFFInterrogatorMode1KeyPress
+                  end
+                  inherited edtIFFInterrogatorMode2: TEdit
+                    OnKeyPress = fmSensor1edtIFFInterrogatorMode1KeyPress
+                  end
+                  inherited edtIFFInterrogatorMode3: TEdit
+                    OnKeyPress = fmSensor1edtIFFInterrogatorMode1KeyPress
+                  end
+                end
+              end
+              inherited grbSearchRadarControl: TGroupBox [8]
+                Width = 331
+                Height = 1881
+                ExplicitWidth = 331
+                ExplicitHeight = 1881
+                inherited ScrollBox1: TScrollBox
+                  Width = 327
+                  Height = 1861
+                  ExplicitWidth = 327
+                  ExplicitHeight = 1861
+                  inherited Label194: TLabel
+                    Top = 14
+                    Visible = False
+                    ExplicitTop = 14
+                  end
+                  inherited btnControlComboInterval: TSpeedButton
+                    Width = 24
+                    Height = 21
+                    Visible = False
+                    ExplicitWidth = 24
+                    ExplicitHeight = 21
+                  end
+                  inherited sbControlEccmOn: TSpeedButton
+                    Visible = False
+                    OnClick = OnRadarBtnClick
+                  end
+                  inherited sbControlEccmOff: TSpeedButton
+                    Visible = False
+                    OnClick = OnRadarBtnClick
+                  end
+                  inherited sbRangeShow: TSpeedButton
+                    OnClick = OnRadarBtnClick
+                  end
+                  inherited sbRangeHide: TSpeedButton
+                    OnClick = OnRadarBtnClick
+                  end
+                  inherited sbBlindShow: TSpeedButton
+                    OnClick = OnRadarBtnClick
+                  end
+                  inherited sbBlindHide: TSpeedButton
+                    OnClick = OnRadarBtnClick
+                  end
+                  inherited sbScanShow: TSpeedButton
+                    OnClick = OnRadarBtnClick
+                  end
+                  inherited sbScanHide: TSpeedButton
+                    OnClick = OnRadarBtnClick
+                  end
+                  inherited pnlControlRadar: TPanel [18]
+                    Top = 32
+                    Width = 88
+                    Height = 67
+                    ExplicitTop = 32
+                    ExplicitWidth = 88
+                    ExplicitHeight = 67
+                    inherited btnControlModeOff2: TSpeedButton
+                      Left = 8
+                      Top = 21
+                      Width = 76
+                      ExplicitLeft = 8
+                      ExplicitTop = 21
+                      ExplicitWidth = 76
+                    end
+                    inherited btnControlModeOn: TSpeedButton
+                      Left = 8
+                      Top = 0
+                      Width = 76
+                      Height = 23
+                      ExplicitLeft = 8
+                      ExplicitTop = 0
+                      ExplicitWidth = 76
+                      ExplicitHeight = 23
+                    end
+                  end
+                  inherited pnlControlModeRadar2: TPanel [19]
+                    Height = 68
+                    ExplicitHeight = 68
+                    inherited sbControlModeSearch: TSpeedButton
+                      OnClick = OnRadarBtnClick
+                    end
+                    inherited sbControlModeTrack: TSpeedButton
+                      OnClick = OnRadarBtnClick
+                    end
+                    inherited sbControlModeOff: TSpeedButton
+                      OnClick = OnRadarBtnClick
+                    end
+                  end
+                  inherited pnlScanSector: TPanel [20]
+                    Height = 65
+                    ExplicitHeight = 65
+                    inherited Bevel30: TBevel
+                      Visible = False
+                    end
+                    inherited Label200: TLabel
+                      Visible = False
+                    end
+                    inherited Label201: TLabel
+                      Top = 14
+                      Visible = False
+                      ExplicitTop = 14
+                    end
+                    inherited sbScanModePartial: TSpeedButton
+                      Top = 50
+                      Visible = False
+                      OnClick = OnRadarBtnClick
+                      ExplicitTop = 50
+                    end
+                    inherited sbScanModeFull: TSpeedButton
+                      Top = 30
+                      Visible = False
+                      OnClick = OnRadarBtnClick
+                      ExplicitTop = 30
+                    end
+                    inherited Label202: TLabel
+                      Visible = False
+                    end
+                    inherited Label203: TLabel
+                      Visible = False
+                    end
+                    inherited Label205: TLabel
+                      Top = 51
+                      Visible = False
+                      ExplicitTop = 51
+                    end
+                    inherited Label204: TLabel
+                      Top = 28
+                      Visible = False
+                      ExplicitTop = 28
+                    end
+                    inherited btnComboScanStrart: TSpeedButton
+                      Width = 24
+                      Height = 20
+                      Visible = False
+                      ExplicitWidth = 24
+                      ExplicitHeight = 20
+                    end
+                    inherited editScanStart: TEdit
+                      Visible = False
+                    end
+                    inherited editScanEnd: TEdit
+                      Visible = False
+                    end
+                  end
+                  inherited cbActivationInterval: TCheckBox [21]
+                    Height = 14
+                    Visible = False
+                    ExplicitHeight = 14
+                  end
+                  inherited editComboInterval: TEdit [22]
+                    Visible = False
+                  end
+                  inherited btShowRangeAltitude: TButton [23]
+                    Height = 21
+                    Visible = False
+                    OnClick = OnRadarBtnClick
+                    ExplicitHeight = 21
+                  end
+                  inherited btExecuteSingleScan: TButton [24]
+                    Height = 21
+                    Visible = False
+                    OnClick = OnRadarBtnClick
+                    ExplicitHeight = 21
+                  end
+                end
+              end
+            end
+          end
+          inherited pmModeSonobuoy: TPopupMenu
+            Left = 232
+            Top = 440
           end
         end
       end
@@ -4102,7 +4134,7 @@ object frmTacticalDisplay: TfrmTacticalDisplay
         Left = 193
         Top = 0
         Width = 76
-        Height = 34
+        Height = 24
         Hint = 'Select Scale'
         Margins.Top = 9
         Anchors = [akLeft, akTop, akRight, akBottom]
@@ -4334,7 +4366,7 @@ object frmTacticalDisplay: TfrmTacticalDisplay
         Left = 970
         Top = 0
         Width = 195
-        Height = 34
+        Height = 24
         Hint = 'Platform Select (for control)'
         Style = csDropDownList
         DropDownCount = 10

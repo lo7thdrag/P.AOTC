@@ -10233,7 +10233,7 @@ begin
             SalvoSize         := 1;
             TargetCourse      := FormatCourse(TorpedoTarget.Course);
             TargetGroundSpeed := FormatSpeed(TorpedoTarget.Speed);
-            TargetAltitude    := FormatAltitudeTrack(TorpedoTarget.Altitude);
+            TargetAltitude    := FormatRange(TorpedoTarget.Altitude);
             ButtonLaunch      := True;
 
             if simMgrClient.ISInstructor or simMgrClient.ISWasdal then
