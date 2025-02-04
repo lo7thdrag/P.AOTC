@@ -730,7 +730,7 @@ var
 begin
   lstLand.Items.Clear;
 
-  dmTTT.GetFilterVehicleDefByDomain(FLandVehicleList, 1);
+  dmTTT.GetFilterVehicleDefByDomain(FLandVehicleList, Ord(vhdLand));
 
   for i := 0 to FLandVehicleList.Count - 1 do
   begin
