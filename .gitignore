@@ -397,3 +397,5 @@ Database Editor AOTC/Comp/uWeaponDoubleList.dcu
 Database Editor AOTC/Comp/uWeaponSingleList.dcu
 Database Editor AOTC/Comp/xmlInterface.dcu
 *.dcu
+/Database Editor AOTC/Comp
+*.dcu
