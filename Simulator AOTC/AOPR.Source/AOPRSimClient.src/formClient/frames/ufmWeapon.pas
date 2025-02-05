@@ -11279,6 +11279,7 @@ end;
 function TfmWeapon.TorpedoTargetCheck(): boolean;
 var
   _validTarget   : boolean;
+  sObject : TSimObject;
   _nonRealtimeType, _targetDomain, _targetID, _weaponCapability  : Integer;
 
 begin
@@ -11290,10 +11291,22 @@ begin
     {$REGION ' DetectedTrack Section '}
     if focused_platform is TT3DetectedTrack then
     begin
+      sObject := simMgrClient.findDetectedTrack(focused_platform);
+
+      if Assigned(sObject) then
+        strTargetID := FormatTrackNumber(TT3DetectedTrack(sObject).TrackNumber)
+      else
+      begin
+        strTargetID := TT3PlatformInstance(focused_platform).TrackLabel;
+
+        if strTargetID = '' then
+          strTargetID := (TT3PlatformInstance(focused_platform).TrackNumber).ToString;
+      end;
+
       _targetID         := TT3PlatformInstance(TT3DetectedTrack(focused_platform).TrackObject).InstanceIndex;
       _targetDomain     := TT3PlatformInstance(TT3DetectedTrack(focused_platform).TrackObject).PlatformDomain;
       TorpedoTarget     := simMgrClient.FindT3PlatformByID(_targetID);
-      strTargetID       := IntToStr(TT3DetectedTrack(focused_platform).TrackNumber);
+//      strTargetID       := IntToStr(TT3DetectedTrack(focused_platform).TrackNumber);
       _nonRealtimeType  := 5;{diisi nilai 5, sebagai penanda bukan nonreal vehicle}
     end
     {$ENDREGION}
@@ -11301,9 +11314,21 @@ begin
     {$REGION ' NonRealVehicle Section '}
     else if focused_platform is TT3NonRealVehicle then
     begin
+      sObject := simMgrClient.findDetectedTrack(focused_platform);
+
+      if Assigned(sObject) then
+        strTargetID := FormatTrackNumber(TT3DetectedTrack(sObject).TrackNumber)
+      else
+      begin
+        strTargetID := TT3PlatformInstance(focused_platform).TrackLabel;
+
+        if strTargetID = '' then
+          strTargetID := (TT3PlatformInstance(focused_platform).TrackNumber).ToString;
+      end;
+
       _targetDomain     := TT3PlatformInstance(focused_platform).PlatformDomain;
       TorpedoTarget     := TT3PlatformInstance(focused_platform);
-      strTargetID       := IntToStr(TT3DetectedTrack(focused_platform).TrackNumber);
+//      strTargetID       := IntToStr(TT3DetectedTrack(focused_platform).TrackNumber);
       _nonRealtimeType  := TT3NonRealVehicle(focused_platform).NRPType;
     end
     {$ENDREGION}
@@ -11331,17 +11356,15 @@ begin
           begin
             if (_nonRealtimeType <> nrpPoint)then
               exit;
-          end
-          else
-          begin
-            case _weaponCapability of
-              {any within capability, surface / subsurface}
-              0 : _validTarget := (_targetDomain = 1) or (_targetDomain = 2);
-              {surface domain}
-              2 : _validTarget := (_targetDomain = 1);
-              {subsurface domain}
-              4 : _validTarget := (_targetDomain = 2);
-            end;
+          end;
+
+          case _weaponCapability of
+            {any within capability, surface / subsurface}
+            0 : _validTarget := (_targetDomain = 1) or (_targetDomain = 2);
+            {surface domain}
+            2 : _validTarget := (_targetDomain = 1);
+            {subsurface domain}
+            4 : _validTarget := (_targetDomain = 2);
           end;
         end;
         {$ENDREGION}
@@ -11389,18 +11412,17 @@ begin
         wcTorpedoActivePassive :
         begin
           if (focused_platform is TT3NonRealVehicle) and (not ((_nonRealtimeType = nrpPoint) or (_nonRealtimeType = nrpBearing)))then
-            exit
-          else
-          begin
-            case _weaponCapability of
-              {any within capability, surface / subsurface}
-              0 : _validTarget := (_targetDomain = 1) or (_targetDomain = 2);
-              {surface domain}
-              2 :_validTarget := (_targetDomain = 1);
-              {subsurface domain}
-              4 : _validTarget := (_targetDomain = 2);
-            end;
+            exit;
+
+          case _weaponCapability of
+            {any within capability, surface / subsurface}
+            0 : _validTarget := (_targetDomain = 1) or (_targetDomain = 2);
+            {surface domain}
+            2 :_validTarget := (_targetDomain = 1);
+            {subsurface domain}
+            4 : _validTarget := (_targetDomain = 2);
           end;
+
         end;
         {$ENDREGION}
       end;
