@@ -37,6 +37,16 @@ type
     FData : TRecScenario_Definition;
   end;
 
+  TReplay_Definition = class
+  public
+    FData : TRecReplay_Definition;
+  end;
+
+  TSnapshot_Defination = class
+  public
+    FData : TRecSnapshot_Definition;
+  end;
+
   TGame_Area_Definition = class
   public
     FData  : TRecGame_Area_Definition;
