@@ -2,7 +2,7 @@ object frmMainDIsplay: TfrmMainDIsplay
   Left = 0
   Top = 0
   Caption = 'Main Display'
-  ClientHeight = 730
+  ClientHeight = 681
   ClientWidth = 1052
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -178,6 +178,7 @@ object frmMainDIsplay: TfrmMainDIsplay
         Hint = 'Hook Previous Track'
         Caption = 'ToolBtnHookPrevious'
         ImageIndex = 9
+        Visible = False
         OnClick = ToolBtnHookPreviousClick
       end
       object ToolBtnHookNext: TToolButton
@@ -186,6 +187,7 @@ object frmMainDIsplay: TfrmMainDIsplay
         Hint = 'Hooks Next Track'
         Caption = 'ToolBtnHookNext'
         ImageIndex = 10
+        Visible = False
         OnClick = ToolBtnHookNextClick
       end
       object ToolButton8: TToolButton
@@ -201,6 +203,7 @@ object frmMainDIsplay: TfrmMainDIsplay
         Top = 0
         Caption = 'tbAddTrack'
         ImageIndex = 11
+        Visible = False
         OnClick = tbAddTrackClick
       end
       object tbDeleteTrack: TToolButton
@@ -208,6 +211,7 @@ object frmMainDIsplay: TfrmMainDIsplay
         Top = 0
         Caption = 'tbDeleteTrack'
         ImageIndex = 12
+        Visible = False
         OnClick = tbDeleteTrackClick
       end
       object ToolButton3: TToolButton
@@ -321,6 +325,7 @@ object frmMainDIsplay: TfrmMainDIsplay
         Top = 0
         Caption = 'tbHelp'
         ImageIndex = 30
+        Visible = False
       end
       object btnPrint: TToolButton
         Left = 659
@@ -336,7 +341,7 @@ object frmMainDIsplay: TfrmMainDIsplay
     Left = 0
     Top = 27
     Width = 1052
-    Height = 630
+    Height = 581
     Align = alClient
     BevelOuter = bvNone
     TabOrder = 1
@@ -344,7 +349,7 @@ object frmMainDIsplay: TfrmMainDIsplay
       Left = 0
       Top = 0
       Width = 1052
-      Height = 630
+      Height = 581
       Align = alClient
       BevelOuter = bvNone
       TabOrder = 1
@@ -352,7 +357,7 @@ object frmMainDIsplay: TfrmMainDIsplay
         Left = 0
         Top = 0
         Width = 345
-        Height = 630
+        Height = 581
         VertScrollBar.Tracking = True
         VertScrollBar.Visible = False
         BevelInner = bvNone
@@ -532,7 +537,7 @@ object frmMainDIsplay: TfrmMainDIsplay
         Left = 345
         Top = 0
         Width = 707
-        Height = 630
+        Height = 581
         Align = alClient
         TabOrder = 2
         object Panel4: TPanel
@@ -558,7 +563,7 @@ object frmMainDIsplay: TfrmMainDIsplay
           Left = 460
           Top = 39
           Width = 90
-          Height = 590
+          Height = 541
           Align = alLeft
           BevelOuter = bvNone
           BorderWidth = 4
@@ -600,7 +605,7 @@ object frmMainDIsplay: TfrmMainDIsplay
           Left = 550
           Top = 39
           Width = 419
-          Height = 590
+          Height = 541
           Align = alLeft
           BevelOuter = bvNone
           BorderWidth = 4
@@ -716,7 +721,7 @@ object frmMainDIsplay: TfrmMainDIsplay
             Left = 4
             Top = 450
             Width = 411
-            Height = 136
+            Height = 87
             Align = alClient
             BevelOuter = bvNone
             BorderWidth = 10
@@ -725,7 +730,7 @@ object frmMainDIsplay: TfrmMainDIsplay
               Left = 10
               Top = 10
               Width = 391
-              Height = 116
+              Height = 67
               Align = alClient
               ColCount = 3
               DrawingStyle = gdsGradient
@@ -742,7 +747,7 @@ object frmMainDIsplay: TfrmMainDIsplay
           Left = 1
           Top = 39
           Width = 459
-          Height = 590
+          Height = 541
           Align = alLeft
           BevelOuter = bvNone
           BorderWidth = 4
@@ -767,7 +772,7 @@ object frmMainDIsplay: TfrmMainDIsplay
             Left = 4
             Top = 27
             Width = 451
-            Height = 559
+            Height = 510
             Align = alClient
             BevelOuter = bvNone
             BorderWidth = 6
@@ -776,7 +781,7 @@ object frmMainDIsplay: TfrmMainDIsplay
               Left = 6
               Top = 6
               Width = 439
-              Height = 547
+              Height = 498
               ActivePage = TabSheet1
               Align = alClient
               TabOrder = 0
@@ -786,7 +791,7 @@ object frmMainDIsplay: TfrmMainDIsplay
                   Left = 0
                   Top = 0
                   Width = 431
-                  Height = 519
+                  Height = 470
                   Align = alClient
                   BevelOuter = bvNone
                   BorderWidth = 10
@@ -795,7 +800,7 @@ object frmMainDIsplay: TfrmMainDIsplay
                     Left = 10
                     Top = 10
                     Width = 411
-                    Height = 499
+                    Height = 450
                     Align = alClient
                     ColCount = 3
                     DrawingStyle = gdsGradient
@@ -810,7 +815,7 @@ object frmMainDIsplay: TfrmMainDIsplay
                     Left = 10
                     Top = 10
                     Width = 411
-                    Height = 499
+                    Height = 450
                     Align = alClient
                     Columns = <
                       item
@@ -841,7 +846,7 @@ object frmMainDIsplay: TfrmMainDIsplay
                   Left = 0
                   Top = 0
                   Width = 431
-                  Height = 519
+                  Height = 470
                   Align = alClient
                   BevelOuter = bvNone
                   BorderWidth = 10
@@ -850,7 +855,7 @@ object frmMainDIsplay: TfrmMainDIsplay
                     Left = 10
                     Top = 10
                     Width = 411
-                    Height = 499
+                    Height = 450
                     Align = alClient
                     ColCount = 3
                     DrawingStyle = gdsGradient
@@ -871,7 +876,7 @@ object frmMainDIsplay: TfrmMainDIsplay
         Left = 345
         Top = 0
         Width = 707
-        Height = 630
+        Height = 581
         Align = alClient
         TabOrder = 1
         object Panel3: TPanel
@@ -896,7 +901,7 @@ object frmMainDIsplay: TfrmMainDIsplay
           Left = 1
           Top = 39
           Width = 705
-          Height = 590
+          Height = 541
           Align = alClient
           BevelOuter = bvNone
           BorderWidth = 4
@@ -905,7 +910,7 @@ object frmMainDIsplay: TfrmMainDIsplay
             Left = 4
             Top = 4
             Width = 697
-            Height = 582
+            Height = 533
             Align = alClient
             Columns = <
               item
@@ -938,7 +943,7 @@ object frmMainDIsplay: TfrmMainDIsplay
       Left = 0
       Top = 0
       Width = 1052
-      Height = 630
+      Height = 581
       Align = alClient
       BevelOuter = bvNone
       TabOrder = 0
@@ -946,14 +951,14 @@ object frmMainDIsplay: TfrmMainDIsplay
         Left = 0
         Top = 0
         Width = 332
-        Height = 630
+        Height = 581
         Align = alLeft
         BevelKind = bkFlat
         BevelOuter = bvNone
         TabOrder = 0
         DesignSize = (
           328
-          626)
+          577)
         object lbl1: TLabel
           Left = 13
           Top = 589
@@ -974,12 +979,14 @@ object frmMainDIsplay: TfrmMainDIsplay
           Left = 0
           Top = 151
           Width = 328
-          Height = 222
+          Height = 426
           ActivePage = tsHook
-          Align = alTop
+          Align = alClient
           TabOrder = 0
+          ExplicitHeight = 222
           object tsHook: TTabSheet
             Caption = 'Hook'
+            ExplicitHeight = 194
             object lbTrackHook: TLabel
               Left = 100
               Top = 5
@@ -1400,7 +1407,7 @@ object frmMainDIsplay: TfrmMainDIsplay
         Left = 332
         Top = 0
         Width = 720
-        Height = 630
+        Height = 581
         Align = alClient
         BevelKind = bkFlat
         BevelOuter = bvNone
@@ -1410,7 +1417,7 @@ object frmMainDIsplay: TfrmMainDIsplay
   end
   object pnlBottom: TPanel
     Left = 0
-    Top = 657
+    Top = 608
     Width = 1052
     Height = 73
     Align = alBottom
