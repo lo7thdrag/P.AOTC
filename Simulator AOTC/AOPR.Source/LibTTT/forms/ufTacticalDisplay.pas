@@ -11132,7 +11132,7 @@ procedure TfrmTacticalDisplay.fmWeapon1EdtAPGSearchRadiusKeyPress(
 begin
   if Assigned(Sender)then
   begin
-    fmWeapon1.APGKeyPress(Sender);
+    fmWeapon1.APGKeyPress(Sender, Key);
   end;
 end;
 
