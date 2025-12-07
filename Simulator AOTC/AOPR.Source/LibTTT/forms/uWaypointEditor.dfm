@@ -509,8 +509,8 @@ object frmWaypointEditor: TfrmWaypointEditor
     ParentFont = False
   end
   object lblStateMovement: TLabel
-    Left = 421
-    Top = 55
+    Left = 416
+    Top = 53
     Width = 75
     Height = 13
     Caption = 'Move Backward'
@@ -522,7 +522,7 @@ object frmWaypointEditor: TfrmWaypointEditor
     ParentFont = False
   end
   object btnCopy: TSpeedButton
-    Left = 42
+    Left = 8
     Top = 211
     Width = 30
     Height = 30
@@ -607,7 +607,7 @@ object frmWaypointEditor: TfrmWaypointEditor
     OnClick = btnCopyClick
   end
   object btnSave: TSpeedButton
-    Left = 8
+    Left = 44
     Top = 211
     Width = 30
     Height = 30

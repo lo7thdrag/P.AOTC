@@ -2173,7 +2173,7 @@ begin
   end;
 
   if simMgrClient.ISInstructor then
-    btnSave.Visible := True;
+//    btnSave.Visible := True;
 end;
 
 procedure TfrmWaypointEditor.FormDestroy(Sender: TObject);
