@@ -2172,7 +2172,7 @@ begin
     btnCancel.Caption := 'Close';
   end;
 
-  if simMgrClient.ISInstructor then
+//  if simMgrClient.ISInstructor then
 //    btnSave.Visible := True;
 end;
 

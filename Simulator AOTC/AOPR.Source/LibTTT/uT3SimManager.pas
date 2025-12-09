@@ -13193,13 +13193,13 @@ begin
       begin
         {$REGION ' Air Section '}
         airQuantityTemp  := airQuantityTemp + 1;
-        airWeightTemp    := airWeightTemp + shipTemp.SumCurrentWeight;
+        airWeightTemp    := airWeightTemp + shipTemp.SumCurrentWeight + shipTemp.VehicleDefinition.FData.Weight;
         {$ENDREGION}
       end;
       vhdSurface,vhdSubsurface :
       begin
         {$REGION ' Surface & Subsurface Section '}
-        onboardWeightTemp := onboardWeightTemp + shipTemp.SumCurrentWeight;
+        onboardWeightTemp := onboardWeightTemp + shipTemp.SumCurrentWeight + shipTemp.VehicleDefinition.FData.Weight;
         {$ENDREGION}
       end;
       vhdLand :
@@ -13214,7 +13214,7 @@ begin
         else
         begin
           {$REGION ' Land Section '}
-          hullWeightTemp := hullWeightTemp + shipTemp.SumCurrentWeight;
+          hullWeightTemp := hullWeightTemp + shipTemp.SumCurrentWeight + shipTemp.VehicleDefinition.FData.Weight;
           sumSpaceTemp   := sumSpaceTemp + (shipTemp.VehicleDefinition.FData.Width * shipTemp.VehicleDefinition.FData.Length);
           {$ENDREGION}
         end;
@@ -13222,7 +13222,7 @@ begin
       vhdAmphibious :
       begin
         {$REGION ' Amphibious Section '}
-        hullWeightTemp := hullWeightTemp + shipTemp.SumCurrentWeight;
+        hullWeightTemp := hullWeightTemp + shipTemp.SumCurrentWeight + shipTemp.VehicleDefinition.FData.Weight;
         sumSpaceTemp   := sumSpaceTemp + (shipTemp.VehicleDefinition.FData.Width * shipTemp.VehicleDefinition.FData.Length);
         {$ENDREGION}
       end;

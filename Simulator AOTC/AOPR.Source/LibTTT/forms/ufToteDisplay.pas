@@ -15777,7 +15777,8 @@ begin
       end;
     end;
     {$ENDREGION}
-  end;
+
+   end;
 end;
 
 procedure TfrmToteDisplay.RefreshLandingCraftCarriedTransport(HostShipID: Integer);

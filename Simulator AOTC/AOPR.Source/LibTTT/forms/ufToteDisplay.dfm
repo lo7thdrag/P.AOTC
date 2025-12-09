@@ -61508,2506 +61508,6 @@ object frmToteDisplay: TfrmToteDisplay
         end
       end
     end
-    object gbTransport: TPanel
-      Left = 0
-      Top = 0
-      Width = 1748
-      Height = 3014
-      Align = alClient
-      BevelOuter = bvNone
-      ParentBackground = False
-      TabOrder = 0
-      object pnlTransportLeft: TPanel
-        Left = 10
-        Top = 30
-        Width = 1193
-        Height = 2984
-        Align = alClient
-        BevelOuter = bvNone
-        BorderWidth = 4
-        Color = 3091499
-        ParentBackground = False
-        TabOrder = 0
-        object pnl11: TPanel
-          Left = 4
-          Top = 4
-          Width = 1185
-          Height = 2976
-          Align = alClient
-          BevelOuter = bvNone
-          BorderWidth = 4
-          DockSite = True
-          TabOrder = 0
-          object lbl13: TLabel
-            Left = 4
-            Top = 4
-            Width = 1177
-            Height = 30
-            Align = alTop
-            AutoSize = False
-            Caption = ' Platforms :'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-            Layout = tlCenter
-            ExplicitWidth = 284
-          end
-          object lvPlatformEmbarkDisembark: TListView
-            Left = 4
-            Top = 34
-            Width = 1177
-            Height = 2938
-            Align = alClient
-            Color = clWhite
-            Columns = <
-              item
-                Caption = 'Name'
-                Width = 200
-              end
-              item
-                Caption = 'Class'
-                Width = 0
-              end
-              item
-                Alignment = taCenter
-                Caption = 'Track'
-                Width = 80
-              end
-              item
-                Caption = 'Force'
-                Width = 0
-              end
-              item
-                Alignment = taCenter
-                Caption = 'Tes'
-                Width = 0
-              end>
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clBlack
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            HideSelection = False
-            ReadOnly = True
-            RowSelect = True
-            ParentFont = False
-            TabOrder = 0
-            ViewStyle = vsReport
-            OnSelectItem = lvPlatformEmbarkDisembarkSelectItem
-          end
-        end
-      end
-      object pnlPangkalan: TPanel
-        Left = 1203
-        Top = 30
-        Width = 10
-        Height = 2984
-        Align = alRight
-        BevelOuter = bvNone
-        BorderWidth = 4
-        Color = 3091499
-        ParentBackground = False
-        TabOrder = 1
-        Visible = False
-        object pnlBase: TPanel
-          Left = 4
-          Top = 4
-          Width = 2
-          Height = 123
-          Align = alTop
-          BevelOuter = bvNone
-          BorderWidth = 4
-          Color = 3091499
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -13
-          Font.Name = 'Tahoma'
-          Font.Style = []
-          ParentBackground = False
-          ParentFont = False
-          TabOrder = 1
-          object Label63: TLabel
-            Left = 4
-            Top = 60
-            Width = 64
-            Height = 16
-            Caption = 'Base Name'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-          end
-          object Label64: TLabel
-            Left = 109
-            Top = 60
-            Width = 5
-            Height = 16
-            Caption = ':'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-          end
-          object lblBaseName: TLabel
-            Left = 123
-            Top = 60
-            Width = 15
-            Height = 16
-            Caption = '---'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-          end
-          object Label66: TLabel
-            Left = 4
-            Top = 81
-            Width = 44
-            Height = 16
-            Caption = 'Position'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-          end
-          object Label67: TLabel
-            Left = 109
-            Top = 81
-            Width = 5
-            Height = 16
-            Caption = ':'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-          end
-          object lblLongitude: TLabel
-            Left = 123
-            Top = 81
-            Width = 15
-            Height = 16
-            Caption = '---'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-          end
-          object lblLatitude: TLabel
-            Left = 245
-            Top = 81
-            Width = 15
-            Height = 16
-            Caption = '---'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-          end
-          object Label284: TLabel
-            Left = 4
-            Top = 4
-            Width = 392
-            Height = 20
-            Align = alTop
-            AutoSize = False
-            Caption = ' Select Base :'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-            ExplicitTop = 5
-            ExplicitWidth = 395
-          end
-          object Label70: TLabel
-            Left = 4
-            Top = 102
-            Width = 32
-            Height = 16
-            Caption = 'Force'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-          end
-          object Label59: TLabel
-            Left = 109
-            Top = 102
-            Width = 5
-            Height = 16
-            Caption = ':'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-          end
-          object lblForce: TLabel
-            Left = 123
-            Top = 102
-            Width = 15
-            Height = 16
-            Caption = '---'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-            Transparent = False
-          end
-          object cbbBase: TComboBox
-            Left = 4
-            Top = 24
-            Width = 392
-            Height = 24
-            Align = alTop
-            TabOrder = 0
-            OnChange = cbbBaseChange
-            OnKeyPress = cbbBaseKeyPress
-          end
-        end
-        object pnlPlatformOnBase: TPanel
-          Left = 4
-          Top = 152
-          Width = 2
-          Height = 408
-          Align = alTop
-          BevelOuter = bvNone
-          BorderWidth = 4
-          Color = 3091499
-          ParentBackground = False
-          TabOrder = 2
-          object lvPlatformOnBase: TListView
-            Left = 4
-            Top = 4
-            Width = 392
-            Height = 400
-            Align = alClient
-            Color = clWhite
-            Columns = <
-              item
-                Caption = 'No'
-                Width = 30
-              end
-              item
-                Caption = 'Name'
-                Width = 150
-              end
-              item
-                Alignment = taCenter
-                Caption = 'Quantity'
-                Width = 60
-              end
-              item
-                Alignment = taCenter
-                Caption = 'Weight'
-                Width = 75
-              end
-              item
-                Alignment = taCenter
-                Caption = 'Width'
-                Width = 75
-              end
-              item
-                Alignment = taCenter
-                Caption = 'Length'
-                Width = 75
-              end>
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clBlack
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            HideSelection = False
-            ReadOnly = True
-            RowSelect = True
-            ParentFont = False
-            TabOrder = 0
-            ViewStyle = vsReport
-            OnSelectItem = lvPlatformOnBaseSelectItem
-          end
-        end
-        object pnlPersonelOnbase: TPanel
-          Left = 4
-          Top = 613
-          Width = 2
-          Height = 2336
-          Align = alClient
-          BevelOuter = bvNone
-          BorderWidth = 4
-          Color = 3091499
-          ParentBackground = False
-          TabOrder = 3
-          object tvPersonelOnBase: TTreeView
-            Left = 4
-            Top = 4
-            Width = 392
-            Height = 2328
-            Align = alClient
-            Color = clWhite
-            DoubleBuffered = True
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clBlack
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            Indent = 19
-            ParentDoubleBuffered = False
-            ParentFont = False
-            ReadOnly = True
-            TabOrder = 0
-            OnEdited = tvPersonelOnBaseEdited
-            OnMouseDown = tvPersonelOnBaseMouseDown
-          end
-        end
-        object pnlPersonel: TPanel
-          Left = 4
-          Top = 590
-          Width = 2
-          Height = 23
-          Align = alTop
-          BevelOuter = bvNone
-          BorderWidth = 4
-          Color = 3091499
-          ParentBackground = False
-          TabOrder = 4
-          object Label25: TLabel
-            Left = 4
-            Top = 5
-            Width = 100
-            Height = 16
-            Caption = 'Personel On Base'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-          end
-          object Label60: TLabel
-            Left = 109
-            Top = 5
-            Width = 5
-            Height = 16
-            Caption = ':'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-          end
-        end
-        object pnlbtnembark: TPanel
-          Left = 4
-          Top = 560
-          Width = 2
-          Height = 30
-          Align = alTop
-          BevelOuter = bvNone
-          BorderWidth = 4
-          Color = 3091499
-          ParentBackground = False
-          TabOrder = 5
-          object btnEmbark: TSpeedButton
-            Tag = 2
-            Left = 4
-            Top = 4
-            Width = 91
-            Height = 22
-            Align = alLeft
-            Caption = 'Embark'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWindowText
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = [fsBold]
-            ParentFont = False
-            ParentShowHint = False
-            ShowHint = True
-            OnClick = btnEmbarkClick
-            ExplicitHeight = 30
-          end
-          object btntakeoffbase: TSpeedButton
-            Tag = 2
-            Left = -93
-            Top = 4
-            Width = 91
-            Height = 22
-            Align = alRight
-            Caption = 'Take Off'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWindowText
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = [fsBold]
-            ParentFont = False
-            ParentShowHint = False
-            ShowHint = True
-            ExplicitLeft = 335
-            ExplicitHeight = 30
-          end
-        end
-        object Panel84: TPanel
-          Left = 4
-          Top = 2949
-          Width = 2
-          Height = 31
-          Align = alBottom
-          BevelOuter = bvNone
-          BorderWidth = 4
-          Color = 3091499
-          ParentBackground = False
-          TabOrder = 6
-          object btnEmbarkPersonel: TSpeedButton
-            Tag = 2
-            Left = 4
-            Top = 4
-            Width = 91
-            Height = 23
-            Align = alLeft
-            Caption = 'Embark'
-            Enabled = False
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWindowText
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = [fsBold]
-            ParentFont = False
-            ParentShowHint = False
-            ShowHint = True
-            OnClick = btnEmbarkPersonelClick
-            ExplicitHeight = 25
-          end
-        end
-        object pnlPlatform: TPanel
-          Left = 4
-          Top = 127
-          Width = 2
-          Height = 25
-          Align = alTop
-          BevelOuter = bvNone
-          BorderWidth = 4
-          Color = 3091499
-          ParentBackground = False
-          TabOrder = 0
-          object Label26: TLabel
-            Left = 4
-            Top = 3
-            Width = 99
-            Height = 16
-            Caption = 'Platform On Base'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-          end
-          object Label57: TLabel
-            Left = 109
-            Top = 3
-            Width = 5
-            Height = 16
-            Caption = ':'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-          end
-        end
-      end
-      object pnlHeaderTransportStatus: TPanel
-        Left = 0
-        Top = 0
-        Width = 1748
-        Height = 30
-        Align = alTop
-        Alignment = taLeftJustify
-        BevelOuter = bvNone
-        BorderWidth = 4
-        Caption = ' Transport Status'
-        Color = 5590582
-        Font.Charset = ANSI_CHARSET
-        Font.Color = clWhite
-        Font.Height = -21
-        Font.Name = 'Arial'
-        Font.Style = []
-        ParentBackground = False
-        ParentFont = False
-        TabOrder = 2
-      end
-      object pnlTransportRight: TPanel
-        Left = 1213
-        Top = 30
-        Width = 535
-        Height = 2984
-        Align = alRight
-        BevelOuter = bvNone
-        BorderWidth = 4
-        Color = 3091499
-        ParentBackground = False
-        TabOrder = 3
-        object ScrollBox1: TScrollBox
-          Left = 4
-          Top = 4
-          Width = 527
-          Height = 2976
-          Align = alClient
-          BevelInner = bvNone
-          BevelOuter = bvNone
-          BorderStyle = bsNone
-          TabOrder = 0
-          object Label27: TLabel
-            Left = 0
-            Top = 0
-            Width = 527
-            Height = 30
-            Align = alTop
-            AutoSize = False
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -13
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-            Layout = tlCenter
-            ExplicitLeft = 8
-            ExplicitTop = 12
-          end
-          object pnlAirPlatform: TPanel
-            Left = 0
-            Top = 320
-            Width = 527
-            Height = 110
-            Align = alTop
-            BevelOuter = bvNone
-            BorderWidth = 10
-            Color = 4012086
-            ParentBackground = False
-            TabOrder = 0
-            object Label22: TLabel
-              Left = 10
-              Top = 10
-              Width = 507
-              Height = 30
-              Align = alTop
-              AutoSize = False
-              Caption = 'Air Platform Carried :'
-              Color = 5590582
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clWhite
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              ParentColor = False
-              ParentFont = False
-              Layout = tlCenter
-              ExplicitLeft = 0
-              ExplicitTop = 0
-              ExplicitWidth = 660
-            end
-            object pnlLabelAirPlatform: TPanel
-              Left = 10
-              Top = 40
-              Width = 507
-              Height = 25
-              Align = alTop
-              BevelOuter = bvNone
-              BorderWidth = 4
-              Color = 4012086
-              ParentBackground = False
-              TabOrder = 0
-              object Label35: TLabel
-                Left = 9
-                Top = 6
-                Width = 65
-                Height = 13
-                Caption = 'Max Capacity'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object Label53: TLabel
-                Left = 84
-                Top = 6
-                Width = 4
-                Height = 13
-                Caption = ':'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object lblMaxCapacityHanger: TLabel
-                Left = 98
-                Top = 6
-                Width = 75
-                Height = 13
-                AutoSize = False
-                Caption = '---'
-                Color = clBtnFace
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentColor = False
-                ParentFont = False
-              end
-              object Label38: TLabel
-                Left = 183
-                Top = 6
-                Width = 67
-                Height = 13
-                Caption = 'Free Capacity'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object Label52: TLabel
-                Left = 260
-                Top = 6
-                Width = 4
-                Height = 13
-                Caption = ':'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object lblFreeCapacityHanger: TLabel
-                Left = 274
-                Top = 6
-                Width = 75
-                Height = 13
-                AutoSize = False
-                Caption = '---'
-                Color = clBtnFace
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentColor = False
-                ParentFont = False
-              end
-              object Label33: TLabel
-                Left = 356
-                Top = 6
-                Width = 74
-                Height = 13
-                Caption = 'Current Weight'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object Label34: TLabel
-                Left = 451
-                Top = 6
-                Width = 4
-                Height = 13
-                Caption = ':'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object lblCurrentWeightHanger: TLabel
-                Left = 459
-                Top = 6
-                Width = 50
-                Height = 13
-                AutoSize = False
-                Caption = '---'
-                Color = clBtnFace
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentColor = False
-                ParentFont = False
-              end
-            end
-            object pnlBtnTakeOff: TPanel
-              Left = 10
-              Top = 67
-              Width = 507
-              Height = 33
-              Align = alBottom
-              BevelOuter = bvNone
-              BorderWidth = 4
-              Color = 4012086
-              ParentBackground = False
-              TabOrder = 1
-              object btnTakeoff: TSpeedButton
-                Tag = 2
-                Left = 387
-                Top = 8
-                Width = 120
-                Height = 25
-                Caption = 'Take Off'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWindowText
-                Font.Height = -12
-                Font.Name = 'Tahoma'
-                Font.Style = [fsBold]
-                ParentFont = False
-                ParentShowHint = False
-                ShowHint = True
-                OnClick = btnTakeOffClick
-              end
-              object lblMoreAir: TLabel
-                Left = 0
-                Top = 14
-                Width = 43
-                Height = 13
-                Caption = 'More >>'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = [fsItalic]
-                ParentFont = False
-                OnClick = lblMoreAirClick
-              end
-            end
-            object lvAirCarried: TListView
-              Left = 10
-              Top = 65
-              Width = 507
-              Height = 2
-              Align = alClient
-              Color = clWhite
-              Columns = <
-                item
-                  Caption = 'No'
-                  Width = 0
-                end
-                item
-                  Caption = 'Name'
-                  Width = 270
-                end
-                item
-                  Alignment = taCenter
-                  Caption = 'Track ID'
-                  Width = 75
-                end
-                item
-                  Alignment = taCenter
-                  Caption = 'Weight'
-                  Width = 75
-                end
-                item
-                  Alignment = taCenter
-                  Caption = 'Status'
-                  Width = 80
-                end>
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clBlack
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              GridLines = True
-              HideSelection = False
-              ReadOnly = True
-              RowSelect = True
-              ParentFont = False
-              TabOrder = 2
-              ViewStyle = vsReport
-              OnSelectItem = lvAirCarriedSelectItem
-            end
-          end
-          object pnlAmphibiousPlatform: TPanel
-            Left = 0
-            Top = 680
-            Width = 527
-            Height = 155
-            Align = alTop
-            BevelOuter = bvNone
-            BorderWidth = 10
-            Color = 4012086
-            ParentBackground = False
-            TabOrder = 1
-            object Label23: TLabel
-              Left = 10
-              Top = 10
-              Width = 507
-              Height = 30
-              Align = alTop
-              AutoSize = False
-              Caption = 'Amphibious and Land Platform Carried :'
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clWhite
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              ParentFont = False
-              Layout = tlCenter
-            end
-            object lvAmphibiousandLandCarried: TListView
-              Left = 10
-              Top = 65
-              Width = 507
-              Height = 2
-              Align = alClient
-              Color = clWhite
-              Columns = <
-                item
-                  Caption = 'No'
-                  Width = 0
-                end
-                item
-                  Caption = 'Name'
-                  Width = 170
-                end
-                item
-                  Alignment = taCenter
-                  Caption = 'Track ID'
-                  Width = 75
-                end
-                item
-                  Alignment = taCenter
-                  Caption = 'Weight'
-                  Width = 75
-                end
-                item
-                  Alignment = taCenter
-                  Caption = 'Wide Scale'
-                  Width = 90
-                end
-                item
-                  Alignment = taCenter
-                  Caption = 'Status'
-                  Width = 90
-                end>
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clBlack
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              GridLines = True
-              HideSelection = False
-              ReadOnly = True
-              RowSelect = True
-              ParentFont = False
-              TabOrder = 2
-              ViewStyle = vsReport
-              OnSelectItem = lvAmphibiousandLandCarriedSelectItem
-            end
-            object pnlLabelAmphibious: TPanel
-              Left = 10
-              Top = 40
-              Width = 507
-              Height = 25
-              Align = alTop
-              BevelOuter = bvNone
-              BorderWidth = 4
-              Color = 4012086
-              ParentBackground = False
-              TabOrder = 0
-              object Label36: TLabel
-                Left = 9
-                Top = 6
-                Width = 52
-                Height = 13
-                Caption = 'Max Space'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object Label50: TLabel
-                Left = 84
-                Top = 6
-                Width = 4
-                Height = 13
-                Caption = ':'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object lblMaxSpaceHull: TLabel
-                Left = 98
-                Top = 6
-                Width = 75
-                Height = 13
-                AutoSize = False
-                Caption = '---'
-                Color = clBtnFace
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentColor = False
-                ParentFont = False
-              end
-              object Label41: TLabel
-                Left = 183
-                Top = 6
-                Width = 54
-                Height = 13
-                Caption = 'Free Space'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object Label51: TLabel
-                Left = 260
-                Top = 6
-                Width = 4
-                Height = 13
-                Caption = ':'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object lblFreeSpaceHull: TLabel
-                Left = 274
-                Top = 6
-                Width = 75
-                Height = 13
-                AutoSize = False
-                Caption = '---'
-                Color = clBtnFace
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentColor = False
-                ParentFont = False
-              end
-              object Label43: TLabel
-                Left = 356
-                Top = 6
-                Width = 74
-                Height = 13
-                Caption = 'Current Weight'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object Label44: TLabel
-                Left = 451
-                Top = 6
-                Width = 4
-                Height = 13
-                Caption = ':'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object lblCurrentWeightHull: TLabel
-                Left = 459
-                Top = 6
-                Width = 50
-                Height = 13
-                AutoSize = False
-                Caption = '---'
-                Color = clBtnFace
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentColor = False
-                ParentFont = False
-              end
-            end
-            object pnlbtndisembark: TPanel
-              Left = 10
-              Top = 67
-              Width = 507
-              Height = 78
-              Align = alBottom
-              BevelOuter = bvNone
-              BorderWidth = 4
-              Color = 4012086
-              ParentBackground = False
-              TabOrder = 1
-              object btnAmphibiousLandDisembark: TSpeedButton
-                Tag = 2
-                Left = 383
-                Top = 10
-                Width = 120
-                Height = 25
-                Caption = 'Disembark'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWindowText
-                Font.Height = -12
-                Font.Name = 'Tahoma'
-                Font.Style = [fsBold]
-                ParentFont = False
-                ParentShowHint = False
-                ShowHint = True
-                OnClick = btnAmphibiousLandDisembarkClick
-              end
-              object btnAmphibiousLandDisembarkWith: TSpeedButton
-                Tag = 2
-                Left = 259
-                Top = 10
-                Width = 120
-                Height = 25
-                Caption = 'Disembark with'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWindowText
-                Font.Height = -12
-                Font.Name = 'Tahoma'
-                Font.Style = [fsBold]
-                ParentFont = False
-                ParentShowHint = False
-                ShowHint = True
-                OnClick = btnAmphibiousLandDisembarkWithClick
-              end
-              object lblDisembarkStatus: TLabel
-                Left = 0
-                Top = 16
-                Width = 255
-                Height = 13
-                Alignment = taCenter
-                AutoSize = False
-                Caption = 'No platform selected'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = [fsBold]
-                ParentFont = False
-              end
-              object lblMoreAmphibi: TLabel
-                Left = 8
-                Top = 29
-                Width = 43
-                Height = 13
-                Caption = 'More >>'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = [fsItalic]
-                ParentFont = False
-                OnClick = lblMoreAmphibiClick
-              end
-              object btnOpenHullView: TButton
-                Left = 4
-                Top = 49
-                Width = 499
-                Height = 25
-                Align = alBottom
-                Caption = 'Open Hull View'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWindowText
-                Font.Height = -12
-                Font.Name = 'Tahoma'
-                Font.Style = [fsBold]
-                ParentFont = False
-                TabOrder = 0
-                OnClick = btnTransportEmbarkasiClick
-              end
-            end
-          end
-          object pnlInfoKapal: TPanel
-            Left = 0
-            Top = 30
-            Width = 527
-            Height = 280
-            Align = alTop
-            BevelOuter = bvNone
-            Color = 3091499
-            ParentBackground = False
-            TabOrder = 2
-            object pnlPlatformDetails: TPanel
-              Left = 0
-              Top = 0
-              Width = 527
-              Height = 105
-              Align = alTop
-              BevelOuter = bvNone
-              Color = 4012086
-              ParentBackground = False
-              TabOrder = 0
-              object lbClass: TLabel
-                Left = 64
-                Top = 30
-                Width = 400
-                Height = 22
-                Alignment = taCenter
-                AutoSize = False
-                Caption = '---'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -13
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-                Layout = tlCenter
-              end
-              object lblMaxWeight: TLabel
-                Left = -9
-                Top = 70
-                Width = 260
-                Height = 22
-                Alignment = taCenter
-                AutoSize = False
-                Caption = '---'
-                Color = clBtnFace
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -13
-                Font.Name = 'Tahoma'
-                Font.Style = [fsBold]
-                ParentColor = False
-                ParentFont = False
-                Layout = tlCenter
-              end
-              object lblTotalWeight: TLabel
-                Left = 276
-                Top = 70
-                Width = 260
-                Height = 22
-                Alignment = taCenter
-                AutoSize = False
-                Caption = '---'
-                Color = clBtnFace
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -13
-                Font.Name = 'Tahoma'
-                Font.Style = [fsBold]
-                ParentColor = False
-                ParentFont = False
-                Layout = tlCenter
-              end
-              object lblVehicleName: TLabel
-                Left = -4
-                Top = 10
-                Width = 535
-                Height = 22
-                Alignment = taCenter
-                AutoSize = False
-                Caption = 'No selected platform'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -13
-                Font.Name = 'Tahoma'
-                Font.Style = [fsBold]
-                ParentFont = False
-                Layout = tlCenter
-              end
-              object btnTransportEmbarkasi: TSpeedButton
-                Tag = 2
-                Left = 517
-                Top = 0
-                Width = 150
-                Height = 25
-                Caption = 'Embark'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWindowText
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-                ParentShowHint = False
-                ShowHint = True
-                Visible = False
-                OnClick = btnTransportEmbarkasiClick
-              end
-              object lbl7: TLabel
-                Left = 72
-                Top = 50
-                Width = 99
-                Height = 16
-                Caption = 'Maximum Weight'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -13
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object lbl8: TLabel
-                Left = 111
-                Top = 90
-                Width = 22
-                Height = 16
-                Caption = 'Ton'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -13
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object lbl10: TLabel
-                Left = 395
-                Top = 90
-                Width = 22
-                Height = 16
-                Caption = 'Ton'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -13
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object lbl9: TLabel
-                Left = 369
-                Top = 50
-                Width = 73
-                Height = 16
-                Caption = 'Total Weight'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -13
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-            end
-            object pnlEmbarkStatus: TPanel
-              Left = 0
-              Top = 280
-              Width = 527
-              Height = 175
-              Align = alTop
-              BevelOuter = bvNone
-              Color = 4012086
-              ParentBackground = False
-              TabOrder = 2
-              Visible = False
-              object lbl17: TLabel
-                Left = 217
-                Top = 20
-                Width = 94
-                Height = 16
-                Caption = 'Embark Status'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -13
-                Font.Name = 'Tahoma'
-                Font.Style = [fsBold]
-                ParentFont = False
-              end
-              object lbl18: TLabel
-                Left = 55
-                Top = 58
-                Width = 134
-                Height = 16
-                Caption = 'Plartform Embarked On'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -13
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object lblHostPlatform: TLabel
-                Left = -43
-                Top = 80
-                Width = 330
-                Height = 22
-                Alignment = taCenter
-                AutoSize = False
-                Caption = '---'
-                Color = clBtnFace
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -13
-                Font.Name = 'Tahoma'
-                Font.Style = [fsBold]
-                ParentColor = False
-                ParentFont = False
-                Layout = tlCenter
-              end
-              object lblHostPlatformClass: TLabel
-                Left = -43
-                Top = 105
-                Width = 330
-                Height = 16
-                Alignment = taCenter
-                AutoSize = False
-                Caption = '---'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -13
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object lbl21: TLabel
-                Left = 338
-                Top = 58
-                Width = 135
-                Height = 16
-                Caption = 'Platform Embark Status'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -13
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object lblPlatformEmbarkStatus: TLabel
-                Left = 241
-                Top = 90
-                Width = 330
-                Height = 22
-                Alignment = taCenter
-                AutoSize = False
-                Caption = '---'
-                Color = clBtnFace
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -13
-                Font.Name = 'Tahoma'
-                Font.Style = [fsBold]
-                ParentColor = False
-                ParentFont = False
-                Layout = tlCenter
-              end
-              object btnHullView: TButton
-                Left = 189
-                Top = 127
-                Width = 150
-                Height = 28
-                Caption = 'Hull View'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWindowText
-                Font.Height = -13
-                Font.Name = 'Tahoma'
-                Font.Style = [fsBold]
-                ParentFont = False
-                TabOrder = 0
-                Visible = False
-                OnClick = btnTransportEmbarkasiClick
-              end
-              object btnMemberTakeOff: TButton
-                Left = 189
-                Top = 127
-                Width = 150
-                Height = 28
-                Caption = 'Take Off'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWindowText
-                Font.Height = -13
-                Font.Name = 'Tahoma'
-                Font.Style = [fsBold]
-                ParentFont = False
-                TabOrder = 1
-                Visible = False
-                OnClick = btnMemberTakeOffClick
-              end
-              object btnMemberDisembark: TButton
-                Left = 189
-                Top = 127
-                Width = 150
-                Height = 28
-                Caption = 'Disembark'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWindowText
-                Font.Height = -13
-                Font.Name = 'Tahoma'
-                Font.Style = [fsBold]
-                ParentFont = False
-                TabOrder = 2
-                Visible = False
-                OnClick = btnMemberDisembarkClick
-              end
-            end
-            object pnlRampStatus: TPanel
-              Left = 0
-              Top = 105
-              Width = 527
-              Height = 175
-              Align = alTop
-              BevelOuter = bvNone
-              Color = 4012086
-              ParentBackground = False
-              TabOrder = 1
-              object lbl11: TLabel
-                Left = 0
-                Top = 0
-                Width = 660
-                Height = 16
-                Alignment = taCenter
-                AutoSize = False
-                Caption = 'Ramp Status'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -13
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object pnlRampDetails: TPanel
-                Left = 0
-                Top = 0
-                Width = 527
-                Height = 145
-                Align = alTop
-                BevelOuter = bvNone
-                TabOrder = 0
-                object pnlRampStarboard: TPanel
-                  Left = 392
-                  Top = 0
-                  Width = 134
-                  Height = 145
-                  Align = alLeft
-                  BevelOuter = bvNone
-                  Color = 4012086
-                  ParentBackground = False
-                  TabOrder = 0
-                  object lbl12: TLabel
-                    Left = 36
-                    Top = 25
-                    Width = 57
-                    Height = 16
-                    Caption = 'Starboard'
-                    Font.Charset = DEFAULT_CHARSET
-                    Font.Color = clWhite
-                    Font.Height = -13
-                    Font.Name = 'Tahoma'
-                    Font.Style = []
-                    ParentFont = False
-                  end
-                  object pnlRampStarboardImage: TPanel
-                    Left = 40
-                    Top = 45
-                    Width = 50
-                    Height = 75
-                    BevelOuter = bvNone
-                    TabOrder = 0
-                    object pnlRampStarboardLeft: TPanel
-                      Left = 0
-                      Top = 0
-                      Width = 10
-                      Height = 75
-                      BevelOuter = bvNone
-                      Color = clRed
-                      ParentBackground = False
-                      TabOrder = 0
-                    end
-                    object pnlRampStarboardRight: TPanel
-                      Left = 40
-                      Top = 0
-                      Width = 10
-                      Height = 75
-                      BevelOuter = bvNone
-                      Color = clRed
-                      ParentBackground = False
-                      TabOrder = 1
-                    end
-                    object pnlRampStarboardUp: TPanel
-                      Left = 0
-                      Top = 0
-                      Width = 50
-                      Height = 25
-                      BevelOuter = bvNone
-                      Color = clRed
-                      ParentBackground = False
-                      TabOrder = 2
-                    end
-                    object pnlRampStarboardDoor: TPanel
-                      Left = 10
-                      Top = 25
-                      Width = 30
-                      Height = 57
-                      BevelOuter = bvLowered
-                      Color = clRed
-                      ParentBackground = False
-                      TabOrder = 3
-                    end
-                  end
-                  object btnStarboardRamp: TButton
-                    Tag = 1
-                    Left = 30
-                    Top = 125
-                    Width = 70
-                    Height = 20
-                    Caption = 'Open'
-                    TabOrder = 1
-                    OnClick = btnRampHandleClick
-                  end
-                end
-                object pnlRampPort: TPanel
-                  Left = 263
-                  Top = 0
-                  Width = 129
-                  Height = 145
-                  Align = alLeft
-                  BevelOuter = bvNone
-                  Color = 4012086
-                  ParentBackground = False
-                  TabOrder = 1
-                  object lbl14: TLabel
-                    Left = 53
-                    Top = 25
-                    Width = 23
-                    Height = 16
-                    Caption = 'Port'
-                    Font.Charset = DEFAULT_CHARSET
-                    Font.Color = clWhite
-                    Font.Height = -13
-                    Font.Name = 'Tahoma'
-                    Font.Style = []
-                    ParentFont = False
-                  end
-                  object pnlRampPortImage: TPanel
-                    Left = 40
-                    Top = 45
-                    Width = 50
-                    Height = 75
-                    BevelOuter = bvNone
-                    TabOrder = 0
-                    object pnlRampPortLeft: TPanel
-                      Left = 0
-                      Top = 0
-                      Width = 10
-                      Height = 75
-                      BevelOuter = bvNone
-                      Color = clRed
-                      ParentBackground = False
-                      TabOrder = 0
-                    end
-                    object pnlRampPortRight: TPanel
-                      Left = 40
-                      Top = 0
-                      Width = 10
-                      Height = 75
-                      BevelOuter = bvNone
-                      Color = clRed
-                      ParentBackground = False
-                      TabOrder = 1
-                    end
-                    object pnlRampPortUp: TPanel
-                      Left = 0
-                      Top = 0
-                      Width = 50
-                      Height = 25
-                      BevelOuter = bvNone
-                      Color = clRed
-                      ParentBackground = False
-                      TabOrder = 2
-                    end
-                    object pnlRampPortDoor: TPanel
-                      Left = 10
-                      Top = 25
-                      Width = 30
-                      Height = 57
-                      BevelOuter = bvLowered
-                      Color = clRed
-                      ParentBackground = False
-                      TabOrder = 3
-                    end
-                  end
-                  object btnPortRamp: TButton
-                    Tag = 3
-                    Left = 30
-                    Top = 125
-                    Width = 70
-                    Height = 20
-                    Caption = 'Open'
-                    TabOrder = 1
-                    OnClick = btnRampHandleClick
-                  end
-                end
-                object pnlRampBack: TPanel
-                  Left = 134
-                  Top = 0
-                  Width = 129
-                  Height = 145
-                  Align = alLeft
-                  BevelOuter = bvNone
-                  Color = 4012086
-                  ParentBackground = False
-                  TabOrder = 2
-                  object lbl15: TLabel
-                    Left = 51
-                    Top = 25
-                    Width = 26
-                    Height = 16
-                    Caption = 'Back'
-                    Font.Charset = DEFAULT_CHARSET
-                    Font.Color = clWhite
-                    Font.Height = -13
-                    Font.Name = 'Tahoma'
-                    Font.Style = []
-                    ParentFont = False
-                  end
-                  object pnlRampBackImage: TPanel
-                    Left = 40
-                    Top = 45
-                    Width = 50
-                    Height = 75
-                    BevelOuter = bvNone
-                    TabOrder = 0
-                    object pnlRampBackLeft: TPanel
-                      Left = 0
-                      Top = 0
-                      Width = 10
-                      Height = 75
-                      BevelOuter = bvNone
-                      Color = clRed
-                      ParentBackground = False
-                      TabOrder = 0
-                    end
-                    object pnlRampBackRight: TPanel
-                      Left = 40
-                      Top = 0
-                      Width = 10
-                      Height = 75
-                      BevelOuter = bvNone
-                      Color = clRed
-                      ParentBackground = False
-                      TabOrder = 1
-                    end
-                    object pnlRampBackUp: TPanel
-                      Left = 0
-                      Top = 0
-                      Width = 50
-                      Height = 25
-                      BevelOuter = bvNone
-                      Color = clRed
-                      ParentBackground = False
-                      TabOrder = 2
-                    end
-                    object pnlRampBackDoor: TPanel
-                      Left = 10
-                      Top = 25
-                      Width = 30
-                      Height = 57
-                      BevelOuter = bvLowered
-                      Color = clRed
-                      ParentBackground = False
-                      TabOrder = 3
-                    end
-                  end
-                  object btnBackRamp: TButton
-                    Tag = 2
-                    Left = 30
-                    Top = 125
-                    Width = 70
-                    Height = 20
-                    Caption = 'Open'
-                    TabOrder = 1
-                    OnClick = btnRampHandleClick
-                  end
-                end
-                object pnlRampFront: TPanel
-                  Left = 0
-                  Top = 0
-                  Width = 134
-                  Height = 145
-                  Align = alLeft
-                  BevelOuter = bvNone
-                  Color = 4012086
-                  ParentBackground = False
-                  TabOrder = 3
-                  object lbl16: TLabel
-                    Left = 49
-                    Top = 25
-                    Width = 30
-                    Height = 16
-                    Caption = 'Front'
-                    Font.Charset = DEFAULT_CHARSET
-                    Font.Color = clWhite
-                    Font.Height = -13
-                    Font.Name = 'Tahoma'
-                    Font.Style = []
-                    ParentFont = False
-                  end
-                  object pnlRampFrontImage: TPanel
-                    Left = 40
-                    Top = 45
-                    Width = 50
-                    Height = 75
-                    BevelOuter = bvNone
-                    TabOrder = 0
-                    object pnlRampFrontLeft: TPanel
-                      Left = 0
-                      Top = 0
-                      Width = 10
-                      Height = 75
-                      BevelOuter = bvNone
-                      Color = clRed
-                      ParentBackground = False
-                      TabOrder = 0
-                    end
-                    object pnlRampFrontRight: TPanel
-                      Left = 40
-                      Top = 0
-                      Width = 10
-                      Height = 75
-                      BevelOuter = bvNone
-                      Color = clRed
-                      ParentBackground = False
-                      TabOrder = 1
-                    end
-                    object pnlRampFrontUp: TPanel
-                      Left = 0
-                      Top = 0
-                      Width = 50
-                      Height = 25
-                      BevelOuter = bvNone
-                      Color = clRed
-                      ParentBackground = False
-                      TabOrder = 2
-                    end
-                    object pnlRampFrontDoor: TPanel
-                      Left = 10
-                      Top = 25
-                      Width = 30
-                      Height = 57
-                      BevelOuter = bvLowered
-                      Color = clRed
-                      ParentBackground = False
-                      TabOrder = 3
-                    end
-                  end
-                  object btnFrontRamp: TButton
-                    Left = 30
-                    Top = 125
-                    Width = 70
-                    Height = 20
-                    Caption = 'Open'
-                    TabOrder = 1
-                    OnClick = btnRampHandleClick
-                  end
-                end
-              end
-            end
-          end
-          object pnlLandingCraftPlatform: TPanel
-            Left = 0
-            Top = 560
-            Width = 527
-            Height = 110
-            Align = alTop
-            BevelOuter = bvNone
-            BorderWidth = 10
-            Color = 4012086
-            ParentBackground = False
-            TabOrder = 3
-            object Label28: TLabel
-              Left = 10
-              Top = 10
-              Width = 507
-              Height = 30
-              Align = alTop
-              AutoSize = False
-              Caption = 'Landing Craft Carried :'
-              Color = 5590582
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clWhite
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              ParentColor = False
-              ParentFont = False
-              Layout = tlCenter
-            end
-            object TreeView1: TTreeView
-              Left = 10
-              Top = 65
-              Width = 507
-              Height = 2
-              Align = alClient
-              Color = 4012086
-              DoubleBuffered = True
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clWhite
-              Font.Height = -11
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              Indent = 19
-              ParentDoubleBuffered = False
-              ParentFont = False
-              ParentShowHint = False
-              ReadOnly = True
-              ShowHint = False
-              TabOrder = 0
-              OnEdited = tvPersonelCarriedEdited
-              OnMouseDown = tvPersonelCarriedMouseDown
-            end
-            object Panel34: TPanel
-              Left = 10
-              Top = 40
-              Width = 507
-              Height = 25
-              Align = alTop
-              BevelOuter = bvNone
-              BorderWidth = 4
-              Color = 4012086
-              ParentBackground = False
-              TabOrder = 1
-              object Label39: TLabel
-                Left = 9
-                Top = 6
-                Width = 65
-                Height = 13
-                Caption = 'Max Capacity'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-                Visible = False
-              end
-              object Label40: TLabel
-                Left = 104
-                Top = 6
-                Width = 4
-                Height = 13
-                Caption = ':'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-                Visible = False
-              end
-              object Label42: TLabel
-                Left = 114
-                Top = 6
-                Width = 50
-                Height = 13
-                AutoSize = False
-                Caption = '---'
-                Color = clBtnFace
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentColor = False
-                ParentFont = False
-                Visible = False
-              end
-              object Label46: TLabel
-                Left = 183
-                Top = 6
-                Width = 67
-                Height = 13
-                Caption = 'Free Capacity'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-                Visible = False
-              end
-              object Label47: TLabel
-                Left = 260
-                Top = 6
-                Width = 4
-                Height = 13
-                Caption = ':'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-                Visible = False
-              end
-              object Label48: TLabel
-                Left = 286
-                Top = 6
-                Width = 50
-                Height = 13
-                AutoSize = False
-                Caption = '---'
-                Color = clBtnFace
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentColor = False
-                ParentFont = False
-                Visible = False
-              end
-              object Label49: TLabel
-                Left = 356
-                Top = 6
-                Width = 74
-                Height = 13
-                Caption = 'Current Weight'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-                Visible = False
-              end
-              object Label54: TLabel
-                Left = 451
-                Top = 6
-                Width = 4
-                Height = 13
-                Caption = ':'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-                Visible = False
-              end
-              object Label65: TLabel
-                Left = 459
-                Top = 6
-                Width = 50
-                Height = 13
-                AutoSize = False
-                Caption = '---'
-                Color = clBtnFace
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentColor = False
-                ParentFont = False
-                Visible = False
-              end
-            end
-            object Panel101: TPanel
-              Left = 10
-              Top = 67
-              Width = 507
-              Height = 33
-              Align = alBottom
-              BevelOuter = bvNone
-              BorderWidth = 4
-              Color = 4012086
-              ParentBackground = False
-              TabOrder = 2
-              object btnLandingCraftDisembark: TSpeedButton
-                Tag = 2
-                Left = 387
-                Top = 8
-                Width = 120
-                Height = 25
-                Caption = 'Disembark'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWindowText
-                Font.Height = -12
-                Font.Name = 'Tahoma'
-                Font.Style = [fsBold]
-                ParentFont = False
-                ParentShowHint = False
-                ShowHint = True
-                OnClick = btnLandingCraftDisembarkClick
-              end
-              object btnLandingCraftDisembarkWith: TSpeedButton
-                Tag = 2
-                Left = 262
-                Top = 8
-                Width = 120
-                Height = 25
-                Caption = 'Disembark with'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWindowText
-                Font.Height = -12
-                Font.Name = 'Tahoma'
-                Font.Style = [fsBold]
-                ParentFont = False
-                ParentShowHint = False
-                ShowHint = True
-              end
-              object lblMoreCraft: TLabel
-                Left = 5
-                Top = 18
-                Width = 43
-                Height = 13
-                Caption = 'More >>'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = [fsItalic]
-                ParentFont = False
-                WordWrap = True
-                OnClick = lblMoreCraftClick
-              end
-            end
-            object lvLandingCraftCarried: TListView
-              Left = 10
-              Top = 65
-              Width = 507
-              Height = 2
-              Align = alClient
-              Color = clWhite
-              Columns = <
-                item
-                  Caption = 'No'
-                  Width = 0
-                end
-                item
-                  Caption = 'Name'
-                  Width = 270
-                end
-                item
-                  Alignment = taCenter
-                  Caption = 'Track ID'
-                  Width = 75
-                end
-                item
-                  Alignment = taCenter
-                  Caption = 'Weight'
-                  Width = 75
-                end
-                item
-                  Alignment = taCenter
-                  Caption = 'Status'
-                  Width = 80
-                end>
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clBlack
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              GridLines = True
-              HideSelection = False
-              ReadOnly = True
-              RowSelect = True
-              ParentFont = False
-              TabOrder = 3
-              ViewStyle = vsReport
-              OnSelectItem = lvLandingCraftCarriedSelectItem
-            end
-          end
-          object pnlPersonelPlatform: TPanel
-            Left = 0
-            Top = 440
-            Width = 527
-            Height = 110
-            Align = alTop
-            BevelOuter = bvNone
-            BorderWidth = 10
-            Color = 4012086
-            ParentBackground = False
-            TabOrder = 4
-            object Label24: TLabel
-              Left = 10
-              Top = 10
-              Width = 507
-              Height = 30
-              Align = alTop
-              AutoSize = False
-              Caption = 'Personel Carried :'
-              Color = 5590582
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clWhite
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              ParentColor = False
-              ParentFont = False
-              Layout = tlCenter
-            end
-            object tvPersonelCarried: TTreeView
-              Left = 10
-              Top = 65
-              Width = 507
-              Height = 2
-              Align = alClient
-              Color = 4012086
-              DoubleBuffered = True
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clWhite
-              Font.Height = -11
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              Indent = 19
-              ParentDoubleBuffered = False
-              ParentFont = False
-              ParentShowHint = False
-              ReadOnly = True
-              ShowHint = False
-              TabOrder = 0
-              OnEdited = tvPersonelCarriedEdited
-              OnMouseDown = tvPersonelCarriedMouseDown
-            end
-            object Panel81: TPanel
-              Left = 10
-              Top = 40
-              Width = 507
-              Height = 25
-              Align = alTop
-              BevelOuter = bvNone
-              BorderWidth = 4
-              Color = 4012086
-              ParentBackground = False
-              TabOrder = 1
-              object Label55: TLabel
-                Left = 12
-                Top = 6
-                Width = 65
-                Height = 13
-                Caption = 'Max Capacity'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object Label58: TLabel
-                Left = 84
-                Top = 6
-                Width = 4
-                Height = 13
-                Caption = ':'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object lblMaxCapacityPersonel: TLabel
-                Left = 98
-                Top = 6
-                Width = 75
-                Height = 13
-                AutoSize = False
-                Caption = '---'
-                Color = clBtnFace
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentColor = False
-                ParentFont = False
-              end
-              object Label145: TLabel
-                Left = 183
-                Top = 6
-                Width = 67
-                Height = 13
-                Caption = 'Free Capacity'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object Label147: TLabel
-                Left = 260
-                Top = 6
-                Width = 4
-                Height = 13
-                Caption = ':'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object lblFreeCapacityPersonel: TLabel
-                Left = 274
-                Top = 6
-                Width = 50
-                Height = 13
-                AutoSize = False
-                Caption = '---'
-                Color = clBtnFace
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentColor = False
-                ParentFont = False
-              end
-              object Label160: TLabel
-                Left = 356
-                Top = 6
-                Width = 74
-                Height = 13
-                Caption = 'Current Weight'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object Label172: TLabel
-                Left = 451
-                Top = 6
-                Width = 4
-                Height = 13
-                Caption = ':'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentFont = False
-              end
-              object lblCurrentWeightPersonel: TLabel
-                Left = 459
-                Top = 6
-                Width = 50
-                Height = 13
-                AutoSize = False
-                Caption = '---'
-                Color = clBtnFace
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = []
-                ParentColor = False
-                ParentFont = False
-              end
-            end
-            object pnlPersonelBtn: TPanel
-              Left = 10
-              Top = 67
-              Width = 507
-              Height = 33
-              Align = alBottom
-              BevelOuter = bvNone
-              BorderWidth = 4
-              Color = 4012086
-              ParentBackground = False
-              TabOrder = 2
-              object btnPersonelDebarkasi: TSpeedButton
-                Tag = 2
-                Left = 387
-                Top = 8
-                Width = 120
-                Height = 25
-                Caption = 'Disembark'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWindowText
-                Font.Height = -12
-                Font.Name = 'Tahoma'
-                Font.Style = [fsBold]
-                ParentFont = False
-                ParentShowHint = False
-                ShowHint = True
-                OnClick = btnPersonelDebarkasiClick
-              end
-              object btnPersonelDebarkasiWith: TSpeedButton
-                Tag = 2
-                Left = 262
-                Top = 8
-                Width = 120
-                Height = 25
-                Caption = 'Disembark with'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWindowText
-                Font.Height = -12
-                Font.Name = 'Tahoma'
-                Font.Style = [fsBold]
-                ParentFont = False
-                ParentShowHint = False
-                ShowHint = True
-                OnClick = btnPersonelDebarkasiWithClick
-              end
-              object lblMorePersonel: TLabel
-                Left = 0
-                Top = 14
-                Width = 43
-                Height = 13
-                Caption = 'More >>'
-                Font.Charset = DEFAULT_CHARSET
-                Font.Color = clWhite
-                Font.Height = -11
-                Font.Name = 'Tahoma'
-                Font.Style = [fsItalic]
-                ParentFont = False
-                OnClick = lblMorePersonelClick
-              end
-            end
-            object lvPersonelCarried: TListView
-              Left = 10
-              Top = 65
-              Width = 507
-              Height = 2
-              Align = alClient
-              Color = clWhite
-              Columns = <
-                item
-                  Caption = 'No'
-                  Width = 0
-                end
-                item
-                  Caption = 'Name'
-                  Width = 270
-                end
-                item
-                  Alignment = taCenter
-                  Caption = 'Track ID'
-                  Width = 75
-                end
-                item
-                  Alignment = taCenter
-                  Caption = 'Weight'
-                  Width = 75
-                end
-                item
-                  Alignment = taCenter
-                  Caption = 'Status'
-                  Width = 80
-                end>
-              Font.Charset = DEFAULT_CHARSET
-              Font.Color = clBlack
-              Font.Height = -13
-              Font.Name = 'Tahoma'
-              Font.Style = []
-              GridLines = True
-              HideSelection = False
-              ReadOnly = True
-              RowSelect = True
-              ParentFont = False
-              TabOrder = 3
-              ViewStyle = vsReport
-              OnSelectItem = lvPersonelCarriedSelectItem
-            end
-          end
-          object pnlSparator1: TPanel
-            Left = 0
-            Top = 310
-            Width = 527
-            Height = 10
-            Align = alTop
-            BevelOuter = bvNone
-            BorderWidth = 4
-            Color = 3091499
-            ParentBackground = False
-            TabOrder = 5
-          end
-          object pnlSparator2: TPanel
-            Left = 0
-            Top = 430
-            Width = 527
-            Height = 10
-            Align = alTop
-            BevelOuter = bvNone
-            BorderWidth = 4
-            Color = 3091499
-            ParentBackground = False
-            TabOrder = 6
-          end
-          object pnlSparator3: TPanel
-            Left = 0
-            Top = 550
-            Width = 527
-            Height = 10
-            Align = alTop
-            BevelOuter = bvNone
-            BorderWidth = 4
-            Color = 3091499
-            ParentBackground = False
-            TabOrder = 7
-          end
-          object pnlSparator4: TPanel
-            Left = 0
-            Top = 670
-            Width = 527
-            Height = 10
-            Align = alTop
-            BevelOuter = bvNone
-            BorderWidth = 4
-            Color = 3091499
-            ParentBackground = False
-            TabOrder = 8
-          end
-        end
-      end
-      object pnlVerSparator2: TPanel
-        Left = 0
-        Top = 30
-        Width = 10
-        Height = 2984
-        Align = alLeft
-        Alignment = taLeftJustify
-        BevelOuter = bvNone
-        BorderWidth = 4
-        Color = 3091499
-        Font.Charset = ANSI_CHARSET
-        Font.Color = clWhite
-        Font.Height = -21
-        Font.Name = 'Arial'
-        Font.Style = []
-        ParentBackground = False
-        ParentFont = False
-        TabOrder = 4
-      end
-    end
     object gbLogisticStatus: TPanel
       Left = 0
       Top = 0
@@ -65601,6 +63101,2506 @@ object frmToteDisplay: TfrmToteDisplay
             OnSelectItem = lvPlatformsSelectItem
           end
         end
+      end
+    end
+    object gbTransport: TPanel
+      Left = 0
+      Top = 0
+      Width = 1748
+      Height = 3014
+      Align = alClient
+      BevelOuter = bvNone
+      ParentBackground = False
+      TabOrder = 0
+      object pnlTransportLeft: TPanel
+        Left = 10
+        Top = 30
+        Width = 1193
+        Height = 2984
+        Align = alClient
+        BevelOuter = bvNone
+        BorderWidth = 4
+        Color = 3091499
+        ParentBackground = False
+        TabOrder = 0
+        object pnl11: TPanel
+          Left = 4
+          Top = 4
+          Width = 1185
+          Height = 2976
+          Align = alClient
+          BevelOuter = bvNone
+          BorderWidth = 4
+          DockSite = True
+          TabOrder = 0
+          object lbl13: TLabel
+            Left = 4
+            Top = 4
+            Width = 1177
+            Height = 30
+            Align = alTop
+            AutoSize = False
+            Caption = ' Platforms :'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+            Layout = tlCenter
+            ExplicitWidth = 284
+          end
+          object lvPlatformEmbarkDisembark: TListView
+            Left = 4
+            Top = 34
+            Width = 1177
+            Height = 2938
+            Align = alClient
+            Color = clWhite
+            Columns = <
+              item
+                Caption = 'Name'
+                Width = 200
+              end
+              item
+                Caption = 'Class'
+                Width = 0
+              end
+              item
+                Alignment = taCenter
+                Caption = 'Track'
+                Width = 80
+              end
+              item
+                Caption = 'Force'
+                Width = 0
+              end
+              item
+                Alignment = taCenter
+                Caption = 'Tes'
+                Width = 0
+              end>
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clBlack
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            HideSelection = False
+            ReadOnly = True
+            RowSelect = True
+            ParentFont = False
+            TabOrder = 0
+            ViewStyle = vsReport
+            OnSelectItem = lvPlatformEmbarkDisembarkSelectItem
+          end
+        end
+      end
+      object pnlPangkalan: TPanel
+        Left = 1203
+        Top = 30
+        Width = 10
+        Height = 2984
+        Align = alRight
+        BevelOuter = bvNone
+        BorderWidth = 4
+        Color = 3091499
+        ParentBackground = False
+        TabOrder = 1
+        Visible = False
+        object pnlBase: TPanel
+          Left = 4
+          Top = 4
+          Width = 2
+          Height = 123
+          Align = alTop
+          BevelOuter = bvNone
+          BorderWidth = 4
+          Color = 3091499
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -13
+          Font.Name = 'Tahoma'
+          Font.Style = []
+          ParentBackground = False
+          ParentFont = False
+          TabOrder = 1
+          object Label63: TLabel
+            Left = 4
+            Top = 60
+            Width = 64
+            Height = 16
+            Caption = 'Base Name'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+          end
+          object Label64: TLabel
+            Left = 109
+            Top = 60
+            Width = 5
+            Height = 16
+            Caption = ':'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+          end
+          object lblBaseName: TLabel
+            Left = 123
+            Top = 60
+            Width = 15
+            Height = 16
+            Caption = '---'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+          end
+          object Label66: TLabel
+            Left = 4
+            Top = 81
+            Width = 44
+            Height = 16
+            Caption = 'Position'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+          end
+          object Label67: TLabel
+            Left = 109
+            Top = 81
+            Width = 5
+            Height = 16
+            Caption = ':'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+          end
+          object lblLongitude: TLabel
+            Left = 123
+            Top = 81
+            Width = 15
+            Height = 16
+            Caption = '---'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+          end
+          object lblLatitude: TLabel
+            Left = 245
+            Top = 81
+            Width = 15
+            Height = 16
+            Caption = '---'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+          end
+          object Label284: TLabel
+            Left = 4
+            Top = 4
+            Width = 392
+            Height = 20
+            Align = alTop
+            AutoSize = False
+            Caption = ' Select Base :'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+            ExplicitTop = 5
+            ExplicitWidth = 395
+          end
+          object Label70: TLabel
+            Left = 4
+            Top = 102
+            Width = 32
+            Height = 16
+            Caption = 'Force'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+          end
+          object Label59: TLabel
+            Left = 109
+            Top = 102
+            Width = 5
+            Height = 16
+            Caption = ':'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+          end
+          object lblForce: TLabel
+            Left = 123
+            Top = 102
+            Width = 15
+            Height = 16
+            Caption = '---'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+            Transparent = False
+          end
+          object cbbBase: TComboBox
+            Left = 4
+            Top = 24
+            Width = 392
+            Height = 24
+            Align = alTop
+            TabOrder = 0
+            OnChange = cbbBaseChange
+            OnKeyPress = cbbBaseKeyPress
+          end
+        end
+        object pnlPlatformOnBase: TPanel
+          Left = 4
+          Top = 152
+          Width = 2
+          Height = 408
+          Align = alTop
+          BevelOuter = bvNone
+          BorderWidth = 4
+          Color = 3091499
+          ParentBackground = False
+          TabOrder = 2
+          object lvPlatformOnBase: TListView
+            Left = 4
+            Top = 4
+            Width = 392
+            Height = 400
+            Align = alClient
+            Color = clWhite
+            Columns = <
+              item
+                Caption = 'No'
+                Width = 30
+              end
+              item
+                Caption = 'Name'
+                Width = 150
+              end
+              item
+                Alignment = taCenter
+                Caption = 'Quantity'
+                Width = 60
+              end
+              item
+                Alignment = taCenter
+                Caption = 'Weight'
+                Width = 75
+              end
+              item
+                Alignment = taCenter
+                Caption = 'Width'
+                Width = 75
+              end
+              item
+                Alignment = taCenter
+                Caption = 'Length'
+                Width = 75
+              end>
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clBlack
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            HideSelection = False
+            ReadOnly = True
+            RowSelect = True
+            ParentFont = False
+            TabOrder = 0
+            ViewStyle = vsReport
+            OnSelectItem = lvPlatformOnBaseSelectItem
+          end
+        end
+        object pnlPersonelOnbase: TPanel
+          Left = 4
+          Top = 613
+          Width = 2
+          Height = 2336
+          Align = alClient
+          BevelOuter = bvNone
+          BorderWidth = 4
+          Color = 3091499
+          ParentBackground = False
+          TabOrder = 3
+          object tvPersonelOnBase: TTreeView
+            Left = 4
+            Top = 4
+            Width = 392
+            Height = 2328
+            Align = alClient
+            Color = clWhite
+            DoubleBuffered = True
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clBlack
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            Indent = 19
+            ParentDoubleBuffered = False
+            ParentFont = False
+            ReadOnly = True
+            TabOrder = 0
+            OnEdited = tvPersonelOnBaseEdited
+            OnMouseDown = tvPersonelOnBaseMouseDown
+          end
+        end
+        object pnlPersonel: TPanel
+          Left = 4
+          Top = 590
+          Width = 2
+          Height = 23
+          Align = alTop
+          BevelOuter = bvNone
+          BorderWidth = 4
+          Color = 3091499
+          ParentBackground = False
+          TabOrder = 4
+          object Label25: TLabel
+            Left = 4
+            Top = 5
+            Width = 100
+            Height = 16
+            Caption = 'Personel On Base'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+          end
+          object Label60: TLabel
+            Left = 109
+            Top = 5
+            Width = 5
+            Height = 16
+            Caption = ':'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+          end
+        end
+        object pnlbtnembark: TPanel
+          Left = 4
+          Top = 560
+          Width = 2
+          Height = 30
+          Align = alTop
+          BevelOuter = bvNone
+          BorderWidth = 4
+          Color = 3091499
+          ParentBackground = False
+          TabOrder = 5
+          object btnEmbark: TSpeedButton
+            Tag = 2
+            Left = 4
+            Top = 4
+            Width = 91
+            Height = 22
+            Align = alLeft
+            Caption = 'Embark'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = [fsBold]
+            ParentFont = False
+            ParentShowHint = False
+            ShowHint = True
+            OnClick = btnEmbarkClick
+            ExplicitHeight = 30
+          end
+          object btntakeoffbase: TSpeedButton
+            Tag = 2
+            Left = -93
+            Top = 4
+            Width = 91
+            Height = 22
+            Align = alRight
+            Caption = 'Take Off'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = [fsBold]
+            ParentFont = False
+            ParentShowHint = False
+            ShowHint = True
+            ExplicitLeft = 335
+            ExplicitHeight = 30
+          end
+        end
+        object Panel84: TPanel
+          Left = 4
+          Top = 2949
+          Width = 2
+          Height = 31
+          Align = alBottom
+          BevelOuter = bvNone
+          BorderWidth = 4
+          Color = 3091499
+          ParentBackground = False
+          TabOrder = 6
+          object btnEmbarkPersonel: TSpeedButton
+            Tag = 2
+            Left = 4
+            Top = 4
+            Width = 91
+            Height = 23
+            Align = alLeft
+            Caption = 'Embark'
+            Enabled = False
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWindowText
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = [fsBold]
+            ParentFont = False
+            ParentShowHint = False
+            ShowHint = True
+            OnClick = btnEmbarkPersonelClick
+            ExplicitHeight = 25
+          end
+        end
+        object pnlPlatform: TPanel
+          Left = 4
+          Top = 127
+          Width = 2
+          Height = 25
+          Align = alTop
+          BevelOuter = bvNone
+          BorderWidth = 4
+          Color = 3091499
+          ParentBackground = False
+          TabOrder = 0
+          object Label26: TLabel
+            Left = 4
+            Top = 3
+            Width = 99
+            Height = 16
+            Caption = 'Platform On Base'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+          end
+          object Label57: TLabel
+            Left = 109
+            Top = 3
+            Width = 5
+            Height = 16
+            Caption = ':'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+          end
+        end
+      end
+      object pnlHeaderTransportStatus: TPanel
+        Left = 0
+        Top = 0
+        Width = 1748
+        Height = 30
+        Align = alTop
+        Alignment = taLeftJustify
+        BevelOuter = bvNone
+        BorderWidth = 4
+        Caption = ' Transport Status'
+        Color = 5590582
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -21
+        Font.Name = 'Arial'
+        Font.Style = []
+        ParentBackground = False
+        ParentFont = False
+        TabOrder = 2
+      end
+      object pnlTransportRight: TPanel
+        Left = 1213
+        Top = 30
+        Width = 535
+        Height = 2984
+        Align = alRight
+        BevelOuter = bvNone
+        BorderWidth = 4
+        Color = 3091499
+        ParentBackground = False
+        TabOrder = 3
+        object ScrollBox1: TScrollBox
+          Left = 4
+          Top = 4
+          Width = 527
+          Height = 2976
+          Align = alClient
+          BevelInner = bvNone
+          BevelOuter = bvNone
+          BorderStyle = bsNone
+          TabOrder = 0
+          object Label27: TLabel
+            Left = 0
+            Top = 0
+            Width = 527
+            Height = 30
+            Align = alTop
+            AutoSize = False
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -13
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+            Layout = tlCenter
+            ExplicitLeft = 8
+            ExplicitTop = 12
+          end
+          object pnlAirPlatform: TPanel
+            Left = 0
+            Top = 320
+            Width = 527
+            Height = 110
+            Align = alTop
+            BevelOuter = bvNone
+            BorderWidth = 10
+            Color = 4012086
+            ParentBackground = False
+            TabOrder = 0
+            object Label22: TLabel
+              Left = 10
+              Top = 10
+              Width = 507
+              Height = 30
+              Align = alTop
+              AutoSize = False
+              Caption = 'Air Platform Carried :'
+              Color = 5590582
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWhite
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              ParentColor = False
+              ParentFont = False
+              Layout = tlCenter
+              ExplicitLeft = 0
+              ExplicitTop = 0
+              ExplicitWidth = 660
+            end
+            object pnlLabelAirPlatform: TPanel
+              Left = 10
+              Top = 40
+              Width = 507
+              Height = 25
+              Align = alTop
+              BevelOuter = bvNone
+              BorderWidth = 4
+              Color = 4012086
+              ParentBackground = False
+              TabOrder = 0
+              object Label35: TLabel
+                Left = 9
+                Top = 6
+                Width = 65
+                Height = 13
+                Caption = 'Max Capacity'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object Label53: TLabel
+                Left = 84
+                Top = 6
+                Width = 4
+                Height = 13
+                Caption = ':'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object lblMaxCapacityHanger: TLabel
+                Left = 98
+                Top = 6
+                Width = 75
+                Height = 13
+                AutoSize = False
+                Caption = '---'
+                Color = clBtnFace
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentColor = False
+                ParentFont = False
+              end
+              object Label38: TLabel
+                Left = 183
+                Top = 6
+                Width = 67
+                Height = 13
+                Caption = 'Free Capacity'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object Label52: TLabel
+                Left = 260
+                Top = 6
+                Width = 4
+                Height = 13
+                Caption = ':'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object lblFreeCapacityHanger: TLabel
+                Left = 274
+                Top = 6
+                Width = 75
+                Height = 13
+                AutoSize = False
+                Caption = '---'
+                Color = clBtnFace
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentColor = False
+                ParentFont = False
+              end
+              object Label33: TLabel
+                Left = 356
+                Top = 6
+                Width = 74
+                Height = 13
+                Caption = 'Current Weight'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object Label34: TLabel
+                Left = 451
+                Top = 6
+                Width = 4
+                Height = 13
+                Caption = ':'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object lblCurrentWeightHanger: TLabel
+                Left = 459
+                Top = 6
+                Width = 50
+                Height = 13
+                AutoSize = False
+                Caption = '---'
+                Color = clBtnFace
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentColor = False
+                ParentFont = False
+              end
+            end
+            object pnlBtnTakeOff: TPanel
+              Left = 10
+              Top = 67
+              Width = 507
+              Height = 33
+              Align = alBottom
+              BevelOuter = bvNone
+              BorderWidth = 4
+              Color = 4012086
+              ParentBackground = False
+              TabOrder = 1
+              object btnTakeoff: TSpeedButton
+                Tag = 2
+                Left = 387
+                Top = 8
+                Width = 120
+                Height = 25
+                Caption = 'Take Off'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentFont = False
+                ParentShowHint = False
+                ShowHint = True
+                OnClick = btnTakeOffClick
+              end
+              object lblMoreAir: TLabel
+                Left = 0
+                Top = 14
+                Width = 43
+                Height = 13
+                Caption = 'More >>'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = [fsItalic]
+                ParentFont = False
+                OnClick = lblMoreAirClick
+              end
+            end
+            object lvAirCarried: TListView
+              Left = 10
+              Top = 65
+              Width = 507
+              Height = 2
+              Align = alClient
+              Color = clWhite
+              Columns = <
+                item
+                  Caption = 'No'
+                  Width = 0
+                end
+                item
+                  Caption = 'Name'
+                  Width = 270
+                end
+                item
+                  Alignment = taCenter
+                  Caption = 'Track ID'
+                  Width = 75
+                end
+                item
+                  Alignment = taCenter
+                  Caption = 'Weight'
+                  Width = 75
+                end
+                item
+                  Alignment = taCenter
+                  Caption = 'Status'
+                  Width = 80
+                end>
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              GridLines = True
+              HideSelection = False
+              ReadOnly = True
+              RowSelect = True
+              ParentFont = False
+              TabOrder = 2
+              ViewStyle = vsReport
+              OnSelectItem = lvAirCarriedSelectItem
+            end
+          end
+          object pnlAmphibiousPlatform: TPanel
+            Left = 0
+            Top = 680
+            Width = 527
+            Height = 155
+            Align = alTop
+            BevelOuter = bvNone
+            BorderWidth = 10
+            Color = 4012086
+            ParentBackground = False
+            TabOrder = 1
+            object Label23: TLabel
+              Left = 10
+              Top = 10
+              Width = 507
+              Height = 30
+              Align = alTop
+              AutoSize = False
+              Caption = 'Amphibious and Land Platform Carried :'
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWhite
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              ParentFont = False
+              Layout = tlCenter
+            end
+            object lvAmphibiousandLandCarried: TListView
+              Left = 10
+              Top = 65
+              Width = 507
+              Height = 2
+              Align = alClient
+              Color = clWhite
+              Columns = <
+                item
+                  Caption = 'No'
+                  Width = 0
+                end
+                item
+                  Caption = 'Name'
+                  Width = 200
+                end
+                item
+                  Alignment = taCenter
+                  Caption = 'Track ID'
+                  Width = 75
+                end
+                item
+                  Alignment = taCenter
+                  Caption = 'Weight'
+                  Width = 0
+                end
+                item
+                  Alignment = taCenter
+                  Caption = 'Wide Scale'
+                  Width = 105
+                end
+                item
+                  Alignment = taCenter
+                  Caption = 'Status'
+                  Width = 120
+                end>
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              GridLines = True
+              HideSelection = False
+              ReadOnly = True
+              RowSelect = True
+              ParentFont = False
+              TabOrder = 2
+              ViewStyle = vsReport
+              OnSelectItem = lvAmphibiousandLandCarriedSelectItem
+            end
+            object pnlLabelAmphibious: TPanel
+              Left = 10
+              Top = 40
+              Width = 507
+              Height = 25
+              Align = alTop
+              BevelOuter = bvNone
+              BorderWidth = 4
+              Color = 4012086
+              ParentBackground = False
+              TabOrder = 0
+              object Label36: TLabel
+                Left = 9
+                Top = 6
+                Width = 52
+                Height = 13
+                Caption = 'Max Space'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object Label50: TLabel
+                Left = 84
+                Top = 6
+                Width = 4
+                Height = 13
+                Caption = ':'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object lblMaxSpaceHull: TLabel
+                Left = 98
+                Top = 6
+                Width = 75
+                Height = 13
+                AutoSize = False
+                Caption = '---'
+                Color = clBtnFace
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentColor = False
+                ParentFont = False
+              end
+              object Label41: TLabel
+                Left = 183
+                Top = 6
+                Width = 54
+                Height = 13
+                Caption = 'Free Space'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object Label51: TLabel
+                Left = 260
+                Top = 6
+                Width = 4
+                Height = 13
+                Caption = ':'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object lblFreeSpaceHull: TLabel
+                Left = 274
+                Top = 6
+                Width = 75
+                Height = 13
+                AutoSize = False
+                Caption = '---'
+                Color = clBtnFace
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentColor = False
+                ParentFont = False
+              end
+              object Label43: TLabel
+                Left = 356
+                Top = 6
+                Width = 74
+                Height = 13
+                Caption = 'Current Weight'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object Label44: TLabel
+                Left = 451
+                Top = 6
+                Width = 4
+                Height = 13
+                Caption = ':'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object lblCurrentWeightHull: TLabel
+                Left = 459
+                Top = 6
+                Width = 50
+                Height = 13
+                AutoSize = False
+                Caption = '---'
+                Color = clBtnFace
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentColor = False
+                ParentFont = False
+              end
+            end
+            object pnlbtndisembark: TPanel
+              Left = 10
+              Top = 67
+              Width = 507
+              Height = 78
+              Align = alBottom
+              BevelOuter = bvNone
+              BorderWidth = 4
+              Color = 4012086
+              ParentBackground = False
+              TabOrder = 1
+              object btnAmphibiousLandDisembark: TSpeedButton
+                Tag = 2
+                Left = 383
+                Top = 10
+                Width = 120
+                Height = 25
+                Caption = 'Disembark'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentFont = False
+                ParentShowHint = False
+                ShowHint = True
+                OnClick = btnAmphibiousLandDisembarkClick
+              end
+              object btnAmphibiousLandDisembarkWith: TSpeedButton
+                Tag = 2
+                Left = 259
+                Top = 10
+                Width = 120
+                Height = 25
+                Caption = 'Disembark with'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentFont = False
+                ParentShowHint = False
+                ShowHint = True
+                OnClick = btnAmphibiousLandDisembarkWithClick
+              end
+              object lblDisembarkStatus: TLabel
+                Left = 0
+                Top = 16
+                Width = 255
+                Height = 13
+                Alignment = taCenter
+                AutoSize = False
+                Caption = 'No platform selected'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lblMoreAmphibi: TLabel
+                Left = 8
+                Top = 29
+                Width = 43
+                Height = 13
+                Caption = 'More >>'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = [fsItalic]
+                ParentFont = False
+                OnClick = lblMoreAmphibiClick
+              end
+              object btnOpenHullView: TButton
+                Left = 4
+                Top = 49
+                Width = 499
+                Height = 25
+                Align = alBottom
+                Caption = 'Open Hull View'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentFont = False
+                TabOrder = 0
+                OnClick = btnTransportEmbarkasiClick
+              end
+            end
+          end
+          object pnlInfoKapal: TPanel
+            Left = 0
+            Top = 30
+            Width = 527
+            Height = 280
+            Align = alTop
+            BevelOuter = bvNone
+            Color = 3091499
+            ParentBackground = False
+            TabOrder = 2
+            object pnlPlatformDetails: TPanel
+              Left = 0
+              Top = 0
+              Width = 527
+              Height = 105
+              Align = alTop
+              BevelOuter = bvNone
+              Color = 4012086
+              ParentBackground = False
+              TabOrder = 0
+              object lbClass: TLabel
+                Left = 64
+                Top = 30
+                Width = 400
+                Height = 22
+                Alignment = taCenter
+                AutoSize = False
+                Caption = '---'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+                Layout = tlCenter
+              end
+              object lblMaxWeight: TLabel
+                Left = -9
+                Top = 70
+                Width = 260
+                Height = 22
+                Alignment = taCenter
+                AutoSize = False
+                Caption = '---'
+                Color = clBtnFace
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentColor = False
+                ParentFont = False
+                Layout = tlCenter
+              end
+              object lblTotalWeight: TLabel
+                Left = 276
+                Top = 70
+                Width = 260
+                Height = 22
+                Alignment = taCenter
+                AutoSize = False
+                Caption = '---'
+                Color = clBtnFace
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentColor = False
+                ParentFont = False
+                Layout = tlCenter
+              end
+              object lblVehicleName: TLabel
+                Left = -4
+                Top = 10
+                Width = 535
+                Height = 22
+                Alignment = taCenter
+                AutoSize = False
+                Caption = 'No selected platform'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentFont = False
+                Layout = tlCenter
+              end
+              object btnTransportEmbarkasi: TSpeedButton
+                Tag = 2
+                Left = 517
+                Top = 0
+                Width = 150
+                Height = 25
+                Caption = 'Embark'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+                ParentShowHint = False
+                ShowHint = True
+                Visible = False
+                OnClick = btnTransportEmbarkasiClick
+              end
+              object lbl7: TLabel
+                Left = 72
+                Top = 50
+                Width = 99
+                Height = 16
+                Caption = 'Maximum Weight'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object lbl8: TLabel
+                Left = 111
+                Top = 90
+                Width = 22
+                Height = 16
+                Caption = 'Ton'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object lbl10: TLabel
+                Left = 395
+                Top = 90
+                Width = 22
+                Height = 16
+                Caption = 'Ton'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object lbl9: TLabel
+                Left = 369
+                Top = 50
+                Width = 73
+                Height = 16
+                Caption = 'Total Weight'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+            end
+            object pnlEmbarkStatus: TPanel
+              Left = 0
+              Top = 280
+              Width = 527
+              Height = 175
+              Align = alTop
+              BevelOuter = bvNone
+              Color = 4012086
+              ParentBackground = False
+              TabOrder = 2
+              Visible = False
+              object lbl17: TLabel
+                Left = 217
+                Top = 20
+                Width = 94
+                Height = 16
+                Caption = 'Embark Status'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentFont = False
+              end
+              object lbl18: TLabel
+                Left = 55
+                Top = 58
+                Width = 134
+                Height = 16
+                Caption = 'Plartform Embarked On'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object lblHostPlatform: TLabel
+                Left = -43
+                Top = 80
+                Width = 330
+                Height = 22
+                Alignment = taCenter
+                AutoSize = False
+                Caption = '---'
+                Color = clBtnFace
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentColor = False
+                ParentFont = False
+                Layout = tlCenter
+              end
+              object lblHostPlatformClass: TLabel
+                Left = -43
+                Top = 105
+                Width = 330
+                Height = 16
+                Alignment = taCenter
+                AutoSize = False
+                Caption = '---'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object lbl21: TLabel
+                Left = 338
+                Top = 58
+                Width = 135
+                Height = 16
+                Caption = 'Platform Embark Status'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object lblPlatformEmbarkStatus: TLabel
+                Left = 241
+                Top = 90
+                Width = 330
+                Height = 22
+                Alignment = taCenter
+                AutoSize = False
+                Caption = '---'
+                Color = clBtnFace
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentColor = False
+                ParentFont = False
+                Layout = tlCenter
+              end
+              object btnHullView: TButton
+                Left = 189
+                Top = 127
+                Width = 150
+                Height = 28
+                Caption = 'Hull View'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentFont = False
+                TabOrder = 0
+                Visible = False
+                OnClick = btnTransportEmbarkasiClick
+              end
+              object btnMemberTakeOff: TButton
+                Left = 189
+                Top = 127
+                Width = 150
+                Height = 28
+                Caption = 'Take Off'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentFont = False
+                TabOrder = 1
+                Visible = False
+                OnClick = btnMemberTakeOffClick
+              end
+              object btnMemberDisembark: TButton
+                Left = 189
+                Top = 127
+                Width = 150
+                Height = 28
+                Caption = 'Disembark'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentFont = False
+                TabOrder = 2
+                Visible = False
+                OnClick = btnMemberDisembarkClick
+              end
+            end
+            object pnlRampStatus: TPanel
+              Left = 0
+              Top = 105
+              Width = 527
+              Height = 175
+              Align = alTop
+              BevelOuter = bvNone
+              Color = 4012086
+              ParentBackground = False
+              TabOrder = 1
+              object lbl11: TLabel
+                Left = 0
+                Top = 0
+                Width = 660
+                Height = 16
+                Alignment = taCenter
+                AutoSize = False
+                Caption = 'Ramp Status'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -13
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object pnlRampDetails: TPanel
+                Left = 0
+                Top = 0
+                Width = 527
+                Height = 145
+                Align = alTop
+                BevelOuter = bvNone
+                TabOrder = 0
+                object pnlRampStarboard: TPanel
+                  Left = 392
+                  Top = 0
+                  Width = 134
+                  Height = 145
+                  Align = alLeft
+                  BevelOuter = bvNone
+                  Color = 4012086
+                  ParentBackground = False
+                  TabOrder = 0
+                  object lbl12: TLabel
+                    Left = 36
+                    Top = 25
+                    Width = 57
+                    Height = 16
+                    Caption = 'Starboard'
+                    Font.Charset = DEFAULT_CHARSET
+                    Font.Color = clWhite
+                    Font.Height = -13
+                    Font.Name = 'Tahoma'
+                    Font.Style = []
+                    ParentFont = False
+                  end
+                  object pnlRampStarboardImage: TPanel
+                    Left = 40
+                    Top = 45
+                    Width = 50
+                    Height = 75
+                    BevelOuter = bvNone
+                    TabOrder = 0
+                    object pnlRampStarboardLeft: TPanel
+                      Left = 0
+                      Top = 0
+                      Width = 10
+                      Height = 75
+                      BevelOuter = bvNone
+                      Color = clRed
+                      ParentBackground = False
+                      TabOrder = 0
+                    end
+                    object pnlRampStarboardRight: TPanel
+                      Left = 40
+                      Top = 0
+                      Width = 10
+                      Height = 75
+                      BevelOuter = bvNone
+                      Color = clRed
+                      ParentBackground = False
+                      TabOrder = 1
+                    end
+                    object pnlRampStarboardUp: TPanel
+                      Left = 0
+                      Top = 0
+                      Width = 50
+                      Height = 25
+                      BevelOuter = bvNone
+                      Color = clRed
+                      ParentBackground = False
+                      TabOrder = 2
+                    end
+                    object pnlRampStarboardDoor: TPanel
+                      Left = 10
+                      Top = 25
+                      Width = 30
+                      Height = 57
+                      BevelOuter = bvLowered
+                      Color = clRed
+                      ParentBackground = False
+                      TabOrder = 3
+                    end
+                  end
+                  object btnStarboardRamp: TButton
+                    Tag = 1
+                    Left = 30
+                    Top = 125
+                    Width = 70
+                    Height = 20
+                    Caption = 'Open'
+                    TabOrder = 1
+                    OnClick = btnRampHandleClick
+                  end
+                end
+                object pnlRampPort: TPanel
+                  Left = 263
+                  Top = 0
+                  Width = 129
+                  Height = 145
+                  Align = alLeft
+                  BevelOuter = bvNone
+                  Color = 4012086
+                  ParentBackground = False
+                  TabOrder = 1
+                  object lbl14: TLabel
+                    Left = 53
+                    Top = 25
+                    Width = 23
+                    Height = 16
+                    Caption = 'Port'
+                    Font.Charset = DEFAULT_CHARSET
+                    Font.Color = clWhite
+                    Font.Height = -13
+                    Font.Name = 'Tahoma'
+                    Font.Style = []
+                    ParentFont = False
+                  end
+                  object pnlRampPortImage: TPanel
+                    Left = 40
+                    Top = 45
+                    Width = 50
+                    Height = 75
+                    BevelOuter = bvNone
+                    TabOrder = 0
+                    object pnlRampPortLeft: TPanel
+                      Left = 0
+                      Top = 0
+                      Width = 10
+                      Height = 75
+                      BevelOuter = bvNone
+                      Color = clRed
+                      ParentBackground = False
+                      TabOrder = 0
+                    end
+                    object pnlRampPortRight: TPanel
+                      Left = 40
+                      Top = 0
+                      Width = 10
+                      Height = 75
+                      BevelOuter = bvNone
+                      Color = clRed
+                      ParentBackground = False
+                      TabOrder = 1
+                    end
+                    object pnlRampPortUp: TPanel
+                      Left = 0
+                      Top = 0
+                      Width = 50
+                      Height = 25
+                      BevelOuter = bvNone
+                      Color = clRed
+                      ParentBackground = False
+                      TabOrder = 2
+                    end
+                    object pnlRampPortDoor: TPanel
+                      Left = 10
+                      Top = 25
+                      Width = 30
+                      Height = 57
+                      BevelOuter = bvLowered
+                      Color = clRed
+                      ParentBackground = False
+                      TabOrder = 3
+                    end
+                  end
+                  object btnPortRamp: TButton
+                    Tag = 3
+                    Left = 30
+                    Top = 125
+                    Width = 70
+                    Height = 20
+                    Caption = 'Open'
+                    TabOrder = 1
+                    OnClick = btnRampHandleClick
+                  end
+                end
+                object pnlRampBack: TPanel
+                  Left = 134
+                  Top = 0
+                  Width = 129
+                  Height = 145
+                  Align = alLeft
+                  BevelOuter = bvNone
+                  Color = 4012086
+                  ParentBackground = False
+                  TabOrder = 2
+                  object lbl15: TLabel
+                    Left = 51
+                    Top = 25
+                    Width = 26
+                    Height = 16
+                    Caption = 'Back'
+                    Font.Charset = DEFAULT_CHARSET
+                    Font.Color = clWhite
+                    Font.Height = -13
+                    Font.Name = 'Tahoma'
+                    Font.Style = []
+                    ParentFont = False
+                  end
+                  object pnlRampBackImage: TPanel
+                    Left = 40
+                    Top = 45
+                    Width = 50
+                    Height = 75
+                    BevelOuter = bvNone
+                    TabOrder = 0
+                    object pnlRampBackLeft: TPanel
+                      Left = 0
+                      Top = 0
+                      Width = 10
+                      Height = 75
+                      BevelOuter = bvNone
+                      Color = clRed
+                      ParentBackground = False
+                      TabOrder = 0
+                    end
+                    object pnlRampBackRight: TPanel
+                      Left = 40
+                      Top = 0
+                      Width = 10
+                      Height = 75
+                      BevelOuter = bvNone
+                      Color = clRed
+                      ParentBackground = False
+                      TabOrder = 1
+                    end
+                    object pnlRampBackUp: TPanel
+                      Left = 0
+                      Top = 0
+                      Width = 50
+                      Height = 25
+                      BevelOuter = bvNone
+                      Color = clRed
+                      ParentBackground = False
+                      TabOrder = 2
+                    end
+                    object pnlRampBackDoor: TPanel
+                      Left = 10
+                      Top = 25
+                      Width = 30
+                      Height = 57
+                      BevelOuter = bvLowered
+                      Color = clRed
+                      ParentBackground = False
+                      TabOrder = 3
+                    end
+                  end
+                  object btnBackRamp: TButton
+                    Tag = 2
+                    Left = 30
+                    Top = 125
+                    Width = 70
+                    Height = 20
+                    Caption = 'Open'
+                    TabOrder = 1
+                    OnClick = btnRampHandleClick
+                  end
+                end
+                object pnlRampFront: TPanel
+                  Left = 0
+                  Top = 0
+                  Width = 134
+                  Height = 145
+                  Align = alLeft
+                  BevelOuter = bvNone
+                  Color = 4012086
+                  ParentBackground = False
+                  TabOrder = 3
+                  object lbl16: TLabel
+                    Left = 49
+                    Top = 25
+                    Width = 30
+                    Height = 16
+                    Caption = 'Front'
+                    Font.Charset = DEFAULT_CHARSET
+                    Font.Color = clWhite
+                    Font.Height = -13
+                    Font.Name = 'Tahoma'
+                    Font.Style = []
+                    ParentFont = False
+                  end
+                  object pnlRampFrontImage: TPanel
+                    Left = 40
+                    Top = 45
+                    Width = 50
+                    Height = 75
+                    BevelOuter = bvNone
+                    TabOrder = 0
+                    object pnlRampFrontLeft: TPanel
+                      Left = 0
+                      Top = 0
+                      Width = 10
+                      Height = 75
+                      BevelOuter = bvNone
+                      Color = clRed
+                      ParentBackground = False
+                      TabOrder = 0
+                    end
+                    object pnlRampFrontRight: TPanel
+                      Left = 40
+                      Top = 0
+                      Width = 10
+                      Height = 75
+                      BevelOuter = bvNone
+                      Color = clRed
+                      ParentBackground = False
+                      TabOrder = 1
+                    end
+                    object pnlRampFrontUp: TPanel
+                      Left = 0
+                      Top = 0
+                      Width = 50
+                      Height = 25
+                      BevelOuter = bvNone
+                      Color = clRed
+                      ParentBackground = False
+                      TabOrder = 2
+                    end
+                    object pnlRampFrontDoor: TPanel
+                      Left = 10
+                      Top = 25
+                      Width = 30
+                      Height = 57
+                      BevelOuter = bvLowered
+                      Color = clRed
+                      ParentBackground = False
+                      TabOrder = 3
+                    end
+                  end
+                  object btnFrontRamp: TButton
+                    Left = 30
+                    Top = 125
+                    Width = 70
+                    Height = 20
+                    Caption = 'Open'
+                    TabOrder = 1
+                    OnClick = btnRampHandleClick
+                  end
+                end
+              end
+            end
+          end
+          object pnlLandingCraftPlatform: TPanel
+            Left = 0
+            Top = 560
+            Width = 527
+            Height = 110
+            Align = alTop
+            BevelOuter = bvNone
+            BorderWidth = 10
+            Color = 4012086
+            ParentBackground = False
+            TabOrder = 3
+            object Label28: TLabel
+              Left = 10
+              Top = 10
+              Width = 507
+              Height = 30
+              Align = alTop
+              AutoSize = False
+              Caption = 'Landing Craft Carried :'
+              Color = 5590582
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWhite
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              ParentColor = False
+              ParentFont = False
+              Layout = tlCenter
+            end
+            object TreeView1: TTreeView
+              Left = 10
+              Top = 65
+              Width = 507
+              Height = 2
+              Align = alClient
+              Color = 4012086
+              DoubleBuffered = True
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWhite
+              Font.Height = -11
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              Indent = 19
+              ParentDoubleBuffered = False
+              ParentFont = False
+              ParentShowHint = False
+              ReadOnly = True
+              ShowHint = False
+              TabOrder = 0
+              OnEdited = tvPersonelCarriedEdited
+              OnMouseDown = tvPersonelCarriedMouseDown
+            end
+            object Panel34: TPanel
+              Left = 10
+              Top = 40
+              Width = 507
+              Height = 25
+              Align = alTop
+              BevelOuter = bvNone
+              BorderWidth = 4
+              Color = 4012086
+              ParentBackground = False
+              TabOrder = 1
+              object Label39: TLabel
+                Left = 9
+                Top = 6
+                Width = 65
+                Height = 13
+                Caption = 'Max Capacity'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+                Visible = False
+              end
+              object Label40: TLabel
+                Left = 104
+                Top = 6
+                Width = 4
+                Height = 13
+                Caption = ':'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+                Visible = False
+              end
+              object Label42: TLabel
+                Left = 114
+                Top = 6
+                Width = 50
+                Height = 13
+                AutoSize = False
+                Caption = '---'
+                Color = clBtnFace
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentColor = False
+                ParentFont = False
+                Visible = False
+              end
+              object Label46: TLabel
+                Left = 183
+                Top = 6
+                Width = 67
+                Height = 13
+                Caption = 'Free Capacity'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+                Visible = False
+              end
+              object Label47: TLabel
+                Left = 260
+                Top = 6
+                Width = 4
+                Height = 13
+                Caption = ':'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+                Visible = False
+              end
+              object Label48: TLabel
+                Left = 286
+                Top = 6
+                Width = 50
+                Height = 13
+                AutoSize = False
+                Caption = '---'
+                Color = clBtnFace
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentColor = False
+                ParentFont = False
+                Visible = False
+              end
+              object Label49: TLabel
+                Left = 356
+                Top = 6
+                Width = 74
+                Height = 13
+                Caption = 'Current Weight'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+                Visible = False
+              end
+              object Label54: TLabel
+                Left = 451
+                Top = 6
+                Width = 4
+                Height = 13
+                Caption = ':'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+                Visible = False
+              end
+              object Label65: TLabel
+                Left = 459
+                Top = 6
+                Width = 50
+                Height = 13
+                AutoSize = False
+                Caption = '---'
+                Color = clBtnFace
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentColor = False
+                ParentFont = False
+                Visible = False
+              end
+            end
+            object Panel101: TPanel
+              Left = 10
+              Top = 67
+              Width = 507
+              Height = 33
+              Align = alBottom
+              BevelOuter = bvNone
+              BorderWidth = 4
+              Color = 4012086
+              ParentBackground = False
+              TabOrder = 2
+              object btnLandingCraftDisembark: TSpeedButton
+                Tag = 2
+                Left = 387
+                Top = 8
+                Width = 120
+                Height = 25
+                Caption = 'Disembark'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentFont = False
+                ParentShowHint = False
+                ShowHint = True
+                OnClick = btnLandingCraftDisembarkClick
+              end
+              object btnLandingCraftDisembarkWith: TSpeedButton
+                Tag = 2
+                Left = 262
+                Top = 8
+                Width = 120
+                Height = 25
+                Caption = 'Disembark with'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentFont = False
+                ParentShowHint = False
+                ShowHint = True
+              end
+              object lblMoreCraft: TLabel
+                Left = 5
+                Top = 18
+                Width = 43
+                Height = 13
+                Caption = 'More >>'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = [fsItalic]
+                ParentFont = False
+                WordWrap = True
+                OnClick = lblMoreCraftClick
+              end
+            end
+            object lvLandingCraftCarried: TListView
+              Left = 10
+              Top = 65
+              Width = 507
+              Height = 2
+              Align = alClient
+              Color = clWhite
+              Columns = <
+                item
+                  Caption = 'No'
+                  Width = 0
+                end
+                item
+                  Caption = 'Name'
+                  Width = 270
+                end
+                item
+                  Alignment = taCenter
+                  Caption = 'Track ID'
+                  Width = 75
+                end
+                item
+                  Alignment = taCenter
+                  Caption = 'Weight'
+                  Width = 75
+                end
+                item
+                  Alignment = taCenter
+                  Caption = 'Status'
+                  Width = 80
+                end>
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              GridLines = True
+              HideSelection = False
+              ReadOnly = True
+              RowSelect = True
+              ParentFont = False
+              TabOrder = 3
+              ViewStyle = vsReport
+              OnSelectItem = lvLandingCraftCarriedSelectItem
+            end
+          end
+          object pnlPersonelPlatform: TPanel
+            Left = 0
+            Top = 440
+            Width = 527
+            Height = 110
+            Align = alTop
+            BevelOuter = bvNone
+            BorderWidth = 10
+            Color = 4012086
+            ParentBackground = False
+            TabOrder = 4
+            object Label24: TLabel
+              Left = 10
+              Top = 10
+              Width = 507
+              Height = 30
+              Align = alTop
+              AutoSize = False
+              Caption = 'Personel Carried :'
+              Color = 5590582
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWhite
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              ParentColor = False
+              ParentFont = False
+              Layout = tlCenter
+            end
+            object tvPersonelCarried: TTreeView
+              Left = 10
+              Top = 65
+              Width = 507
+              Height = 2
+              Align = alClient
+              Color = 4012086
+              DoubleBuffered = True
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clWhite
+              Font.Height = -11
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              Indent = 19
+              ParentDoubleBuffered = False
+              ParentFont = False
+              ParentShowHint = False
+              ReadOnly = True
+              ShowHint = False
+              TabOrder = 0
+              OnEdited = tvPersonelCarriedEdited
+              OnMouseDown = tvPersonelCarriedMouseDown
+            end
+            object Panel81: TPanel
+              Left = 10
+              Top = 40
+              Width = 507
+              Height = 25
+              Align = alTop
+              BevelOuter = bvNone
+              BorderWidth = 4
+              Color = 4012086
+              ParentBackground = False
+              TabOrder = 1
+              object Label55: TLabel
+                Left = 12
+                Top = 6
+                Width = 65
+                Height = 13
+                Caption = 'Max Capacity'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object Label58: TLabel
+                Left = 84
+                Top = 6
+                Width = 4
+                Height = 13
+                Caption = ':'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object lblMaxCapacityPersonel: TLabel
+                Left = 98
+                Top = 6
+                Width = 75
+                Height = 13
+                AutoSize = False
+                Caption = '---'
+                Color = clBtnFace
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentColor = False
+                ParentFont = False
+              end
+              object Label145: TLabel
+                Left = 183
+                Top = 6
+                Width = 67
+                Height = 13
+                Caption = 'Free Capacity'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object Label147: TLabel
+                Left = 260
+                Top = 6
+                Width = 4
+                Height = 13
+                Caption = ':'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object lblFreeCapacityPersonel: TLabel
+                Left = 274
+                Top = 6
+                Width = 50
+                Height = 13
+                AutoSize = False
+                Caption = '---'
+                Color = clBtnFace
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentColor = False
+                ParentFont = False
+              end
+              object Label160: TLabel
+                Left = 356
+                Top = 6
+                Width = 74
+                Height = 13
+                Caption = 'Current Weight'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object Label172: TLabel
+                Left = 451
+                Top = 6
+                Width = 4
+                Height = 13
+                Caption = ':'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentFont = False
+              end
+              object lblCurrentWeightPersonel: TLabel
+                Left = 459
+                Top = 6
+                Width = 50
+                Height = 13
+                AutoSize = False
+                Caption = '---'
+                Color = clBtnFace
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = []
+                ParentColor = False
+                ParentFont = False
+              end
+            end
+            object pnlPersonelBtn: TPanel
+              Left = 10
+              Top = 67
+              Width = 507
+              Height = 33
+              Align = alBottom
+              BevelOuter = bvNone
+              BorderWidth = 4
+              Color = 4012086
+              ParentBackground = False
+              TabOrder = 2
+              object btnPersonelDebarkasi: TSpeedButton
+                Tag = 2
+                Left = 387
+                Top = 8
+                Width = 120
+                Height = 25
+                Caption = 'Disembark'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentFont = False
+                ParentShowHint = False
+                ShowHint = True
+                OnClick = btnPersonelDebarkasiClick
+              end
+              object btnPersonelDebarkasiWith: TSpeedButton
+                Tag = 2
+                Left = 262
+                Top = 8
+                Width = 120
+                Height = 25
+                Caption = 'Disembark with'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWindowText
+                Font.Height = -12
+                Font.Name = 'Tahoma'
+                Font.Style = [fsBold]
+                ParentFont = False
+                ParentShowHint = False
+                ShowHint = True
+                OnClick = btnPersonelDebarkasiWithClick
+              end
+              object lblMorePersonel: TLabel
+                Left = 0
+                Top = 14
+                Width = 43
+                Height = 13
+                Caption = 'More >>'
+                Font.Charset = DEFAULT_CHARSET
+                Font.Color = clWhite
+                Font.Height = -11
+                Font.Name = 'Tahoma'
+                Font.Style = [fsItalic]
+                ParentFont = False
+                OnClick = lblMorePersonelClick
+              end
+            end
+            object lvPersonelCarried: TListView
+              Left = 10
+              Top = 65
+              Width = 507
+              Height = 2
+              Align = alClient
+              Color = clWhite
+              Columns = <
+                item
+                  Caption = 'No'
+                  Width = 0
+                end
+                item
+                  Caption = 'Name'
+                  Width = 270
+                end
+                item
+                  Alignment = taCenter
+                  Caption = 'Track ID'
+                  Width = 75
+                end
+                item
+                  Alignment = taCenter
+                  Caption = 'Weight'
+                  Width = 75
+                end
+                item
+                  Alignment = taCenter
+                  Caption = 'Status'
+                  Width = 80
+                end>
+              Font.Charset = DEFAULT_CHARSET
+              Font.Color = clBlack
+              Font.Height = -13
+              Font.Name = 'Tahoma'
+              Font.Style = []
+              GridLines = True
+              HideSelection = False
+              ReadOnly = True
+              RowSelect = True
+              ParentFont = False
+              TabOrder = 3
+              ViewStyle = vsReport
+              OnSelectItem = lvPersonelCarriedSelectItem
+            end
+          end
+          object pnlSparator1: TPanel
+            Left = 0
+            Top = 310
+            Width = 527
+            Height = 10
+            Align = alTop
+            BevelOuter = bvNone
+            BorderWidth = 4
+            Color = 3091499
+            ParentBackground = False
+            TabOrder = 5
+          end
+          object pnlSparator2: TPanel
+            Left = 0
+            Top = 430
+            Width = 527
+            Height = 10
+            Align = alTop
+            BevelOuter = bvNone
+            BorderWidth = 4
+            Color = 3091499
+            ParentBackground = False
+            TabOrder = 6
+          end
+          object pnlSparator3: TPanel
+            Left = 0
+            Top = 550
+            Width = 527
+            Height = 10
+            Align = alTop
+            BevelOuter = bvNone
+            BorderWidth = 4
+            Color = 3091499
+            ParentBackground = False
+            TabOrder = 7
+          end
+          object pnlSparator4: TPanel
+            Left = 0
+            Top = 670
+            Width = 527
+            Height = 10
+            Align = alTop
+            BevelOuter = bvNone
+            BorderWidth = 4
+            Color = 3091499
+            ParentBackground = False
+            TabOrder = 8
+          end
+        end
+      end
+      object pnlVerSparator2: TPanel
+        Left = 0
+        Top = 30
+        Width = 10
+        Height = 2984
+        Align = alLeft
+        Alignment = taLeftJustify
+        BevelOuter = bvNone
+        BorderWidth = 4
+        Color = 3091499
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWhite
+        Font.Height = -21
+        Font.Name = 'Arial'
+        Font.Style = []
+        ParentBackground = False
+        ParentFont = False
+        TabOrder = 4
       end
     end
   end

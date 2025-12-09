@@ -10944,6 +10944,9 @@ procedure TfrmTacticalDisplay.fmWeapon1btnLaunchAPGClick(Sender: TObject);
 begin
   if Assigned(Sender)then
   begin
+    if (Sender is TSpeedButton) and (TSpeedButton(Sender).Tag = 5) then
+      SetWeaponTargetObject(focusedTrack);
+
     fmWeapon1.btnActivePasiveTorpedoOnClick(Sender);
   end;
 end;
@@ -10953,7 +10956,7 @@ procedure TfrmTacticalDisplay.fmWeapon1btnlWireGuidedTorpedoTargetTrackClick
 begin
   if Assigned(Sender)then
   begin
-    if (Sender is TSpeedButton) and (TSpeedButton(Sender).Tag = 1) then
+    if (Sender is TSpeedButton) and (TSpeedButton(Sender).Tag = 5) then
       SetWeaponTargetObject(focusedTrack);
 
     fmWeapon1.btnWireGuidedTorpedoOnClick(Sender);
@@ -10981,6 +10984,9 @@ procedure TfrmTacticalDisplay.fmWeapon1btnStraightRunningTorpedosLaunchClick(
 begin
   if Assigned(Sender)then
   begin
+    if (Sender is TSpeedButton) and (TSpeedButton(Sender).Tag = 5) then
+      SetWeaponTargetObject(focusedTrack);
+
     fmWeapon1.btnStraightTorpedoOnClick(Sender);
   end;
 end;
@@ -11076,7 +11082,7 @@ procedure TfrmTacticalDisplay.fmWeapon1btnWakeHomingTargetTrackClick
 begin
   if Assigned(Sender)then
   begin
-    if (Sender is TSpeedButton) and (TSpeedButton(Sender).Tag = 1) then
+    if (Sender is TSpeedButton) and (TSpeedButton(Sender).Tag = 5) then
       SetWeaponTargetObject(focusedTrack);
 
     fmWeapon1.btnWakeHomingTorpedoOnClick(Sender);
