@@ -1306,391 +1306,6 @@ object frmTacticalDisplay: TfrmTacticalDisplay
       Align = alClient
       BevelOuter = bvNone
       TabOrder = 2
-      object pnlOwnShip: TPanel
-        Left = 0
-        Top = 26
-        Width = 339
-        Height = 2000
-        Color = 15131105
-        ParentBackground = False
-        TabOrder = 7
-        inline fmOwnShip1: TfmOwnShip
-          Left = 1
-          Top = 1
-          Width = 337
-          Height = 1998
-          Align = alClient
-          Color = 15131105
-          Font.Charset = DEFAULT_CHARSET
-          Font.Color = clWindowText
-          Font.Height = -13
-          Font.Name = 'Tahoma'
-          Font.Style = []
-          ParentBackground = False
-          ParentColor = False
-          ParentFont = False
-          TabOrder = 0
-          ExplicitLeft = 1
-          ExplicitTop = 1
-          ExplicitWidth = 337
-          ExplicitHeight = 1998
-          inherited ScrollBox4: TScrollBox
-            Width = 337
-            Height = 1998
-            ExplicitWidth = 337
-            ExplicitHeight = 1998
-            inherited lbOwnShipPosition1: TLabel
-              Left = 172
-              Top = 59
-              ExplicitLeft = 172
-              ExplicitTop = 59
-            end
-            inherited Label22: TLabel
-              Top = 101
-              ExplicitTop = 101
-            end
-            inherited lbOrderHeading: TLabel
-              Left = 172
-              Top = 101
-              ExplicitLeft = 172
-              ExplicitTop = 101
-            end
-            inherited lbActualHeading: TLabel
-              Left = 172
-              Top = 122
-              ExplicitLeft = 172
-              ExplicitTop = 122
-            end
-            inherited Label23: TLabel
-              Top = 122
-              ExplicitTop = 122
-            end
-            inherited lbActualCourse: TLabel
-              Left = 172
-              Top = 143
-              ExplicitLeft = 172
-              ExplicitTop = 143
-            end
-            inherited Label25: TLabel
-              Top = 143
-              ExplicitTop = 143
-            end
-            inherited Label26: TLabel
-              Left = 218
-              Top = 143
-              ExplicitLeft = 218
-              ExplicitTop = 143
-            end
-            inherited Label27: TLabel
-              Left = 17
-              Top = 162
-              ExplicitLeft = 17
-              ExplicitTop = 162
-            end
-            inherited lbOwnShipOrderGround: TLabel
-              Left = 172
-              Top = 164
-              ExplicitLeft = 172
-              ExplicitTop = 164
-            end
-            inherited Label28: TLabel
-              Top = 164
-              ExplicitTop = 164
-            end
-            inherited lbOrderedAltitude: TLabel
-              Left = 172
-              Top = 206
-              ExplicitLeft = 172
-              ExplicitTop = 206
-            end
-            inherited lbOwnShipActualground: TLabel
-              Left = 172
-              Top = 185
-              ExplicitLeft = 172
-              ExplicitTop = 185
-            end
-            inherited Label29: TLabel
-              Top = 248
-              ExplicitTop = 248
-            end
-            inherited lbGuidance: TLabel
-              Left = 172
-              Top = 248
-              ExplicitLeft = 172
-              ExplicitTop = 248
-            end
-            inherited lbFuel: TLabel
-              Left = 172
-              Top = 269
-              ExplicitLeft = 172
-              ExplicitTop = 269
-            end
-            inherited Label46: TLabel
-              Top = 269
-              ExplicitTop = 269
-            end
-            inherited lbOwnShipPosition2: TLabel
-              Left = 172
-              Top = 80
-              ExplicitLeft = 172
-              ExplicitTop = 80
-            end
-            inherited Label30: TLabel
-              Left = 218
-              Top = 101
-              ExplicitLeft = 218
-              ExplicitTop = 101
-            end
-            inherited Label31: TLabel
-              Left = 218
-              Top = 122
-              ExplicitLeft = 218
-              ExplicitTop = 122
-            end
-            inherited Label32: TLabel
-              Left = 218
-              Top = 164
-              ExplicitLeft = 218
-              ExplicitTop = 164
-            end
-            inherited Label33: TLabel
-              Left = 218
-              Top = 185
-              ExplicitLeft = 218
-              ExplicitTop = 185
-            end
-            inherited lbActualAltitude: TLabel
-              Left = 172
-              Top = 227
-              ExplicitLeft = 172
-              ExplicitTop = 227
-            end
-            inherited Label34: TLabel
-              Left = 218
-              Top = 206
-              Width = 22
-              Caption = 'feet'
-              ExplicitLeft = 218
-              ExplicitTop = 206
-              ExplicitWidth = 22
-            end
-            inherited Label37: TLabel
-              Left = 218
-              Top = 227
-              Width = 22
-              Caption = 'feet'
-              ExplicitLeft = 218
-              ExplicitTop = 227
-              ExplicitWidth = 22
-            end
-            inherited lbName: TLabel
-              Left = 172
-              Top = 17
-              ExplicitLeft = 172
-              ExplicitTop = 17
-            end
-            inherited lbClass: TLabel
-              Left = 172
-              Top = 38
-              ExplicitLeft = 172
-              ExplicitTop = 38
-            end
-            inherited lbl47: TLabel
-              Top = 290
-              ExplicitTop = 290
-            end
-            inherited lblStatus: TLabel
-              Left = 172
-              Top = 290
-              ExplicitLeft = 172
-              ExplicitTop = 290
-            end
-            inherited StaticText22: TStaticText [30]
-              Top = 204
-              ExplicitTop = 204
-            end
-            inherited StaticText21: TStaticText
-              Top = 183
-              ExplicitTop = 183
-            end
-            inherited StaticText16: TStaticText [32]
-              Top = 57
-              ExplicitTop = 57
-            end
-            inherited StaticText23: TStaticText
-              Top = 225
-              ExplicitTop = 225
-            end
-            inherited StaticText58: TStaticText
-              Left = 157
-              Top = 57
-              ExplicitLeft = 157
-              ExplicitTop = 57
-            end
-            inherited StaticText64: TStaticText
-              Left = 157
-              Top = 78
-              Visible = False
-              ExplicitLeft = 157
-              ExplicitTop = 78
-            end
-            inherited StaticText65: TStaticText
-              Left = 157
-              Top = 99
-              ExplicitLeft = 157
-              ExplicitTop = 99
-            end
-            inherited StaticText66: TStaticText
-              Left = 157
-              Top = 120
-              ExplicitLeft = 157
-              ExplicitTop = 120
-            end
-            inherited StaticText68: TStaticText
-              Left = 157
-              Top = 141
-              ExplicitLeft = 157
-              ExplicitTop = 141
-            end
-            inherited StaticText69: TStaticText
-              Left = 157
-              Top = 183
-              ExplicitLeft = 157
-              ExplicitTop = 183
-            end
-            inherited StaticText72: TStaticText
-              Left = 157
-              Top = 162
-              ExplicitLeft = 157
-              ExplicitTop = 162
-            end
-            inherited StaticText73: TStaticText
-              Left = 157
-              Top = 225
-              ExplicitLeft = 157
-              ExplicitTop = 225
-            end
-            inherited StaticText74: TStaticText
-              Left = 157
-              Top = 246
-              ExplicitLeft = 157
-              ExplicitTop = 246
-            end
-            inherited StaticText70: TStaticText
-              Left = 157
-              Top = 204
-              ExplicitLeft = 157
-              ExplicitTop = 204
-            end
-            inherited btnLaunch: TButton
-              Top = 327
-              ParentFont = False
-              Visible = False
-              OnClick = fmOwnShip1btnLaunchClick
-              ExplicitTop = 327
-            end
-            inherited lb1: TStaticText
-              Top = 15
-              ExplicitTop = 15
-            end
-            inherited lb2: TStaticText
-              Left = 157
-              Top = 15
-              ExplicitLeft = 157
-              ExplicitTop = 15
-            end
-            inherited lb4: TStaticText
-              Top = 36
-              ExplicitTop = 36
-            end
-            inherited lb5: TStaticText
-              Left = 157
-              Top = 36
-              ExplicitLeft = 157
-              ExplicitTop = 36
-            end
-            inherited btnLandPlatform: TButton
-              Top = 327
-              OnClick = fmOwnShip1btnLandPlatformClick
-              ExplicitTop = 327
-            end
-            inherited btnRangeLanding: TButton
-              Top = 357
-              OnClick = fmOwnShip1btnRangeLandingClick
-              ExplicitTop = 357
-            end
-            inherited btnReturntobase: TButton
-              Top = 327
-              Visible = False
-              ExplicitTop = 327
-            end
-            inherited txt1: TStaticText
-              Left = 157
-              Top = 267
-              ExplicitLeft = 157
-              ExplicitTop = 267
-            end
-            inherited pnlInfoDepth: TPanel
-              Top = 204
-              ExplicitTop = 204
-              inherited StaticText1: TStaticText
-                Top = 21
-                ExplicitTop = 21
-              end
-            end
-          end
-        end
-        object pnlInfoDepth: TPanel
-          Left = 7
-          Top = 350
-          Width = 130
-          Height = 40
-          BevelOuter = bvNone
-          ParentBackground = False
-          ParentColor = True
-          TabOrder = 1
-          Visible = False
-          object StaticText23: TStaticText
-            Left = 10
-            Top = 24
-            Width = 66
-            Height = 17
-            Caption = 'Actual Depth'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -11
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-            TabOrder = 0
-            Transparent = False
-          end
-          object StaticText22: TStaticText
-            Left = 10
-            Top = 1
-            Width = 76
-            Height = 17
-            Caption = 'Ordered Depth'
-            Font.Charset = DEFAULT_CHARSET
-            Font.Color = clWhite
-            Font.Height = -11
-            Font.Name = 'Tahoma'
-            Font.Style = []
-            ParentFont = False
-            TabOrder = 1
-            Transparent = False
-          end
-        end
-        object txt1: TStaticText
-          Left = 158
-          Top = 289
-          Width = 9
-          Height = 20
-          Caption = ':'
-          TabOrder = 2
-          Transparent = False
-        end
-      end
       object pnlTabPlatformGuidance: TPanel
         Left = 45
         Top = 2
@@ -3639,81 +3254,261 @@ object frmTacticalDisplay: TfrmTacticalDisplay
                   end
                 end
               end
-              inherited grbGunEngagementCIWS: TGroupBox [5]
+              inherited grbAirDroppedVECTAC: TGroupBox [5]
                 Width = 337
                 Height = 1973
                 ExplicitWidth = 337
                 ExplicitHeight = 1973
-              end
-              inherited grbActivePasiveTorpedo: TGroupBox [6]
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-                inherited ScrollBox3: TScrollBox
+                inherited ScrollBox13: TScrollBox
                   Width = 333
                   Height = 1953
                   ExplicitWidth = 333
                   ExplicitHeight = 1953
-                  inherited btnAPGBilndHide: TSpeedButton
-                    OnClick = fmWeapon1btnLaunchAPGClick
+                  inherited Label398: TLabel
+                    Top = 351
+                    ExplicitTop = 351
                   end
-                  inherited btnAPGRangeHide: TSpeedButton
-                    OnClick = fmWeapon1btnLaunchAPGClick
+                  inherited lbVectacWeaponExpiry: TLabel
+                    Top = 351
+                    ExplicitTop = 351
                   end
-                  inherited btnAPGBilndShow: TSpeedButton
-                    OnClick = fmWeapon1btnLaunchAPGClick
+                  inherited btnVectacWeaponCarrierDrop: TButton
+                    Left = 253
+                    ExplicitLeft = 253
                   end
-                  inherited btnAPGRangeShow: TSpeedButton
-                    OnClick = fmWeapon1btnLaunchAPGClick
+                  inherited btnVectacWeaponCarrierGround: TButton
+                    Left = 253
+                    ExplicitLeft = 253
                   end
-                  inherited btnTargetTrackAPG: TSpeedButton
-                    OnClick = fmWeapon1btnLaunchAPGClick
+                  inherited editVectacTargetTrack: TEdit
+                    Enabled = True
+                    ReadOnly = True
                   end
-                  inherited bvl4: TBevel
-                    Top = 261
-                    Height = 3
-                    ExplicitTop = 261
-                    ExplicitHeight = 3
+                  inherited editVectacWeaponCarrierDrop: TEdit
+                    Enabled = True
+                    ReadOnly = True
                   end
-                  inherited lbl3: TLabel
-                    Left = 117
-                    ExplicitLeft = 117
+                  inherited editVectacWeaponCarrierGround: TEdit
+                    Enabled = True
+                    ReadOnly = True
                   end
-                  inherited lblAPGQuantity: TLabel
-                    Left = 180
-                    ExplicitLeft = 180
+                  inherited editVectacWeaponCarrierName: TEdit
+                    Enabled = True
+                    ReadOnly = True
                   end
-                  inherited btn4: TButton
-                    OnClick = fmWeapon1btn4Click
-                  end
-                  inherited btn5: TButton
-                    OnClick = fmWeapon1btn4Click
-                  end
-                  inherited btn6: TButton
-                    OnClick = fmWeapon1btn4Click
-                  end
-                  inherited btn7: TButton
-                    OnClick = fmWeapon1btn4Click
-                  end
-                  inherited btnAPGLaunch: TButton
-                    OnClick = fmWeapon1btnLaunchAPGClick
-                  end
-                  inherited EdtAPGSafetyCeiling: TEdit
-                    OnKeyPress = fmWeapon1EdtAPGSearchRadiusKeyPress
-                  end
-                  inherited EdtAPGSearchDepth: TEdit
-                    OnKeyPress = fmWeapon1EdtAPGSearchRadiusKeyPress
-                  end
-                  inherited EdtAPGSearchRadius: TEdit
-                    OnKeyPress = fmWeapon1EdtAPGSearchRadiusKeyPress
-                  end
-                  inherited EdtAPGSeekerRange: TEdit
-                    OnKeyPress = fmWeapon1EdtAPGSearchRadiusKeyPress
+                  inherited editVectacWeaponName: TEdit
+                    Top = 321
+                    Enabled = True
+                    ReadOnly = True
+                    Text = ''
+                    ExplicitTop = 321
                   end
                 end
               end
-              inherited grbAirDroppedTorpedo: TGroupBox [7]
+              inherited grbTacticalAcousticTorpedos: TGroupBox
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+                inherited Bevel92: TBevel
+                  Top = 212
+                  ExplicitTop = 212
+                end
+                inherited btnTacticalAcousticTorpedosLaunch: TButton
+                  OnClick = fmWeapon1btnAcousticTorpedoLaunchClick
+                end
+                inherited editTacticalAcousticTorpedosSalvo: TEdit
+                  Left = 128
+                  ExplicitLeft = 128
+                end
+              end
+              inherited grbBombDepthCharge: TGroupBox
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+                inherited btnBombTarget: TSpeedButton
+                  OnClick = fmWeapon1btnBombTargetClick
+                end
+                inherited lbl80: TLabel
+                  Left = 43
+                  ExplicitLeft = 43
+                end
+                inherited btnBombDisplayRangeHide: TSpeedButton
+                  Left = 24
+                  ExplicitLeft = 24
+                end
+                inherited btnBombDisplayRangeShow: TSpeedButton
+                  OnClick = fmWeapon1btnBombDisplayRangeShowClick
+                end
+                inherited btnPosition: TSpeedButton
+                  Left = 286
+                  Top = 139
+                  Height = 29
+                  OnClick = fmWeapon1btnPositionClick
+                  ExplicitLeft = 286
+                  ExplicitTop = 139
+                  ExplicitHeight = 29
+                end
+                inherited Label70: TLabel
+                  Left = 25
+                  Top = 118
+                  ExplicitLeft = 25
+                  ExplicitTop = 118
+                end
+                inherited Label71: TLabel
+                  Left = 170
+                  Top = 118
+                  ExplicitLeft = 170
+                  ExplicitTop = 118
+                end
+                inherited btnBombDrop: TButton
+                  OnClick = fmWeapon1btnBombTargetClick
+                end
+                inherited EdtBombControlSalvo: TEdit
+                  Left = 101
+                  Width = 60
+                  ExplicitLeft = 101
+                  ExplicitWidth = 60
+                end
+                inherited EdtBombTargetTrack: TEdit
+                  Left = 116
+                  Width = 60
+                  ExplicitLeft = 116
+                  ExplicitWidth = 60
+                end
+                inherited chkBombDropWhitoutTarget: TCheckBox
+                  OnClick = fmWeapon1chkBombDropWhitoutTargetClick
+                end
+                inherited edtTargetPosition: TEdit
+                  Left = 101
+                  Width = 179
+                  ExplicitLeft = 101
+                  ExplicitWidth = 179
+                end
+                inherited edtBombDepth: TEdit
+                  Left = 101
+                  ExplicitLeft = 101
+                end
+              end
+              inherited grbGunEngagementChaffMode: TGroupBox [8]
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+                inherited ScrollBox9: TScrollBox
+                  Width = 333
+                  Height = 1953
+                  ExplicitWidth = 333
+                  ExplicitHeight = 1953
+                  inherited Label472: TLabel
+                    Top = 259
+                    ExplicitTop = 259
+                  end
+                  inherited sbGunEngagementChaffContolAuto: TSpeedButton
+                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
+                  end
+                  inherited sbGunEngagementChaffContolManual: TSpeedButton
+                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
+                  end
+                  inherited sbChaffDisplayShow: TSpeedButton
+                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
+                  end
+                  inherited sbChaffDisplayHide: TSpeedButton
+                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
+                  end
+                  inherited sbChaffBlindZoneShow: TSpeedButton
+                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
+                  end
+                  inherited sbChaffBlindZoneHide: TSpeedButton
+                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
+                  end
+                  inherited sbGunEngagementChaffContolChaff: TSpeedButton
+                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
+                  end
+                  inherited btnChaffFire: TButton
+                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
+                  end
+                  inherited btnChaffCeaseFire: TButton
+                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
+                  end
+                end
+              end
+              inherited grbGunEngagementCIWS: TGroupBox [9]
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+              end
+              inherited grbMines: TGroupBox [10]
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+                inherited Label272: TLabel
+                  Left = 8
+                  ExplicitLeft = 8
+                end
+                inherited Label291: TLabel
+                  Left = 8
+                  ExplicitLeft = 8
+                end
+                inherited lbl84: TLabel
+                  Left = 180
+                  Top = 175
+                  Visible = False
+                  ExplicitLeft = 180
+                  ExplicitTop = 175
+                end
+                inherited lbl101: TLabel
+                  Left = 180
+                  Top = 105
+                  Visible = True
+                  ExplicitLeft = 180
+                  ExplicitTop = 105
+                end
+                inherited EdtMinesDepth: TEdit
+                  Width = 52
+                  ExplicitWidth = 52
+                end
+                inherited btnMinesDeploy: TButton
+                  OnClick = fmWeapon1btnMinesDeployClick
+                end
+                inherited edtCount: TEdit
+                  OnKeyPress = nil
+                end
+              end
+              inherited grbStraightRunningTorpedos: TGroupBox
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+                inherited ScrollBox4: TScrollBox
+                  Width = 333
+                  Height = 1953
+                  ExplicitWidth = 333
+                  ExplicitHeight = 1953
+                  inherited btnSRBlindHide: TSpeedButton
+                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
+                  end
+                  inherited btnSRBlindShow: TSpeedButton
+                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
+                  end
+                  inherited btnSRRangeHide: TSpeedButton
+                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
+                  end
+                  inherited btnSRRangeShow: TSpeedButton
+                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
+                  end
+                  inherited btnSRTargetTrack: TSpeedButton
+                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
+                  end
+                  inherited btnSRLaunch: TButton
+                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
+                  end
+                end
+              end
+              inherited grbAirDroppedTorpedo: TGroupBox [12]
                 Width = 337
                 Height = 1973
                 ExplicitWidth = 337
@@ -3789,261 +3584,7 @@ object frmTacticalDisplay: TfrmTacticalDisplay
                   end
                 end
               end
-              inherited grbGunEngagementAutomaticManualMode: TGroupBox [8]
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-              end
-              inherited grbAirDroppedVECTAC: TGroupBox [9]
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-                inherited ScrollBox13: TScrollBox
-                  Width = 333
-                  Height = 1953
-                  ExplicitWidth = 333
-                  ExplicitHeight = 1953
-                  inherited Label398: TLabel
-                    Top = 351
-                    ExplicitTop = 351
-                  end
-                  inherited lbVectacWeaponExpiry: TLabel
-                    Top = 351
-                    ExplicitTop = 351
-                  end
-                  inherited btnVectacWeaponCarrierDrop: TButton
-                    Left = 253
-                    ExplicitLeft = 253
-                  end
-                  inherited btnVectacWeaponCarrierGround: TButton
-                    Left = 253
-                    ExplicitLeft = 253
-                  end
-                  inherited editVectacTargetTrack: TEdit
-                    Enabled = True
-                    ReadOnly = True
-                  end
-                  inherited editVectacWeaponCarrierDrop: TEdit
-                    Enabled = True
-                    ReadOnly = True
-                  end
-                  inherited editVectacWeaponCarrierGround: TEdit
-                    Enabled = True
-                    ReadOnly = True
-                  end
-                  inherited editVectacWeaponCarrierName: TEdit
-                    Enabled = True
-                    ReadOnly = True
-                  end
-                  inherited editVectacWeaponName: TEdit
-                    Top = 321
-                    Enabled = True
-                    ReadOnly = True
-                    Text = ''
-                    ExplicitTop = 321
-                  end
-                end
-              end
-              inherited grbBombDepthCharge: TGroupBox
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-                inherited btnBombTarget: TSpeedButton
-                  OnClick = fmWeapon1btnBombTargetClick
-                end
-                inherited lbl80: TLabel
-                  Left = 43
-                  ExplicitLeft = 43
-                end
-                inherited btnBombDisplayRangeHide: TSpeedButton
-                  Left = 24
-                  ExplicitLeft = 24
-                end
-                inherited btnBombDisplayRangeShow: TSpeedButton
-                  OnClick = fmWeapon1btnBombDisplayRangeShowClick
-                end
-                inherited btnPosition: TSpeedButton
-                  Left = 286
-                  Top = 139
-                  Height = 29
-                  OnClick = fmWeapon1btnPositionClick
-                  ExplicitLeft = 286
-                  ExplicitTop = 139
-                  ExplicitHeight = 29
-                end
-                inherited Label70: TLabel
-                  Left = 25
-                  Top = 118
-                  ExplicitLeft = 25
-                  ExplicitTop = 118
-                end
-                inherited Label71: TLabel
-                  Left = 170
-                  Top = 118
-                  ExplicitLeft = 170
-                  ExplicitTop = 118
-                end
-                inherited btnBombDrop: TButton
-                  OnClick = fmWeapon1btnBombTargetClick
-                end
-                inherited EdtBombControlSalvo: TEdit
-                  Left = 101
-                  Width = 60
-                  ExplicitLeft = 101
-                  ExplicitWidth = 60
-                end
-                inherited EdtBombTargetTrack: TEdit
-                  Left = 116
-                  Width = 60
-                  ExplicitLeft = 116
-                  ExplicitWidth = 60
-                end
-                inherited chkBombDropWhitoutTarget: TCheckBox
-                  OnClick = fmWeapon1chkBombDropWhitoutTargetClick
-                end
-                inherited edtTargetPosition: TEdit
-                  Left = 101
-                  Width = 179
-                  ExplicitLeft = 101
-                  ExplicitWidth = 179
-                end
-                inherited edtBombDepth: TEdit
-                  Left = 101
-                  ExplicitLeft = 101
-                end
-              end
-              inherited grbGunEngagementChaffMode: TGroupBox [11]
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-                inherited ScrollBox9: TScrollBox
-                  Width = 333
-                  Height = 1953
-                  ExplicitWidth = 333
-                  ExplicitHeight = 1953
-                  inherited Label472: TLabel
-                    Top = 259
-                    ExplicitTop = 259
-                  end
-                  inherited sbGunEngagementChaffContolAuto: TSpeedButton
-                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
-                  end
-                  inherited sbGunEngagementChaffContolManual: TSpeedButton
-                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
-                  end
-                  inherited sbChaffDisplayShow: TSpeedButton
-                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
-                  end
-                  inherited sbChaffDisplayHide: TSpeedButton
-                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
-                  end
-                  inherited sbChaffBlindZoneShow: TSpeedButton
-                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
-                  end
-                  inherited sbChaffBlindZoneHide: TSpeedButton
-                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
-                  end
-                  inherited sbGunEngagementChaffContolChaff: TSpeedButton
-                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
-                  end
-                  inherited btnChaffFire: TButton
-                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
-                  end
-                  inherited btnChaffCeaseFire: TButton
-                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
-                  end
-                end
-              end
-              inherited grbMines: TGroupBox [12]
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-                inherited Label272: TLabel
-                  Left = 8
-                  ExplicitLeft = 8
-                end
-                inherited Label291: TLabel
-                  Left = 8
-                  ExplicitLeft = 8
-                end
-                inherited lbl84: TLabel
-                  Left = 180
-                  Top = 175
-                  Visible = False
-                  ExplicitLeft = 180
-                  ExplicitTop = 175
-                end
-                inherited lbl101: TLabel
-                  Left = 180
-                  Top = 105
-                  Visible = True
-                  ExplicitLeft = 180
-                  ExplicitTop = 105
-                end
-                inherited EdtMinesDepth: TEdit
-                  Width = 52
-                  ExplicitWidth = 52
-                end
-                inherited btnMinesDeploy: TButton
-                  OnClick = fmWeapon1btnMinesDeployClick
-                end
-                inherited edtCount: TEdit
-                  OnKeyPress = nil
-                end
-              end
-              inherited grbStraightRunningTorpedos: TGroupBox [13]
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-                inherited ScrollBox4: TScrollBox
-                  Width = 333
-                  Height = 1953
-                  ExplicitWidth = 333
-                  ExplicitHeight = 1953
-                  inherited btnSRBlindHide: TSpeedButton
-                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
-                  end
-                  inherited btnSRBlindShow: TSpeedButton
-                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
-                  end
-                  inherited btnSRRangeHide: TSpeedButton
-                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
-                  end
-                  inherited btnSRRangeShow: TSpeedButton
-                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
-                  end
-                  inherited btnSRTargetTrack: TSpeedButton
-                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
-                  end
-                  inherited btnSRLaunch: TButton
-                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
-                  end
-                end
-              end
-              inherited grbTacticalAcousticTorpedos: TGroupBox [14]
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-                inherited Bevel92: TBevel
-                  Top = 212
-                  ExplicitTop = 212
-                end
-                inherited btnTacticalAcousticTorpedosLaunch: TButton
-                  OnClick = fmWeapon1btnAcousticTorpedoLaunchClick
-                end
-                inherited editTacticalAcousticTorpedosSalvo: TEdit
-                  Left = 128
-                  ExplicitLeft = 128
-                end
-              end
-              inherited grbWakeHomingTorpedos: TGroupBox [15]
+              inherited grbWakeHomingTorpedos: TGroupBox [13]
                 Width = 337
                 Height = 1973
                 ExplicitWidth = 337
@@ -4083,7 +3624,7 @@ object frmTacticalDisplay: TfrmTacticalDisplay
                   end
                 end
               end
-              inherited grbWireGuidedTorpedo: TGroupBox [16]
+              inherited grbWireGuidedTorpedo: TGroupBox [14]
                 Width = 337
                 Height = 1973
                 ExplicitWidth = 337
@@ -4139,6 +3680,80 @@ object frmTacticalDisplay: TfrmTacticalDisplay
                     Text = '---'
                     ExplicitTop = 83
                     ExplicitWidth = 60
+                  end
+                end
+              end
+              inherited grbGunEngagementAutomaticManualMode: TGroupBox [15]
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+              end
+              inherited grbActivePasiveTorpedo: TGroupBox [16]
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+                inherited ScrollBox3: TScrollBox
+                  Width = 333
+                  Height = 1953
+                  ExplicitWidth = 333
+                  ExplicitHeight = 1953
+                  inherited btnAPGBilndHide: TSpeedButton
+                    OnClick = fmWeapon1btnLaunchAPGClick
+                  end
+                  inherited btnAPGRangeHide: TSpeedButton
+                    OnClick = fmWeapon1btnLaunchAPGClick
+                  end
+                  inherited btnAPGBilndShow: TSpeedButton
+                    OnClick = fmWeapon1btnLaunchAPGClick
+                  end
+                  inherited btnAPGRangeShow: TSpeedButton
+                    OnClick = fmWeapon1btnLaunchAPGClick
+                  end
+                  inherited btnTargetTrackAPG: TSpeedButton
+                    OnClick = fmWeapon1btnLaunchAPGClick
+                  end
+                  inherited bvl4: TBevel
+                    Top = 261
+                    Height = 3
+                    ExplicitTop = 261
+                    ExplicitHeight = 3
+                  end
+                  inherited lbl3: TLabel
+                    Left = 117
+                    ExplicitLeft = 117
+                  end
+                  inherited lblAPGQuantity: TLabel
+                    Left = 180
+                    ExplicitLeft = 180
+                  end
+                  inherited btn4: TButton
+                    OnClick = fmWeapon1btn4Click
+                  end
+                  inherited btn5: TButton
+                    OnClick = fmWeapon1btn4Click
+                  end
+                  inherited btn6: TButton
+                    OnClick = fmWeapon1btn4Click
+                  end
+                  inherited btn7: TButton
+                    OnClick = fmWeapon1btn4Click
+                  end
+                  inherited btnAPGLaunch: TButton
+                    OnClick = fmWeapon1btnLaunchAPGClick
+                  end
+                  inherited EdtAPGSafetyCeiling: TEdit
+                    OnKeyPress = fmWeapon1EdtAPGSearchRadiusKeyPress
+                  end
+                  inherited EdtAPGSearchDepth: TEdit
+                    OnKeyPress = fmWeapon1EdtAPGSearchRadiusKeyPress
+                  end
+                  inherited EdtAPGSearchRadius: TEdit
+                    OnKeyPress = fmWeapon1EdtAPGSearchRadiusKeyPress
+                  end
+                  inherited EdtAPGSeekerRange: TEdit
+                    OnKeyPress = fmWeapon1EdtAPGSearchRadiusKeyPress
                   end
                 end
               end
@@ -4203,6 +3818,391 @@ object frmTacticalDisplay: TfrmTacticalDisplay
             Left = 272
             Top = 520
           end
+        end
+      end
+      object pnlOwnShip: TPanel
+        Left = 0
+        Top = 26
+        Width = 339
+        Height = 2000
+        Color = 15131105
+        ParentBackground = False
+        TabOrder = 7
+        inline fmOwnShip1: TfmOwnShip
+          Left = 1
+          Top = 1
+          Width = 337
+          Height = 1998
+          Align = alClient
+          Color = 15131105
+          Font.Charset = DEFAULT_CHARSET
+          Font.Color = clWindowText
+          Font.Height = -13
+          Font.Name = 'Tahoma'
+          Font.Style = []
+          ParentBackground = False
+          ParentColor = False
+          ParentFont = False
+          TabOrder = 0
+          ExplicitLeft = 1
+          ExplicitTop = 1
+          ExplicitWidth = 337
+          ExplicitHeight = 1998
+          inherited ScrollBox4: TScrollBox
+            Width = 337
+            Height = 1998
+            ExplicitWidth = 337
+            ExplicitHeight = 1998
+            inherited lbOwnShipPosition1: TLabel
+              Left = 172
+              Top = 59
+              ExplicitLeft = 172
+              ExplicitTop = 59
+            end
+            inherited Label22: TLabel
+              Top = 101
+              ExplicitTop = 101
+            end
+            inherited lbOrderHeading: TLabel
+              Left = 172
+              Top = 101
+              ExplicitLeft = 172
+              ExplicitTop = 101
+            end
+            inherited lbActualHeading: TLabel
+              Left = 172
+              Top = 122
+              ExplicitLeft = 172
+              ExplicitTop = 122
+            end
+            inherited Label23: TLabel
+              Top = 122
+              ExplicitTop = 122
+            end
+            inherited lbActualCourse: TLabel
+              Left = 172
+              Top = 143
+              ExplicitLeft = 172
+              ExplicitTop = 143
+            end
+            inherited Label25: TLabel
+              Top = 143
+              ExplicitTop = 143
+            end
+            inherited Label26: TLabel
+              Left = 218
+              Top = 143
+              ExplicitLeft = 218
+              ExplicitTop = 143
+            end
+            inherited Label27: TLabel
+              Left = 17
+              Top = 162
+              ExplicitLeft = 17
+              ExplicitTop = 162
+            end
+            inherited lbOwnShipOrderGround: TLabel
+              Left = 172
+              Top = 164
+              ExplicitLeft = 172
+              ExplicitTop = 164
+            end
+            inherited Label28: TLabel
+              Top = 164
+              ExplicitTop = 164
+            end
+            inherited lbOrderedAltitude: TLabel
+              Left = 172
+              Top = 206
+              ExplicitLeft = 172
+              ExplicitTop = 206
+            end
+            inherited lbOwnShipActualground: TLabel
+              Left = 172
+              Top = 185
+              ExplicitLeft = 172
+              ExplicitTop = 185
+            end
+            inherited Label29: TLabel
+              Top = 248
+              ExplicitTop = 248
+            end
+            inherited lbGuidance: TLabel
+              Left = 172
+              Top = 248
+              ExplicitLeft = 172
+              ExplicitTop = 248
+            end
+            inherited lbFuel: TLabel
+              Left = 172
+              Top = 269
+              ExplicitLeft = 172
+              ExplicitTop = 269
+            end
+            inherited Label46: TLabel
+              Top = 269
+              ExplicitTop = 269
+            end
+            inherited lbOwnShipPosition2: TLabel
+              Left = 172
+              Top = 80
+              ExplicitLeft = 172
+              ExplicitTop = 80
+            end
+            inherited Label30: TLabel
+              Left = 218
+              Top = 101
+              ExplicitLeft = 218
+              ExplicitTop = 101
+            end
+            inherited Label31: TLabel
+              Left = 218
+              Top = 122
+              ExplicitLeft = 218
+              ExplicitTop = 122
+            end
+            inherited Label32: TLabel
+              Left = 218
+              Top = 164
+              ExplicitLeft = 218
+              ExplicitTop = 164
+            end
+            inherited Label33: TLabel
+              Left = 218
+              Top = 185
+              ExplicitLeft = 218
+              ExplicitTop = 185
+            end
+            inherited lbActualAltitude: TLabel
+              Left = 172
+              Top = 227
+              ExplicitLeft = 172
+              ExplicitTop = 227
+            end
+            inherited Label34: TLabel
+              Left = 218
+              Top = 206
+              Width = 22
+              Caption = 'feet'
+              ExplicitLeft = 218
+              ExplicitTop = 206
+              ExplicitWidth = 22
+            end
+            inherited Label37: TLabel
+              Left = 218
+              Top = 227
+              Width = 22
+              Caption = 'feet'
+              ExplicitLeft = 218
+              ExplicitTop = 227
+              ExplicitWidth = 22
+            end
+            inherited lbName: TLabel
+              Left = 172
+              Top = 17
+              ExplicitLeft = 172
+              ExplicitTop = 17
+            end
+            inherited lbClass: TLabel
+              Left = 172
+              Top = 38
+              ExplicitLeft = 172
+              ExplicitTop = 38
+            end
+            inherited lbl47: TLabel
+              Top = 290
+              ExplicitTop = 290
+            end
+            inherited lblStatus: TLabel
+              Left = 172
+              Top = 290
+              ExplicitLeft = 172
+              ExplicitTop = 290
+            end
+            inherited StaticText22: TStaticText [30]
+              Top = 204
+              ExplicitTop = 204
+            end
+            inherited StaticText21: TStaticText
+              Top = 183
+              ExplicitTop = 183
+            end
+            inherited StaticText16: TStaticText [32]
+              Top = 57
+              ExplicitTop = 57
+            end
+            inherited StaticText23: TStaticText
+              Top = 225
+              ExplicitTop = 225
+            end
+            inherited StaticText58: TStaticText
+              Left = 157
+              Top = 57
+              ExplicitLeft = 157
+              ExplicitTop = 57
+            end
+            inherited StaticText64: TStaticText
+              Left = 157
+              Top = 78
+              Visible = False
+              ExplicitLeft = 157
+              ExplicitTop = 78
+            end
+            inherited StaticText65: TStaticText
+              Left = 157
+              Top = 99
+              ExplicitLeft = 157
+              ExplicitTop = 99
+            end
+            inherited StaticText66: TStaticText
+              Left = 157
+              Top = 120
+              ExplicitLeft = 157
+              ExplicitTop = 120
+            end
+            inherited StaticText68: TStaticText
+              Left = 157
+              Top = 141
+              ExplicitLeft = 157
+              ExplicitTop = 141
+            end
+            inherited StaticText69: TStaticText
+              Left = 157
+              Top = 183
+              ExplicitLeft = 157
+              ExplicitTop = 183
+            end
+            inherited StaticText72: TStaticText
+              Left = 157
+              Top = 162
+              ExplicitLeft = 157
+              ExplicitTop = 162
+            end
+            inherited StaticText73: TStaticText
+              Left = 157
+              Top = 225
+              ExplicitLeft = 157
+              ExplicitTop = 225
+            end
+            inherited StaticText74: TStaticText
+              Left = 157
+              Top = 246
+              ExplicitLeft = 157
+              ExplicitTop = 246
+            end
+            inherited StaticText70: TStaticText
+              Left = 157
+              Top = 204
+              ExplicitLeft = 157
+              ExplicitTop = 204
+            end
+            inherited btnLaunch: TButton
+              Top = 327
+              ParentFont = False
+              Visible = False
+              OnClick = fmOwnShip1btnLaunchClick
+              ExplicitTop = 327
+            end
+            inherited lb1: TStaticText
+              Top = 15
+              ExplicitTop = 15
+            end
+            inherited lb2: TStaticText
+              Left = 157
+              Top = 15
+              ExplicitLeft = 157
+              ExplicitTop = 15
+            end
+            inherited lb4: TStaticText
+              Top = 36
+              ExplicitTop = 36
+            end
+            inherited lb5: TStaticText
+              Left = 157
+              Top = 36
+              ExplicitLeft = 157
+              ExplicitTop = 36
+            end
+            inherited btnLandPlatform: TButton
+              Top = 327
+              OnClick = fmOwnShip1btnLandPlatformClick
+              ExplicitTop = 327
+            end
+            inherited btnRangeLanding: TButton
+              Top = 357
+              OnClick = fmOwnShip1btnRangeLandingClick
+              ExplicitTop = 357
+            end
+            inherited btnReturntobase: TButton
+              Top = 327
+              Visible = False
+              ExplicitTop = 327
+            end
+            inherited txt1: TStaticText
+              Left = 157
+              Top = 267
+              ExplicitLeft = 157
+              ExplicitTop = 267
+            end
+            inherited pnlInfoDepth: TPanel
+              Top = 204
+              ExplicitTop = 204
+              inherited StaticText1: TStaticText
+                Top = 21
+                ExplicitTop = 21
+              end
+            end
+          end
+        end
+        object pnlInfoDepth: TPanel
+          Left = 7
+          Top = 350
+          Width = 130
+          Height = 40
+          BevelOuter = bvNone
+          ParentBackground = False
+          ParentColor = True
+          TabOrder = 1
+          Visible = False
+          object StaticText23: TStaticText
+            Left = 10
+            Top = 24
+            Width = 66
+            Height = 17
+            Caption = 'Actual Depth'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -11
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 0
+            Transparent = False
+          end
+          object StaticText22: TStaticText
+            Left = 10
+            Top = 1
+            Width = 76
+            Height = 17
+            Caption = 'Ordered Depth'
+            Font.Charset = DEFAULT_CHARSET
+            Font.Color = clWhite
+            Font.Height = -11
+            Font.Name = 'Tahoma'
+            Font.Style = []
+            ParentFont = False
+            TabOrder = 1
+            Transparent = False
+          end
+        end
+        object txt1: TStaticText
+          Left = 158
+          Top = 289
+          Width = 9
+          Height = 20
+          Caption = ':'
+          TabOrder = 2
+          Transparent = False
         end
       end
     end

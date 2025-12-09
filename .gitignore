@@ -409,3 +409,5 @@ Database Editor AOTC/Comp/xmlInterface.dcu
 /Database Editor AOTC/Source/LibTTT/forms/__history
 /Database Editor AOTC/Source/LibTTT/forms/User Interface/Exercise/__history
 /Database Editor AOTC/Source/LibTTT/libDBScenario/__history
+/Database Editor AOTC/Comp
+*.dcu
