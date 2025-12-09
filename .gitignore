@@ -1,9 +1,6 @@
-
+*.dcu
 /Simulator AOTC/AOPR.Source/AOPRSimClient.src/formClient/frames/__history
 /Simulator AOTC/AOPR.Source/AOPRSimClient.src/formClient/frames/__history
-/Database Editor AOTC/Comp
-/Database Editor AOTC/Comp
-/Database Editor AOTC/Comp
 /Database Editor AOTC/Comp
 Database Editor AOTC/Comp/drawRec.dcu
 Database Editor AOTC/Comp/GDIPAPI.dcu
@@ -396,7 +393,7 @@ Database Editor AOTC/Comp/uWaypointWindow.dcu
 Database Editor AOTC/Comp/uWeaponDoubleList.dcu
 Database Editor AOTC/Comp/uWeaponSingleList.dcu
 Database Editor AOTC/Comp/xmlInterface.dcu
-*.dcu
+
 /Database Editor AOTC/Comp
 *.dcu
 /Database Editor AOTC/Comp
