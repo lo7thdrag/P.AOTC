@@ -1955,29 +1955,23 @@ begin
             exit;
           end;
 
-          {Kalo yg di track Detected track}
-          if focused_platform is TT3DetectedTrack then
+          if focused_platform is TT3NonRealVehicle then
           begin
-            strTargetTrackId := TT3PlatformInstance(TT3DetectedTrack(focused_platform).TrackObject).Track_ID;
-            IntTargetPlatformID := TT3PlatformInstance(TT3DetectedTrack(focused_platform).TrackObject).InstanceIndex;
-
-            target := simMgrClient.FindT3PlatformByID(IntTargetPlatformID);
-          end
-          {Kalo yg di track Non Real Time}
-          else if focused_platform is TT3NonRealVehicle then
-          begin
+            {$REGION ' NonRealVehicle Section '}
             strTargetTrackId := IntToStr(TT3PlatformInstance(focused_platform).InstanceIndex);
             IntTargetPlatformID := TT3PlatformInstance(focused_platform).InstanceIndex;
 
             target := simMgrClient.FindNonRealPlatformByID(IntTargetPlatformID);
+            {$ENDREGION}
           end
-          {Kalo yg di track Platform Instance}
-          else
+          else if focused_platform is TT3Vehicle then
           begin
+            {$REGION ' TT3PlatformInstance Section '}
             strTargetTrackId := TT3PlatformInstance(focused_platform).Track_ID;
             IntTargetPlatformID := TT3PlatformInstance(focused_platform).InstanceIndex;
 
             target := simMgrClient.FindT3PlatformByID(IntTargetPlatformID);
+            {$ENDREGION}
           end;
         end
         else
@@ -3499,6 +3493,7 @@ begin
         else if focused_platform is TT3Vehicle then
           targetTrackId := TT3PlatformInstance(focused_platform).Track_ID;
 
+        {contoh}
         sObject := simMgrClient.findDetectedTrack(focused_platform);
         if Assigned(sObject) then
           trackNum := FormatTrackNumber(TT3DetectedTrack(sObject).TrackNumber)
@@ -3506,7 +3501,8 @@ begin
         begin
           trackNum := TT3PlatformInstance(focused_platform).TrackLabel;
 
-          if trackNum = '' then trackNum := (TT3PlatformInstance(focused_platform).TrackNumber).ToString;
+          if trackNum = '' then
+          trackNum := (TT3PlatformInstance(focused_platform).TrackNumber).ToString;
         end;
 
         if myTrackId <> targetTrackId then
@@ -8634,7 +8630,7 @@ begin
       UpdateTorpedoWakeHomingTab(Sender);
 
     wcTorpedoActiveAcoustic:
-      UpdateTorpedoAcousticTab(Sender);
+      UpdateTorpedoActivePassiveTab(Sender);//UpdateTorpedoAcousticTab(Sender);
 
     wcTorpedoActivePassive:
       UpdateTorpedoActivePassiveTab(Sender);
@@ -11288,59 +11284,48 @@ begin
 
   if Assigned (focused_platform)then
   begin
-    {$REGION ' DetectedTrack Section '}
-    if focused_platform is TT3DetectedTrack then
+    if focused_platform is TT3NonRealVehicle then
     begin
-      sObject := simMgrClient.findDetectedTrack(focused_platform);
-
-      if Assigned(sObject) then
-        strTargetID := FormatTrackNumber(TT3DetectedTrack(sObject).TrackNumber)
-      else
-      begin
-        strTargetID := TT3PlatformInstance(focused_platform).TrackLabel;
-
-        if strTargetID = '' then
-          strTargetID := (TT3PlatformInstance(focused_platform).TrackNumber).ToString;
-      end;
-
-      _targetID         := TT3PlatformInstance(TT3DetectedTrack(focused_platform).TrackObject).InstanceIndex;
-      _targetDomain     := TT3PlatformInstance(TT3DetectedTrack(focused_platform).TrackObject).PlatformDomain;
-      TorpedoTarget     := simMgrClient.FindT3PlatformByID(_targetID);
-//      strTargetID       := IntToStr(TT3DetectedTrack(focused_platform).TrackNumber);
-      _nonRealtimeType  := 5;{diisi nilai 5, sebagai penanda bukan nonreal vehicle}
-    end
-    {$ENDREGION}
-
-    {$REGION ' NonRealVehicle Section '}
-    else if focused_platform is TT3NonRealVehicle then
-    begin
-      sObject := simMgrClient.findDetectedTrack(focused_platform);
-
-      if Assigned(sObject) then
-        strTargetID := FormatTrackNumber(TT3DetectedTrack(sObject).TrackNumber)
-      else
-      begin
-        strTargetID := TT3PlatformInstance(focused_platform).TrackLabel;
-
-        if strTargetID = '' then
-          strTargetID := (TT3PlatformInstance(focused_platform).TrackNumber).ToString;
-      end;
+      {$REGION ' NonRealVehicle Section '}
+      strTargetID := IntToStr(TT3PlatformInstance(focused_platform).TrackNumber);
 
       _targetDomain     := TT3PlatformInstance(focused_platform).PlatformDomain;
       TorpedoTarget     := TT3PlatformInstance(focused_platform);
 //      strTargetID       := IntToStr(TT3DetectedTrack(focused_platform).TrackNumber);
       _nonRealtimeType  := TT3NonRealVehicle(focused_platform).NRPType;
+      {$ENDREGION}
     end
-    {$ENDREGION}
-
-    {$REGION ' TT3PlatformInstance Section '}
-    else
+    else if focused_platform is TT3Vehicle then
     begin
+      {$REGION ' TT3PlatformInstance Section '}
       _targetDomain     := TT3PlatformInstance(focused_platform).PlatformDomain;
       TorpedoTarget     := TT3PlatformInstance(focused_platform);
       strTargetID       := TT3PlatformInstance(focused_platform).Track_ID;
       _nonRealtimeType  := 5;
+      {$ENDREGION}
     end;
+
+    {$REGION ' DetectedTrack Section '}
+//    if focused_platform is TT3DetectedTrack then
+//    begin
+      sObject := simMgrClient.findDetectedTrack(focused_platform);
+
+      if Assigned(sObject) then
+        strTargetID := FormatTrackNumber(TT3DetectedTrack(sObject).TrackNumber)
+      else
+      begin
+        strTargetID := TT3PlatformInstance(focused_platform).TrackLabel;
+
+        if strTargetID = '' then
+          strTargetID := (TT3PlatformInstance(focused_platform).TrackNumber).ToString;
+      end;
+
+//      _targetID         := TT3PlatformInstance(TT3DetectedTrack(focused_platform).TrackObject).InstanceIndex;
+//      _targetDomain     := TT3PlatformInstance(TT3DetectedTrack(focused_platform).TrackObject).PlatformDomain;
+//      TorpedoTarget     := simMgrClient.FindT3PlatformByID(_targetID);
+//      strTargetID       := IntToStr(TT3DetectedTrack(focused_platform).TrackNumber);
+//      _nonRealtimeType  := 5;{diisi nilai 5, sebagai penanda bukan nonreal vehicle}
+//    end
     {$ENDREGION}
 
     if Assigned(focused_weapon) then
