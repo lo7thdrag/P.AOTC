@@ -1749,113 +1749,113 @@ END
 /* c:\program files (x86)\embarcadero\studio\20.0\lib\Win32\release\Controls.res */
 /* c:\program files (x86)\embarcadero\studio\20.0\lib\Win32\release\KeyboardLayouts.res */
 /* c:\program files (x86)\embarcadero\studio\20.0\lib\Win32\release\Buttons.res */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uDataModuleTTT.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufProgress.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uSelectRecipient.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uDataModuleTTT.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufProgress.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uSelectRecipient.dfm */
 /* c:\program files (x86)\embarcadero\studio\20.0\lib\Win32\release\ExtDlgs.res */
-/* C:\Komponen\DbEditor TTT\TMS Instrumentation Workshop v2.0.0.0 for Rio\VRCURSORS.D32 */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uLaunchPlatform.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmControlled.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmFireControl.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufmDetailPlan.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frmWeapon\ufmWeaponCtrl.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufTrackTargetDetail.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\ufLog.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufSurfaceToSurfaceMissile.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frmWeapon\ufrmNGSGunSetup.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frmWeapon\ufrmGunAutoManual.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frmWeapon\ufrmGunCIWS.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmWeapon.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmCounterMeasure.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmEMCON.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uDetailRouteLogistic.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmLogisticCalculation.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmKeyboard.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uOverlayTemplateEditor.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uSettingCoordinate.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uLogisticCalculation.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uLogisticChange.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmMapWindow.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmSensor.dfm */
-/* C:\Komponen\DbEditor TTT\TMS Instrumentation Workshop v2.0.0.0 for Rio\VRWHEEL.D32 */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uWaypointCopy.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uSaveWaypoint.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uWaypointEditor.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmPlatformGuidance.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uFLanding.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufTransportEmbarkasi.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufLandTemp.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufReturnToBase.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmOwnShip.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uChangeSonobuoyDepth.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uChangeSonobuoyEndurance.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uTransferSonobuoy.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uChangeTorpedoDepth.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uChangeTorpedoCourse.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\monitor\uRotateMonitor.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufmTimeOfRaid.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uBrowseMap.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uRuler.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmViewWasdal.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmTools.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmTrackDetails.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmPlatformInfo.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frmGroupName.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmGuidance.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmRadar.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmWeapon.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmC.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmFireControl.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmEMCON.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmLogistic.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmGeneraPfTools.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmPlatformTools.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmHelp.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmTop.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmMapTools.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmRight.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\ufrmLaunchRPCount.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\plotterUI\ufrmRightToolsPlotter.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\plotterUI\ufrmLeftToolsPlotter.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\plotterUI\ufrmTopPlotter.dfm */
-/* C:\Komponen\DbEditor TTT\Raize Components 6.2.3 FS D10.4 Sydney\Source\RzCommonBitmaps.res */
-/* C:\Komponen\DbEditor TTT\Raize Components 6.2.3 FS D10.4 Sydney\Source\RzCommonCursors.res */
-/* C:\Komponen\DbEditor TTT\Raize Components 6.2.3 FS D10.4 Sydney\Source\RzCmboBx.res */
-/* C:\Komponen\DbEditor TTT\Raize Components 6.2.3 FS D10.4 Sydney\Source\RzToolbarForm.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uPictureCentreControl.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uTrackHistory.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uPictureFilter.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uRPLibrary.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufEditRealTimeTrack.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufChangeTrackNumber.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufMergeTracks.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufEditNonRealTimeTrack.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRRemote\uRemoteHost.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uFormationMembersDetail.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uFormationAddRemMembers.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uFormationEditorPanel.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uFormationEditorForm.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRReplay\uSnapshotDLG.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uSimbolTaktis.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uStrategiEditor.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uShipTacticalInfo.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uGotoTime.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufDeployMine.dfm */
+/* C:\Komponen\TMS Instrumentation Workshop v2.0.0.0 for Rio\VRCURSORS.D32 */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uLaunchPlatform.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmControlled.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmFireControl.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufmDetailPlan.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frmWeapon\ufmWeaponCtrl.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufTrackTargetDetail.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\ufLog.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufSurfaceToSurfaceMissile.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frmWeapon\ufrmNGSGunSetup.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frmWeapon\ufrmGunAutoManual.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frmWeapon\ufrmGunCIWS.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmWeapon.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmCounterMeasure.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmEMCON.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uDetailRouteLogistic.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmLogisticCalculation.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmKeyboard.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uOverlayTemplateEditor.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uSettingCoordinate.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uLogisticCalculation.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uLogisticChange.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmMapWindow.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmSensor.dfm */
+/* C:\Komponen\TMS Instrumentation Workshop v2.0.0.0 for Rio\VRWHEEL.D32 */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uWaypointCopy.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uSaveWaypoint.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uWaypointEditor.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmPlatformGuidance.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uFLanding.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufTransportEmbarkasi.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufLandTemp.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufReturnToBase.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frames\ufmOwnShip.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uChangeSonobuoyDepth.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uChangeSonobuoyEndurance.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uTransferSonobuoy.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uChangeTorpedoDepth.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uChangeTorpedoCourse.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\monitor\uRotateMonitor.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufmTimeOfRaid.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uBrowseMap.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uRuler.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmViewWasdal.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmTools.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmTrackDetails.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmPlatformInfo.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\frmGroupName.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmGuidance.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmRadar.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmWeapon.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmC.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmFireControl.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmEMCON.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmLogistic.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmGeneraPfTools.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmPlatformTools.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmHelp.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmTop.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmMapTools.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\wasdalUI\ufrmRight.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\ufrmLaunchRPCount.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\plotterUI\ufrmRightToolsPlotter.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\plotterUI\ufrmLeftToolsPlotter.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\plotterUI\ufrmTopPlotter.dfm */
+/* C:\Komponen\Raize Components 6.2.3 FS D10.4 Sydney\Source\RzCommonBitmaps.res */
+/* C:\Komponen\Raize Components 6.2.3 FS D10.4 Sydney\Source\RzCommonCursors.res */
+/* C:\Komponen\Raize Components 6.2.3 FS D10.4 Sydney\Source\RzCmboBx.res */
+/* C:\Komponen\Raize Components 6.2.3 FS D10.4 Sydney\Source\RzToolbarForm.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uPictureCentreControl.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uTrackHistory.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uPictureFilter.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uRPLibrary.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufEditRealTimeTrack.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufChangeTrackNumber.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufMergeTracks.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufEditNonRealTimeTrack.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRRemote\uRemoteHost.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uFormationMembersDetail.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uFormationAddRemMembers.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uFormationEditorPanel.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uFormationEditorForm.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRReplay\uSnapshotDLG.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uSimbolTaktis.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uStrategiEditor.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uShipTacticalInfo.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uGotoTime.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufDeployMine.dfm */
 /* c:\program files (x86)\embarcadero\studio\20.0\lib\Win32\release\Vcl.DBLogDlg.dfm */
 /* c:\program files (x86)\embarcadero\studio\20.0\lib\Win32\release\Vcl.DBPWDlg.dfm */
 /* c:\program files (x86)\embarcadero\studio\20.0\lib\Win32\release\DBCtrls.res */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uPlottingTime.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uSaveAsPlotting.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uSaveAsOverlay.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufTacticalDisplay.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uNewMessage.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufmInputTrackId.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufmDisembarkWith.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufrmPlatformBaseDetail.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufToteDisplay.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufDBSetting.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\ufChangeTrackNum.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\plotterUI\ufrmRightPlotter.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\plotterUI\ufrmLeftPlotter.dfm */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\AOPRSimClient.res */
-/* D:\AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\AOPRSimClient.drf */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uPlottingTime.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uSaveAsPlotting.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uSaveAsOverlay.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufTacticalDisplay.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\uNewMessage.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufmInputTrackId.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufmDisembarkWith.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufrmPlatformBaseDetail.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufToteDisplay.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\LibTTT\forms\ufDBSetting.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\ufChangeTrackNum.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\plotterUI\ufrmRightPlotter.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\formClient\plotterUI\ufrmLeftPlotter.dfm */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\AOPRSimClient.res */
+/* D:\1. P. AOTC\P.AOTC\Simulator AOTC\AOPR.Source\AOPRSimClient.src\AOPRSimClient.drf */

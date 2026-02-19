@@ -94,6 +94,7 @@ const
     CID_DESTROY     = 2;
     CID_CONNECT     = 3;
   CPID_CMD_SONAR_DEPLOY_3D = 24;
+  CPID_CMD_PLATFORM_HANCUR_3D = 25;
 
 type
 
@@ -976,6 +977,20 @@ type
 
     [BsonElement('ocb')]
     OrderCable    : Double;
+  end;
+
+  NetRecCmd_PlatformHancur = record
+    [BsonElement('sid')]
+    SessionID     : Integer;
+
+    [BsonElement('rid')]
+    SenderID      : integer;
+
+    [BsonElement('tar')]
+    Target        : string;
+
+    [BsonElement('red')]
+    reasondestroy : Byte;
   end;
 
 implementation

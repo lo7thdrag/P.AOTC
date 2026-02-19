@@ -30,7 +30,9 @@ uses
   uNetUDPnode in '..\LibNets\NetComponent\uNetUDPnode.pas',
   ufrmDisplay in 'ufrmDisplay.pas' {frmDisplay},
   ufrmSetting in 'ufrmSetting.pas' {frmSetting},
-  ufrmLog in 'ufrmLog.pas' {frmLog};
+  ufrmLog in 'ufrmLog.pas' {frmLog},
+  uExecuter in '..\uExecuter.pas',
+  uLibSetting in 'uLibSetting.pas';
 
 {$R *.res}
 

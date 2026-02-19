@@ -2867,7 +2867,565 @@ object frmTacticalDisplay: TfrmTacticalDisplay
                   end
                 end
               end
-              inherited grbSurfaceToSurfaceMissile: TGroupBox [2]
+              inherited grbAirDroppedVECTAC: TGroupBox [2]
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+                inherited ScrollBox13: TScrollBox
+                  Width = 333
+                  Height = 1953
+                  ExplicitWidth = 333
+                  ExplicitHeight = 1953
+                  inherited Label398: TLabel
+                    Top = 351
+                    ExplicitTop = 351
+                  end
+                  inherited lbVectacWeaponExpiry: TLabel
+                    Top = 351
+                    ExplicitTop = 351
+                  end
+                  inherited btnVectacWeaponCarrierDrop: TButton
+                    Left = 253
+                    ExplicitLeft = 253
+                  end
+                  inherited btnVectacWeaponCarrierGround: TButton
+                    Left = 253
+                    ExplicitLeft = 253
+                  end
+                  inherited editVectacTargetTrack: TEdit
+                    Enabled = True
+                    ReadOnly = True
+                  end
+                  inherited editVectacWeaponCarrierDrop: TEdit
+                    Enabled = True
+                    ReadOnly = True
+                  end
+                  inherited editVectacWeaponCarrierGround: TEdit
+                    Enabled = True
+                    ReadOnly = True
+                  end
+                  inherited editVectacWeaponCarrierName: TEdit
+                    Enabled = True
+                    ReadOnly = True
+                  end
+                  inherited editVectacWeaponName: TEdit
+                    Top = 321
+                    Enabled = True
+                    ReadOnly = True
+                    Text = ''
+                    ExplicitTop = 321
+                  end
+                end
+              end
+              inherited grbAcousticTorpedo: TGroupBox [3]
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+                inherited ScrollBox2: TScrollBox
+                  Width = 333
+                  Height = 1953
+                  VertScrollBar.Position = 0
+                  ExplicitWidth = 333
+                  ExplicitHeight = 1953
+                  inherited lbl10: TLabel
+                    Left = 115
+                    ExplicitLeft = 115
+                  end
+                  inherited btnSearchTarget: TSpeedButton
+                    OnClick = fmWeapon1btnAcousticTorpedoLaunchClick
+                  end
+                  inherited btnAccousticDisplayRangeHide: TSpeedButton
+                    Transparent = False
+                  end
+                  inherited EdtSeekerRangeAT: TEdit
+                    Width = 60
+                    ExplicitWidth = 60
+                  end
+                  inherited EdtSearchRadiusAT: TEdit
+                    Width = 60
+                    ExplicitWidth = 60
+                  end
+                  inherited EdtSearchDepthAT: TEdit
+                    Width = 60
+                    ExplicitWidth = 60
+                  end
+                  inherited EdtSafetyCeilingAT: TEdit
+                    Width = 60
+                    ExplicitWidth = 60
+                  end
+                  inherited EdtRunOutAT: TEdit
+                    Width = 60
+                    ExplicitWidth = 60
+                  end
+                  inherited EdtGyroAngleAT: TEdit
+                    Width = 60
+                    ExplicitWidth = 60
+                  end
+                  inherited EdtFiringModeAT: TEdit
+                    Width = 60
+                    ExplicitWidth = 60
+                  end
+                  inherited btnTube4AT: TButton
+                    Top = 88
+                    ExplicitTop = 88
+                  end
+                  inherited btnTube3AT: TButton
+                    Top = 88
+                    ExplicitTop = 88
+                  end
+                  inherited btnTube2AT: TButton
+                    Top = 88
+                    ExplicitTop = 88
+                  end
+                  inherited btnTube1AT: TButton
+                    Top = 88
+                    ExplicitTop = 88
+                  end
+                  inherited btntControlGyroAdvised: TButton
+                    OnClick = fmWeapon1btntControlGyroAdvisedClick
+                  end
+                  inherited btnLaunchAT: TButton
+                    OnClick = fmWeapon1btnAcousticTorpedoLaunchClick
+                  end
+                end
+              end
+              inherited grbActivePasiveTorpedo: TGroupBox [4]
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+                inherited ScrollBox3: TScrollBox
+                  Width = 333
+                  Height = 1953
+                  ExplicitWidth = 333
+                  ExplicitHeight = 1953
+                  inherited btnAPGBilndHide: TSpeedButton
+                    OnClick = fmWeapon1btnLaunchAPGClick
+                  end
+                  inherited btnAPGRangeHide: TSpeedButton
+                    OnClick = fmWeapon1btnLaunchAPGClick
+                  end
+                  inherited btnAPGBilndShow: TSpeedButton
+                    OnClick = fmWeapon1btnLaunchAPGClick
+                  end
+                  inherited btnAPGRangeShow: TSpeedButton
+                    OnClick = fmWeapon1btnLaunchAPGClick
+                  end
+                  inherited btnTargetTrackAPG: TSpeedButton
+                    OnClick = fmWeapon1btnLaunchAPGClick
+                  end
+                  inherited bvl4: TBevel
+                    Top = 261
+                    Height = 3
+                    ExplicitTop = 261
+                    ExplicitHeight = 3
+                  end
+                  inherited lbl3: TLabel
+                    Left = 117
+                    ExplicitLeft = 117
+                  end
+                  inherited lblAPGQuantity: TLabel
+                    Left = 180
+                    ExplicitLeft = 180
+                  end
+                  inherited btn4: TButton
+                    OnClick = fmWeapon1btn4Click
+                  end
+                  inherited btn5: TButton
+                    OnClick = fmWeapon1btn4Click
+                  end
+                  inherited btn6: TButton
+                    OnClick = fmWeapon1btn4Click
+                  end
+                  inherited btn7: TButton
+                    OnClick = fmWeapon1btn4Click
+                  end
+                  inherited btnAPGLaunch: TButton
+                    OnClick = fmWeapon1btnLaunchAPGClick
+                  end
+                  inherited EdtAPGSafetyCeiling: TEdit
+                    OnKeyPress = fmWeapon1EdtAPGSearchRadiusKeyPress
+                  end
+                  inherited EdtAPGSearchDepth: TEdit
+                    OnKeyPress = fmWeapon1EdtAPGSearchRadiusKeyPress
+                  end
+                  inherited EdtAPGSearchRadius: TEdit
+                    OnKeyPress = fmWeapon1EdtAPGSearchRadiusKeyPress
+                  end
+                  inherited EdtAPGSeekerRange: TEdit
+                    OnKeyPress = fmWeapon1EdtAPGSearchRadiusKeyPress
+                  end
+                end
+              end
+              inherited grbAirDroppedTorpedo: TGroupBox [5]
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+                inherited ScrollBox8: TScrollBox
+                  Width = 333
+                  Height = 1953
+                  ExplicitWidth = 333
+                  ExplicitHeight = 1953
+                  inherited btnADBilndHide: TSpeedButton
+                    OnClick = fmWeapon1btnAirDroppesTargetTrackClick
+                  end
+                  inherited btnADBilndShow: TSpeedButton
+                    OnClick = fmWeapon1btnAirDroppesTargetTrackClick
+                  end
+                  inherited btnADRangeHide: TSpeedButton
+                    OnClick = fmWeapon1btnAirDroppesTargetTrackClick
+                  end
+                  inherited btnADRangeShow: TSpeedButton
+                    OnClick = fmWeapon1btnAirDroppesTargetTrackClick
+                  end
+                  inherited btnADTargetTrack: TSpeedButton
+                    OnClick = fmWeapon1btnAirDroppesTargetTrackClick
+                  end
+                  inherited bvl12: TBevel
+                    Top = 125
+                    ExplicitTop = 125
+                  end
+                  inherited bvl9: TBevel
+                    Top = 40
+                    ExplicitTop = 40
+                  end
+                  inherited lbl41: TLabel
+                    Left = 20
+                    ExplicitLeft = 20
+                  end
+                  inherited lbl61: TLabel
+                    Left = 180
+                    ExplicitLeft = 180
+                  end
+                  inherited btnADDefaultSafetyCeiling: TButton
+                    OnClick = fmWeapon1btnADDefaultSearchDepthClick
+                  end
+                  inherited btnADDefaultSearchDepth: TButton
+                    OnClick = fmWeapon1btnADDefaultSearchDepthClick
+                  end
+                  inherited btnADLaunch: TButton
+                    OnClick = fmWeapon1btnAirDroppesTargetTrackClick
+                  end
+                  inherited chkADLaunchWhithoutTarget: TCheckBox
+                    OnClick = fmWeapon1chkADLaunchWhithoutTargetClick
+                  end
+                  inherited chkADUseLaunchPlatformHeading: TCheckBox
+                    OnClick = fmWeapon1chkADUseLaunchPlatformHeadingClick
+                  end
+                  inherited EdtADTargetTrack: TEdit
+                    Text = '---'
+                  end
+                  inherited EdtADLaunchBearing: TEdit
+                    OnKeyPress = fmWeapon1EdtADLaunchBearingKeyPress
+                  end
+                  inherited EdtADSafetyCeiling: TEdit
+                    Top = 98
+                    OnKeyPress = fmWeapon1EdtADSearchRadiusKeyPress
+                    ExplicitTop = 98
+                  end
+                  inherited EdtADSearchDepth: TEdit
+                    Top = 74
+                    OnKeyPress = fmWeapon1EdtADSearchRadiusKeyPress
+                    ExplicitTop = 74
+                  end
+                  inherited EdtADSearchRadius: TEdit
+                    Top = 50
+                    OnKeyPress = fmWeapon1EdtADSearchRadiusKeyPress
+                    ExplicitTop = 50
+                  end
+                end
+              end
+              inherited grbBombDepthCharge: TGroupBox [6]
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+                inherited btnBombTarget: TSpeedButton
+                  OnClick = fmWeapon1btnBombTargetClick
+                end
+                inherited lbl80: TLabel
+                  Left = 43
+                  ExplicitLeft = 43
+                end
+                inherited btnBombDisplayRangeHide: TSpeedButton
+                  Left = 24
+                  OnClick = fmWeapon1btnBombDisplayRangeShowClick
+                  ExplicitLeft = 24
+                end
+                inherited btnBombDisplayRangeShow: TSpeedButton
+                  OnClick = fmWeapon1btnBombDisplayRangeShowClick
+                end
+                inherited btnPosition: TSpeedButton
+                  Left = 286
+                  Top = 139
+                  Height = 29
+                  OnClick = fmWeapon1btnPositionClick
+                  ExplicitLeft = 286
+                  ExplicitTop = 139
+                  ExplicitHeight = 29
+                end
+                inherited Label70: TLabel
+                  Left = 25
+                  Top = 118
+                  ExplicitLeft = 25
+                  ExplicitTop = 118
+                end
+                inherited Label71: TLabel
+                  Left = 170
+                  Top = 118
+                  ExplicitLeft = 170
+                  ExplicitTop = 118
+                end
+                inherited btnBombDrop: TButton
+                  OnClick = fmWeapon1btnBombTargetClick
+                end
+                inherited EdtBombControlSalvo: TEdit
+                  Left = 101
+                  Width = 60
+                  OnKeyPress = fmWeapon1EdtBombControlSalvoKeyPress
+                  ExplicitLeft = 101
+                  ExplicitWidth = 60
+                end
+                inherited EdtBombTargetTrack: TEdit
+                  Left = 116
+                  Width = 60
+                  ExplicitLeft = 116
+                  ExplicitWidth = 60
+                end
+                inherited chkBombDropWhitoutTarget: TCheckBox
+                  OnClick = fmWeapon1chkBombDropWhitoutTargetClick
+                end
+                inherited edtTargetPosition: TEdit
+                  Left = 101
+                  Width = 179
+                  ExplicitLeft = 101
+                  ExplicitWidth = 179
+                end
+                inherited edtBombDepth: TEdit
+                  Left = 101
+                  OnKeyPress = fmWeapon1edtBombDepthKeyPress
+                  ExplicitLeft = 101
+                end
+              end
+              inherited grbGunEngagementAutomaticManualMode: TGroupBox [7]
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+              end
+              inherited grbGunEngagementChaffMode: TGroupBox [8]
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+                inherited ScrollBox9: TScrollBox
+                  Width = 333
+                  Height = 1953
+                  ExplicitWidth = 333
+                  ExplicitHeight = 1953
+                  inherited Label472: TLabel
+                    Top = 259
+                    ExplicitTop = 259
+                  end
+                  inherited sbGunEngagementChaffContolAuto: TSpeedButton
+                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
+                  end
+                  inherited sbGunEngagementChaffContolManual: TSpeedButton
+                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
+                  end
+                  inherited sbChaffDisplayShow: TSpeedButton
+                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
+                  end
+                  inherited sbChaffDisplayHide: TSpeedButton
+                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
+                  end
+                  inherited sbChaffBlindZoneShow: TSpeedButton
+                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
+                  end
+                  inherited sbChaffBlindZoneHide: TSpeedButton
+                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
+                  end
+                  inherited sbGunEngagementChaffContolChaff: TSpeedButton
+                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
+                  end
+                  inherited btnChaffFire: TButton
+                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
+                  end
+                  inherited btnChaffCeaseFire: TButton
+                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
+                  end
+                end
+              end
+              inherited grbGunEngagementCIWS: TGroupBox [9]
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+              end
+              inherited grbMines: TGroupBox [10]
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+                inherited Label272: TLabel
+                  Left = 8
+                  ExplicitLeft = 8
+                end
+                inherited Label291: TLabel
+                  Left = 8
+                  ExplicitLeft = 8
+                end
+                inherited lbl84: TLabel
+                  Left = 180
+                  Top = 175
+                  Visible = False
+                  ExplicitLeft = 180
+                  ExplicitTop = 175
+                end
+                inherited lbl101: TLabel
+                  Left = 180
+                  Top = 105
+                  Visible = True
+                  ExplicitLeft = 180
+                  ExplicitTop = 105
+                end
+                inherited EdtMinesDepth: TEdit
+                  Width = 52
+                  OnKeyPress = fmWeapon1EdtMinesDepthKeyPress
+                  ExplicitWidth = 52
+                end
+                inherited btnMinesDeploy: TButton
+                  OnClick = fmWeapon1btnMinesDeployClick
+                end
+                inherited edtRange: TEdit
+                  OnKeyPress = fmWeapon1edtRangeKeyPress
+                end
+              end
+              inherited grbStraightRunningTorpedos: TGroupBox [11]
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+                inherited ScrollBox4: TScrollBox
+                  Width = 333
+                  Height = 1953
+                  ExplicitWidth = 333
+                  ExplicitHeight = 1953
+                  inherited btnSRBlindHide: TSpeedButton
+                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
+                  end
+                  inherited btnSRBlindShow: TSpeedButton
+                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
+                  end
+                  inherited btnSRRangeHide: TSpeedButton
+                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
+                  end
+                  inherited btnSRRangeShow: TSpeedButton
+                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
+                  end
+                  inherited btnSRTargetTrack: TSpeedButton
+                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
+                  end
+                  inherited btnSRLaunch: TButton
+                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
+                  end
+                end
+              end
+              inherited grbSurfaceToAirMissile: TGroupBox [12]
+                Width = 337
+                Height = 1973
+                ExplicitWidth = 337
+                ExplicitHeight = 1973
+                inherited ScrollBox1: TScrollBox
+                  Width = 333
+                  Height = 1953
+                  ExplicitWidth = 333
+                  ExplicitHeight = 1953
+                  inherited Bevel2: TBevel
+                    Height = 3
+                    ExplicitHeight = 3
+                  end
+                  inherited Label10: TLabel
+                    Visible = False
+                  end
+                  inherited Label11: TLabel
+                    Visible = False
+                  end
+                  inherited Label12: TLabel
+                    Visible = False
+                  end
+                  inherited Label13: TLabel
+                    Visible = False
+                  end
+                  inherited lbSurfaceToAirStatus: TLabel
+                    Visible = False
+                  end
+                  inherited lbSurfaceToAirTimeToWait: TLabel
+                    Visible = False
+                  end
+                  inherited lbSurfaceToAirTimeToIntercept: TLabel
+                    Visible = False
+                  end
+                  inherited Label20: TLabel
+                    Visible = False
+                  end
+                  inherited Label22: TLabel
+                    Visible = False
+                  end
+                  inherited btnSurfaceToAirTargetTrack: TSpeedButton
+                    OnClick = fmWeapon1btnSurfaceToAirTargetTrackClick
+                  end
+                  inherited sbSurfaceToAirDisplayRangeShow: TSpeedButton
+                    OnClick = fmWeapon1btnSurfaceToAirTargetTrackClick
+                  end
+                  inherited sbSurfaceToAirDisplayRangeHide: TSpeedButton
+                    OnClick = fmWeapon1btnSurfaceToAirTargetTrackClick
+                  end
+                  inherited sbSurfaceToAirDisplayBlindShow: TSpeedButton
+                    OnClick = fmWeapon1btnSurfaceToAirTargetTrackClick
+                  end
+                  inherited sbSurfaceToAirDisplayBlindHide: TSpeedButton
+                    OnClick = fmWeapon1btnSurfaceToAirTargetTrackClick
+                  end
+                  inherited Label110: TLabel
+                    Visible = False
+                  end
+                  inherited Label111: TLabel
+                    Visible = False
+                  end
+                  inherited Label112: TLabel
+                    Visible = False
+                  end
+                  inherited Label113: TLabel
+                    Visible = False
+                  end
+                  inherited ediSurfaceToAirSalvo: TEdit
+                    Left = 155
+                    Width = 67
+                    ExplicitLeft = 155
+                    ExplicitWidth = 67
+                  end
+                  inherited btSurfaceToAirPlan: TButton
+                    Left = 7
+                    OnClick = fmWeapon1btnSurfaceToAirTargetTrackClick
+                    ExplicitLeft = 7
+                  end
+                  inherited btSurfaceToAirLaunch: TButton
+                    Left = 238
+                    OnClick = fmWeapon1btnSurfaceToAirTargetTrackClick
+                    ExplicitLeft = 238
+                  end
+                  inherited btSurfaceToAirCancel: TButton
+                    Left = 97
+                    OnClick = fmWeapon1btnSurfaceToAirTargetTrackClick
+                    ExplicitLeft = 97
+                  end
+                end
+              end
+              inherited grbSurfaceToSurfaceMissile: TGroupBox [13]
                 Width = 337
                 Height = 1973
                 ExplicitWidth = 337
@@ -3090,222 +3648,7 @@ object frmTacticalDisplay: TfrmTacticalDisplay
                   end
                 end
               end
-              inherited grbSurfaceToAirMissile: TGroupBox [3]
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-                inherited ScrollBox1: TScrollBox
-                  Width = 333
-                  Height = 1953
-                  ExplicitWidth = 333
-                  ExplicitHeight = 1953
-                  inherited Bevel2: TBevel
-                    Height = 3
-                    ExplicitHeight = 3
-                  end
-                  inherited Label10: TLabel
-                    Visible = False
-                  end
-                  inherited Label11: TLabel
-                    Visible = False
-                  end
-                  inherited Label12: TLabel
-                    Visible = False
-                  end
-                  inherited Label13: TLabel
-                    Visible = False
-                  end
-                  inherited lbSurfaceToAirStatus: TLabel
-                    Visible = False
-                  end
-                  inherited lbSurfaceToAirTimeToWait: TLabel
-                    Visible = False
-                  end
-                  inherited lbSurfaceToAirTimeToIntercept: TLabel
-                    Visible = False
-                  end
-                  inherited Label20: TLabel
-                    Visible = False
-                  end
-                  inherited Label22: TLabel
-                    Visible = False
-                  end
-                  inherited btnSurfaceToAirTargetTrack: TSpeedButton
-                    OnClick = fmWeapon1btnSurfaceToAirTargetTrackClick
-                  end
-                  inherited sbSurfaceToAirDisplayRangeShow: TSpeedButton
-                    OnClick = fmWeapon1btnSurfaceToAirTargetTrackClick
-                  end
-                  inherited sbSurfaceToAirDisplayRangeHide: TSpeedButton
-                    OnClick = fmWeapon1btnSurfaceToAirTargetTrackClick
-                  end
-                  inherited sbSurfaceToAirDisplayBlindShow: TSpeedButton
-                    OnClick = fmWeapon1btnSurfaceToAirTargetTrackClick
-                  end
-                  inherited sbSurfaceToAirDisplayBlindHide: TSpeedButton
-                    OnClick = fmWeapon1btnSurfaceToAirTargetTrackClick
-                  end
-                  inherited Label110: TLabel
-                    Visible = False
-                  end
-                  inherited Label111: TLabel
-                    Visible = False
-                  end
-                  inherited Label112: TLabel
-                    Visible = False
-                  end
-                  inherited Label113: TLabel
-                    Visible = False
-                  end
-                  inherited ediSurfaceToAirSalvo: TEdit
-                    Left = 155
-                    Width = 67
-                    ExplicitLeft = 155
-                    ExplicitWidth = 67
-                  end
-                  inherited btSurfaceToAirPlan: TButton
-                    Left = 7
-                    OnClick = fmWeapon1btnSurfaceToAirTargetTrackClick
-                    ExplicitLeft = 7
-                  end
-                  inherited btSurfaceToAirLaunch: TButton
-                    Left = 238
-                    OnClick = fmWeapon1btnSurfaceToAirTargetTrackClick
-                    ExplicitLeft = 238
-                  end
-                  inherited btSurfaceToAirCancel: TButton
-                    Left = 97
-                    OnClick = fmWeapon1btnSurfaceToAirTargetTrackClick
-                    ExplicitLeft = 97
-                  end
-                end
-              end
-              inherited grbAcousticTorpedo: TGroupBox [4]
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-                inherited ScrollBox2: TScrollBox
-                  Width = 333
-                  Height = 1953
-                  VertScrollBar.Position = 0
-                  ExplicitWidth = 333
-                  ExplicitHeight = 1953
-                  inherited lbl10: TLabel
-                    Left = 115
-                    ExplicitLeft = 115
-                  end
-                  inherited btnSearchTarget: TSpeedButton
-                    OnClick = fmWeapon1btnAcousticTorpedoLaunchClick
-                  end
-                  inherited btnAccousticDisplayRangeHide: TSpeedButton
-                    Transparent = False
-                  end
-                  inherited EdtSeekerRangeAT: TEdit
-                    Width = 60
-                    ExplicitWidth = 60
-                  end
-                  inherited EdtSearchRadiusAT: TEdit
-                    Width = 60
-                    ExplicitWidth = 60
-                  end
-                  inherited EdtSearchDepthAT: TEdit
-                    Width = 60
-                    ExplicitWidth = 60
-                  end
-                  inherited EdtSafetyCeilingAT: TEdit
-                    Width = 60
-                    ExplicitWidth = 60
-                  end
-                  inherited EdtRunOutAT: TEdit
-                    Width = 60
-                    ExplicitWidth = 60
-                  end
-                  inherited EdtGyroAngleAT: TEdit
-                    Width = 60
-                    ExplicitWidth = 60
-                  end
-                  inherited EdtFiringModeAT: TEdit
-                    Width = 60
-                    ExplicitWidth = 60
-                  end
-                  inherited btnTube4AT: TButton
-                    Top = 88
-                    ExplicitTop = 88
-                  end
-                  inherited btnTube3AT: TButton
-                    Top = 88
-                    ExplicitTop = 88
-                  end
-                  inherited btnTube2AT: TButton
-                    Top = 88
-                    ExplicitTop = 88
-                  end
-                  inherited btnTube1AT: TButton
-                    Top = 88
-                    ExplicitTop = 88
-                  end
-                  inherited btntControlGyroAdvised: TButton
-                    OnClick = fmWeapon1btntControlGyroAdvisedClick
-                  end
-                  inherited btnLaunchAT: TButton
-                    OnClick = fmWeapon1btnAcousticTorpedoLaunchClick
-                  end
-                end
-              end
-              inherited grbAirDroppedVECTAC: TGroupBox [5]
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-                inherited ScrollBox13: TScrollBox
-                  Width = 333
-                  Height = 1953
-                  ExplicitWidth = 333
-                  ExplicitHeight = 1953
-                  inherited Label398: TLabel
-                    Top = 351
-                    ExplicitTop = 351
-                  end
-                  inherited lbVectacWeaponExpiry: TLabel
-                    Top = 351
-                    ExplicitTop = 351
-                  end
-                  inherited btnVectacWeaponCarrierDrop: TButton
-                    Left = 253
-                    ExplicitLeft = 253
-                  end
-                  inherited btnVectacWeaponCarrierGround: TButton
-                    Left = 253
-                    ExplicitLeft = 253
-                  end
-                  inherited editVectacTargetTrack: TEdit
-                    Enabled = True
-                    ReadOnly = True
-                  end
-                  inherited editVectacWeaponCarrierDrop: TEdit
-                    Enabled = True
-                    ReadOnly = True
-                  end
-                  inherited editVectacWeaponCarrierGround: TEdit
-                    Enabled = True
-                    ReadOnly = True
-                  end
-                  inherited editVectacWeaponCarrierName: TEdit
-                    Enabled = True
-                    ReadOnly = True
-                  end
-                  inherited editVectacWeaponName: TEdit
-                    Top = 321
-                    Enabled = True
-                    ReadOnly = True
-                    Text = ''
-                    ExplicitTop = 321
-                  end
-                end
-              end
-              inherited grbTacticalAcousticTorpedos: TGroupBox
+              inherited grbTacticalAcousticTorpedos: TGroupBox [14]
                 Width = 337
                 Height = 1973
                 ExplicitWidth = 337
@@ -3320,349 +3663,6 @@ object frmTacticalDisplay: TfrmTacticalDisplay
                 inherited editTacticalAcousticTorpedosSalvo: TEdit
                   Left = 128
                   ExplicitLeft = 128
-                end
-              end
-              inherited grbGunEngagementChaffMode: TGroupBox [7]
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-                inherited ScrollBox9: TScrollBox
-                  Width = 333
-                  Height = 1953
-                  ExplicitWidth = 333
-                  ExplicitHeight = 1953
-                  inherited Label472: TLabel
-                    Top = 259
-                    ExplicitTop = 259
-                  end
-                  inherited sbGunEngagementChaffContolAuto: TSpeedButton
-                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
-                  end
-                  inherited sbGunEngagementChaffContolManual: TSpeedButton
-                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
-                  end
-                  inherited sbChaffDisplayShow: TSpeedButton
-                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
-                  end
-                  inherited sbChaffDisplayHide: TSpeedButton
-                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
-                  end
-                  inherited sbChaffBlindZoneShow: TSpeedButton
-                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
-                  end
-                  inherited sbChaffBlindZoneHide: TSpeedButton
-                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
-                  end
-                  inherited sbGunEngagementChaffContolChaff: TSpeedButton
-                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
-                  end
-                  inherited btnChaffFire: TButton
-                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
-                  end
-                  inherited btnChaffCeaseFire: TButton
-                    OnClick = fmWeapon1sbGunEngagementChaffContolAutoClick
-                  end
-                end
-              end
-              inherited grbGunEngagementCIWS: TGroupBox [8]
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-              end
-              inherited grbGunEngagementAutomaticManualMode: TGroupBox [9]
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-              end
-              inherited grbActivePasiveTorpedo: TGroupBox [10]
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-                inherited ScrollBox3: TScrollBox
-                  Width = 333
-                  Height = 1953
-                  ExplicitWidth = 333
-                  ExplicitHeight = 1953
-                  inherited btnAPGBilndHide: TSpeedButton
-                    OnClick = fmWeapon1btnLaunchAPGClick
-                  end
-                  inherited btnAPGRangeHide: TSpeedButton
-                    OnClick = fmWeapon1btnLaunchAPGClick
-                  end
-                  inherited btnAPGBilndShow: TSpeedButton
-                    OnClick = fmWeapon1btnLaunchAPGClick
-                  end
-                  inherited btnAPGRangeShow: TSpeedButton
-                    OnClick = fmWeapon1btnLaunchAPGClick
-                  end
-                  inherited btnTargetTrackAPG: TSpeedButton
-                    OnClick = fmWeapon1btnLaunchAPGClick
-                  end
-                  inherited bvl4: TBevel
-                    Top = 261
-                    Height = 3
-                    ExplicitTop = 261
-                    ExplicitHeight = 3
-                  end
-                  inherited lbl3: TLabel
-                    Left = 117
-                    ExplicitLeft = 117
-                  end
-                  inherited lblAPGQuantity: TLabel
-                    Left = 180
-                    ExplicitLeft = 180
-                  end
-                  inherited btn4: TButton
-                    OnClick = fmWeapon1btn4Click
-                  end
-                  inherited btn5: TButton
-                    OnClick = fmWeapon1btn4Click
-                  end
-                  inherited btn6: TButton
-                    OnClick = fmWeapon1btn4Click
-                  end
-                  inherited btn7: TButton
-                    OnClick = fmWeapon1btn4Click
-                  end
-                  inherited btnAPGLaunch: TButton
-                    OnClick = fmWeapon1btnLaunchAPGClick
-                  end
-                  inherited EdtAPGSafetyCeiling: TEdit
-                    OnKeyPress = fmWeapon1EdtAPGSearchRadiusKeyPress
-                  end
-                  inherited EdtAPGSearchDepth: TEdit
-                    OnKeyPress = fmWeapon1EdtAPGSearchRadiusKeyPress
-                  end
-                  inherited EdtAPGSearchRadius: TEdit
-                    OnKeyPress = fmWeapon1EdtAPGSearchRadiusKeyPress
-                  end
-                  inherited EdtAPGSeekerRange: TEdit
-                    OnKeyPress = fmWeapon1EdtAPGSearchRadiusKeyPress
-                  end
-                end
-              end
-              inherited grbAirDroppedTorpedo: TGroupBox [11]
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-                inherited ScrollBox8: TScrollBox
-                  Width = 333
-                  Height = 1953
-                  ExplicitWidth = 333
-                  ExplicitHeight = 1953
-                  inherited btnADBilndHide: TSpeedButton
-                    OnClick = fmWeapon1btnAirDroppesTargetTrackClick
-                  end
-                  inherited btnADBilndShow: TSpeedButton
-                    OnClick = fmWeapon1btnAirDroppesTargetTrackClick
-                  end
-                  inherited btnADRangeHide: TSpeedButton
-                    OnClick = fmWeapon1btnAirDroppesTargetTrackClick
-                  end
-                  inherited btnADRangeShow: TSpeedButton
-                    OnClick = fmWeapon1btnAirDroppesTargetTrackClick
-                  end
-                  inherited btnADTargetTrack: TSpeedButton
-                    OnClick = fmWeapon1btnAirDroppesTargetTrackClick
-                  end
-                  inherited bvl12: TBevel
-                    Top = 125
-                    ExplicitTop = 125
-                  end
-                  inherited bvl9: TBevel
-                    Top = 40
-                    ExplicitTop = 40
-                  end
-                  inherited lbl41: TLabel
-                    Left = 20
-                    ExplicitLeft = 20
-                  end
-                  inherited lbl61: TLabel
-                    Left = 180
-                    ExplicitLeft = 180
-                  end
-                  inherited btnADDefaultSafetyCeiling: TButton
-                    OnClick = fmWeapon1btnAirDroppesTargetTrackClick
-                  end
-                  inherited btnADDefaultSearchDepth: TButton
-                    OnClick = fmWeapon1btnADDefaultSearchDepthClick
-                  end
-                  inherited btnADLaunch: TButton
-                    OnClick = fmWeapon1btnAirDroppesTargetTrackClick
-                  end
-                  inherited chkADLaunchWhithoutTarget: TCheckBox
-                    OnClick = fmWeapon1chkADLaunchWhithoutTargetClick
-                  end
-                  inherited chkADUseLaunchPlatformHeading: TCheckBox
-                    OnClick = fmWeapon1chkADUseLaunchPlatformHeadingClick
-                  end
-                  inherited EdtADTargetTrack: TEdit
-                    Text = '---'
-                  end
-                  inherited EdtADLaunchBearing: TEdit
-                    OnKeyPress = fmWeapon1EdtADLaunchBearingKeyPress
-                  end
-                  inherited EdtADSafetyCeiling: TEdit
-                    Top = 98
-                    OnKeyPress = fmWeapon1EdtADSearchRadiusKeyPress
-                    ExplicitTop = 98
-                  end
-                  inherited EdtADSearchDepth: TEdit
-                    Top = 74
-                    OnKeyPress = fmWeapon1EdtADSearchRadiusKeyPress
-                    ExplicitTop = 74
-                  end
-                  inherited EdtADSearchRadius: TEdit
-                    Top = 50
-                    OnKeyPress = fmWeapon1EdtADSearchRadiusKeyPress
-                    ExplicitTop = 50
-                  end
-                end
-              end
-              inherited grbBombDepthCharge: TGroupBox [12]
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-                inherited btnBombTarget: TSpeedButton
-                  OnClick = fmWeapon1btnBombTargetClick
-                end
-                inherited lbl80: TLabel
-                  Left = 43
-                  ExplicitLeft = 43
-                end
-                inherited btnBombDisplayRangeHide: TSpeedButton
-                  Left = 24
-                  OnClick = fmWeapon1btnBombDisplayRangeShowClick
-                  ExplicitLeft = 24
-                end
-                inherited btnBombDisplayRangeShow: TSpeedButton
-                  OnClick = fmWeapon1btnBombDisplayRangeShowClick
-                end
-                inherited btnPosition: TSpeedButton
-                  Left = 286
-                  Top = 139
-                  Height = 29
-                  OnClick = fmWeapon1btnPositionClick
-                  ExplicitLeft = 286
-                  ExplicitTop = 139
-                  ExplicitHeight = 29
-                end
-                inherited Label70: TLabel
-                  Left = 25
-                  Top = 118
-                  ExplicitLeft = 25
-                  ExplicitTop = 118
-                end
-                inherited Label71: TLabel
-                  Left = 170
-                  Top = 118
-                  ExplicitLeft = 170
-                  ExplicitTop = 118
-                end
-                inherited btnBombDrop: TButton
-                  OnClick = fmWeapon1btnBombTargetClick
-                end
-                inherited EdtBombControlSalvo: TEdit
-                  Left = 101
-                  Width = 60
-                  OnKeyPress = fmWeapon1EdtBombControlSalvoKeyPress
-                  ExplicitLeft = 101
-                  ExplicitWidth = 60
-                end
-                inherited EdtBombTargetTrack: TEdit
-                  Left = 116
-                  Width = 60
-                  ExplicitLeft = 116
-                  ExplicitWidth = 60
-                end
-                inherited chkBombDropWhitoutTarget: TCheckBox
-                  OnClick = fmWeapon1chkBombDropWhitoutTargetClick
-                end
-                inherited edtTargetPosition: TEdit
-                  Left = 101
-                  Width = 179
-                  ExplicitLeft = 101
-                  ExplicitWidth = 179
-                end
-                inherited edtBombDepth: TEdit
-                  Left = 101
-                  OnKeyPress = fmWeapon1edtBombDepthKeyPress
-                  ExplicitLeft = 101
-                end
-              end
-              inherited grbMines: TGroupBox [13]
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-                inherited Label272: TLabel
-                  Left = 8
-                  ExplicitLeft = 8
-                end
-                inherited Label291: TLabel
-                  Left = 8
-                  ExplicitLeft = 8
-                end
-                inherited lbl84: TLabel
-                  Left = 180
-                  Top = 175
-                  Visible = False
-                  ExplicitLeft = 180
-                  ExplicitTop = 175
-                end
-                inherited lbl101: TLabel
-                  Left = 180
-                  Top = 105
-                  Visible = True
-                  ExplicitLeft = 180
-                  ExplicitTop = 105
-                end
-                inherited EdtMinesDepth: TEdit
-                  Width = 52
-                  OnKeyPress = fmWeapon1EdtMinesDepthKeyPress
-                  ExplicitWidth = 52
-                end
-                inherited btnMinesDeploy: TButton
-                  OnClick = fmWeapon1btnMinesDeployClick
-                end
-                inherited edtRange: TEdit
-                  OnKeyPress = fmWeapon1edtRangeKeyPress
-                end
-              end
-              inherited grbStraightRunningTorpedos: TGroupBox [14]
-                Width = 337
-                Height = 1973
-                ExplicitWidth = 337
-                ExplicitHeight = 1973
-                inherited ScrollBox4: TScrollBox
-                  Width = 333
-                  Height = 1953
-                  ExplicitWidth = 333
-                  ExplicitHeight = 1953
-                  inherited btnSRBlindHide: TSpeedButton
-                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
-                  end
-                  inherited btnSRBlindShow: TSpeedButton
-                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
-                  end
-                  inherited btnSRRangeHide: TSpeedButton
-                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
-                  end
-                  inherited btnSRRangeShow: TSpeedButton
-                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
-                  end
-                  inherited btnSRTargetTrack: TSpeedButton
-                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
-                  end
-                  inherited btnSRLaunch: TButton
-                    OnClick = fmWeapon1btnStraightRunningTorpedosLaunchClick
-                  end
                 end
               end
               inherited grbWakeHomingTorpedos: TGroupBox [15]

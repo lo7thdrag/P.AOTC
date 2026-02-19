@@ -4,8 +4,8 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Imaging.pngimage,
-  Vcl.ExtCtrls, Vcl.Imaging.jpeg;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Imaging.pngimage, uExecuter, uLibSetting,
+  Vcl.ExtCtrls, Vcl.Imaging.jpeg, Winapi.TlHelp32;
 
 type
   TfrmDisplay = class(TForm)
@@ -18,6 +18,7 @@ type
     btnLog: TImage;
     imgClose: TImage;
     btnStop: TImage;
+    lblConsoleName: TLabel;
     procedure FormResize(Sender: TObject);
     procedure imgShowOldFormClick(Sender: TObject);
     procedure imgCloseClick(Sender: TObject);
@@ -30,7 +31,10 @@ type
     procedure btnLogClick(Sender: TObject);
     procedure Start3D;
   private
-    { Private declarations }
+    vSettingFile: string;
+    FAppGame : TAppExecute;
+    function GetApp: Boolean;
+
   public
     { Public declarations }
     resize : Integer;
@@ -128,27 +132,42 @@ procedure TfrmDisplay.btnStopClick(Sender: TObject);
 var
   r : TRecSessionState;
 begin
-  r.SessionID := 0;
-  r.Order := CID_DESTROY;
-  r.SessionType := 0;
-  r.ScenarioID := 0;
-  r.SessionStat := 0;
-  r.GPMType := 0;
+  if ufrmMain.MainForm.F3D_SERVER_.ClientCount = 1 then
+  begin
+    r.SessionID := 0;
+    r.Order := CID_DESTROY;
+    r.SessionType := 0;
+    r.ScenarioID := 0;
+    r.SessionStat := 0;
+    r.GPMType := 0;
 
-  MainForm.NetRecv_SessionStateLocal(@r, CPID_SESSIONSTATE);
-//  MainForm.TestPause;
+    MainForm.NetRecv_SessionStateLocal(@r, CPID_SESSIONSTATE);
+  //  MainForm.TestPause;
 
-  MainForm.ListenButton.Click;
-  btnStart.Visible := True;
+    MainForm.ListenButton.Click;
+    btnStart.Visible := True;
+  end;
 end;
 
 procedure TfrmDisplay.FormCreate(Sender: TObject);
 begin
+  vSettingFile := getFileSetting;
+  LoadFF_NetSetting(vSettingFile, vNetSetting);
+
+  FAppGame    := TAppExecute.Create;
+  FAppGame.OnStartExecute := nil;
+  FAppGame.OnEndExecute   := nil;
+
+  FAppGame.FExecFname := vNetSetting.Application;//'D:\AOTC\AOTC.exe';
+
   resize := 0;
 end;
 
 procedure TfrmDisplay.FormResize(Sender: TObject);
 begin
+  lblConsoleName.Left := (pnlMain.Width-lblConsoleName.Width)div 2;
+  lblConsoleName.Top := (pnlMain.Height-lblConsoleName.Height)div 4;
+
   if resize <> 1 then
   begin
     pnlButton.Left := pnlButton.Left + ((pnlMain.Width - 1051) div 2);
@@ -157,6 +176,36 @@ begin
     imgClose.Left := imgClose.Left + (pnlMain.Width - 1051);
   end;
   resize := 1;
+end;
+
+function TfrmDisplay.GetApp: Boolean;
+var
+  connector, killer :THandle;
+  stamped : LongBool;
+  exe : TProcessEntry32;
+  IDExe : Integer;
+  flag : Boolean;
+
+begin
+
+  Result := False;
+
+  connector := CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
+  exe.dwSize := sizeOf(exe);
+  stamped := Process32First(connector, exe);
+
+  while stamped do
+  begin
+    stamped := Process32Next(connector, exe);
+
+    if exe.szExeFile = vNetSetting.Application then
+    begin
+      IDExe := exe.th32ProcessID;
+      Result := True;
+      Break
+    end;
+
+  end;
 end;
 
 procedure TfrmDisplay.imgCloseClick(Sender: TObject);
@@ -174,7 +223,14 @@ end;
 
 procedure TfrmDisplay.Start3D;
 begin
-  ShellExecute(0, 'open', ('D:\AOTC\AOTC.exe'), nil, nil, SW_SHOW);
+  if not GetApp then
+  begin
+    FAppGame.Executes;
+  end
+  else
+    ShowMessage('3D has been running.');
+
+//  ShellExecute(0, 'open', ('D:\AOTC\AOTC.exe'), nil, nil, SW_SHOW);
 end;
 
 end.

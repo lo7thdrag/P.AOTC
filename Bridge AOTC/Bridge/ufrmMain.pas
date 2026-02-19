@@ -110,6 +110,7 @@ type
     procedure NetRecv_GameControl(apRec: PAnsiChar; aSize: Word);
     procedure NetRecv_SessionState(apRec: PAnsiChar; aSize: Word);
     procedure NetRecv_SonarDeploy(apRec: PAnsiChar; aSize: Word);
+    procedure NetRecv_PlaformHancur(apRec: PAnsiChar; aSize: Word);
 
     procedure OnConnectedToServerEvent(aSender: TObject);
     procedure OnDisconnectedFromServerEvent(aSender: TObject);
@@ -156,6 +157,7 @@ type
     procedure NetSendGameControlCmd(NetRec: NetRecCmd_GameCtrl);
     procedure NetSendSessionState(NetRec: NetRecSessionState);
     procedure NetSendSonarDeploy(NetRec: NetRecCmd_SonarDeploy);
+    procedure NetSendPlatformHancur(NetRec: NetRecCmd_PlatformHancur);
 
 //    procedure SendPlatformInitData(aRec: TRec_AOTC_Data_Initialize);
     procedure SendPlatformInitObjData(aRec: TRec_AOTC_Data_Initialize; Net_Ord_ID:Byte);
@@ -181,6 +183,7 @@ type
     procedure SendGameControlTo3D(aRec: TRecCmd_GameCtrl);
     procedure SendSessionStateTo3D(aRec: TRecSessionState);
     procedure SendSonarDeployTo3D(aRec: TRecCmd_SonarDeploy);
+    procedure SendPlatformHancurTo3D(aRec: TRecPlatformHancur);
 
     procedure OnSendLog(const S: string);
 
@@ -192,6 +195,9 @@ type
 
   public
     { Public declarations }
+    property F3D_SERVER_ : TNetLinkServer read F3D_SERVER;
+
+
 
   end;
 {$ENDREGION}
@@ -335,6 +341,7 @@ begin
   FAOTC_SIMSVR_2D_CLIENT.RegisterProcedure(CPID_CMD_GAME_CTRL, NetRecv_GameControl, SizeOf(TRecCmd_GameCtrl));
   FAOTC_SIMSVR_2D_CLIENT.RegisterProcedure(CPID_SESSIONSTATE, NetRecv_SessionState, SizeOf(TRecSessionState));
   FAOTC_SIMSVR_2D_CLIENT.RegisterProcedure(CPID_CMD_SONAR_DEPLOY, NetRecv_SonarDeploy, SizeOf(TRecCmd_SonarDeploy));
+  FAOTC_SIMSVR_2D_CLIENT.RegisterProcedure(CPID_SMD_PLATFORM_HANCUR, NetRecv_PlaformHancur, SizeOf(TRecPlatformHancur));
 
   // AOTC (Delphi) 3D client
   FAOTC_SIMSVR_3D_CLIENT := TTCPClient.Create;
@@ -376,6 +383,7 @@ begin
   F3D_SERVER.RegisterProcedure(CPID_CMD_GAME_CTRL_3D, NetRecv_3D_NIL);
   F3D_SERVER.RegisterProcedure(CPID_SESSIONSTATE_3D, NetRecv_3D_NIL);
   F3D_SERVER.RegisterProcedure(CPID_CMD_SONAR_DEPLOY_3D, NetRecv_3D_NIL);
+  F3D_SERVER.RegisterProcedure(CPID_CMD_PLATFORM_HANCUR_3D, NetRecv_3D_NIL);
 
   // AOTC UDP (Delphi)
   FAOTC_SIMSVR_UDP_NODE := TNetUDPNode.Create;
@@ -780,10 +788,23 @@ var
 begin
   r := @apRec^;
 
-  LogMemo.Lines.Add('Received Sonar Command ' + r^.Param +
-                    '. Deploy Status is ' + r^.OrderCable);
+  LogMemo.Lines.Add('Received Sonar Command ' + r^.Param.ToString +
+                    '. Deploy Status is ' + r^.OrderCable.ToString);
 
   SendSonarDeployTo3D(r^);
+end;
+
+procedure TMainForm.NetRecv_PlaformHancur(apRec: PAnsiChar; aSize: Word);
+var
+  r: ^TRecPlatformHancur;
+begin
+  r := @apRec^;
+
+  LogMemo.Lines.Add('Received  Platform hancur' +
+                    '. Platform ID = ' + r^.Target +
+                    '. Sender ID = ' + r^.SenderID.ToString);
+
+  SendPlatformHancurTo3D(r^);
 end;
 
 procedure TMainForm.NetRecv_SessionStateLocal(apRec: PAnsiChar; aSize: Word);
@@ -1387,6 +1408,18 @@ begin
 
 end;
 
+procedure TMainForm.SendPlatformHancurTo3D(aRec: TRecPlatformHancur);
+var
+  NetRec: NetRecCmd_PlatformHancur;
+begin
+  NetRec.SessionID := FSessionId;
+  NetRec.SenderID := aRec.SenderID;
+  NetRec.Target := aRec.Target;
+  NetRec.reasondestroy := aRec.reasondestroy;
+
+  NetSendPlatformHancur(NetRec);
+end;
+
 procedure TMainForm.SendRemovePlatform(aRec: TRecCmd_SelectPlatformToRemove);
 var
   NetRec: NetRec_Cmd_SelectPlatformToRemove;
@@ -1546,6 +1579,11 @@ end;
 procedure TMainForm.NetSendNewEmbarkCmd(NetRec: NetRecCmd_Transport);
 begin
   F3D_SERVER.SendData(CPID_CMD_TRANSPORT_3D, NetRec);
+end;
+
+procedure TMainForm.NetSendPlatformHancur(NetRec: NetRecCmd_PlatformHancur);
+begin
+  F3D_SERVER.SendData(CPID_CMD_PLATFORM_HANCUR_3D, NetRec);
 end;
 
 procedure TMainForm.NetSendMineCmd(NetRec: NetRecCmd_LaunchMine);

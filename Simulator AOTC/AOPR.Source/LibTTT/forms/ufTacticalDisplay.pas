@@ -10897,7 +10897,10 @@ end;
 procedure TfrmTacticalDisplay.fmWeapon1btnADDefaultSearchDepthClick(
   Sender: TObject);
 begin
-  fmWeapon1.ADbtn(Sender);
+  if Assigned(Sender)then
+  begin
+    fmWeapon1.ADbtn(Sender);
+  end;
 end;
 
 procedure TfrmTacticalDisplay.fmWeapon1btnAddHybridMissileTargetAimpointClick(
@@ -10922,8 +10925,10 @@ end;
 procedure TfrmTacticalDisplay.fmWeapon1btnBombDisplayRangeShowClick(
   Sender: TObject);
 begin
-  fmWeapon1.btnBombOnClick(Sender);
-
+  if (Sender is TSpeedButton) then
+  begin
+    fmWeapon1.btnBombOnClick(Sender);
+  end;
 end;
 
 procedure TfrmTacticalDisplay.fmWeapon1btnBombTargetClick(Sender: TObject);
@@ -11121,7 +11126,10 @@ end;
 procedure TfrmTacticalDisplay.fmWeapon1btnWHDefaultSeekerRangeClick(
   Sender: TObject);
 begin
-  fmWeapon1.WHbtn(Sender);
+  if Assigned(Sender)then
+  begin
+    fmWeapon1.WHbtn(Sender);
+  end;
 end;
 
 procedure TfrmTacticalDisplay.fmWeapon1chkADLaunchWhithoutTargetClick(
@@ -11136,22 +11144,28 @@ end;
 procedure TfrmTacticalDisplay.fmWeapon1chkADUseLaunchPlatformHeadingClick(
   Sender: TObject);
 begin
-  fmWeapon1.chkADUseLaunchPlatformHeadingClick(Sender);
-
+  if Assigned(Sender)then
+  begin
+    fmWeapon1.chkADUseLaunchPlatformHeadingClick(Sender);
+  end;
 end;
 
 procedure TfrmTacticalDisplay.fmWeapon1chkBombDropWhitoutTargetClick(
   Sender: TObject);
 begin
-  fmWeapon1.chkBombDropWhithoutTargetClick(Sender);
-
+  if Assigned(Sender)then
+  begin
+    fmWeapon1.chkBombDropWhithoutTargetClick(Sender);
+  end;
 end;
 
 procedure TfrmTacticalDisplay.fmWeapon1EdtADLaunchBearingKeyPress(
   Sender: TObject; var Key: Char);
 begin
-  fmWeapon1.ADKeyPress(Sender, Key);
-
+  if Assigned(Sender)then
+  begin
+    fmWeapon1.ADKeyPress(Sender, Key);
+  end;
 end;
 
 procedure TfrmTacticalDisplay.fmWeapon1EdtADSearchRadiusKeyPress(
@@ -11175,29 +11189,37 @@ end;
 procedure TfrmTacticalDisplay.fmWeapon1EdtBombControlSalvoKeyPress(
   Sender: TObject; var Key: Char);
 begin
-  fmWeapon1.BombKeyPress(Sender, Key);
-
+  if Assigned(Sender)then
+  begin
+    fmWeapon1.BombKeyPress(Sender, Key);
+  end;
 end;
 
 procedure TfrmTacticalDisplay.fmWeapon1edtBombDepthKeyPress(Sender: TObject;
   var Key: Char);
 begin
-  fmWeapon1.MineKeyPress(Sender, Key);
-
+  if Assigned(Sender)then
+  begin
+    fmWeapon1.MineKeyPress(Sender, Key);
+  end;
 end;
 
 procedure TfrmTacticalDisplay.fmWeapon1EdtMinesDepthKeyPress(Sender: TObject;
   var Key: Char);
 begin
-  fmWeapon1.MineKeyPress(Sender, Key);
-
+  if Assigned(Sender)then
+  begin
+    fmWeapon1.MineKeyPress(Sender, Key);
+  end;
 end;
 
 procedure TfrmTacticalDisplay.fmWeapon1edtRangeKeyPress(Sender: TObject;
   var Key: Char);
 begin
-  fmWeapon1.edtRangeKeyPress(Sender, Key);
-
+  if Assigned(Sender)then
+  begin
+    fmWeapon1.edtRangeKeyPress(Sender, Key);
+  end;
 end;
 
 procedure TfrmTacticalDisplay.fmWeapon1EdtWHLaunchBearingKeyPress(
@@ -11210,8 +11232,10 @@ end;
 procedure TfrmTacticalDisplay.fmWeapon1EdtWHSalvoKeyPress(Sender: TObject;
   var Key: Char);
 begin
-  fmWeapon1.WHKeyPress(Sender, Key);
-
+  if Assigned(Sender)then
+  begin
+    fmWeapon1.WHKeyPress(Sender, Key);
+  end;
 end;
 
 procedure TfrmTacticalDisplay.fmWeapon1EdtWHSeekerRangeKeyPress(Sender: TObject;
@@ -11298,8 +11322,10 @@ end;
 procedure TfrmTacticalDisplay.fmWeapon1sbGunEngagementChaffContolAutoClick(
   Sender: TObject);
 begin
-  fmWeapon1.btnChaffClick(Sender);
-
+  if Assigned(Sender)then
+  begin
+    fmWeapon1.btnGunControlClick(Sender);
+  end;
 end;
 
 procedure TfrmTacticalDisplay.

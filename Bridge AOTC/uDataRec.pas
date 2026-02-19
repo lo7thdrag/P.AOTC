@@ -118,6 +118,8 @@ const
 
   CPID_CMD_SONAR_DEPLOY = 126;
 
+  CPID_SMD_PLATFORM_HANCUR = 114;
+
 type
 
   TRecData3DPosition = record
@@ -531,6 +533,14 @@ type
     Param         : Byte;
     ActualCable   : Double;
     OrderCable    : Double;
+  end;
+
+  TRecPlatformHancur = record
+    pid           : TPacketID;
+    SessionID     : Integer;
+    SenderID      : Integer;
+    Target        : string[50];
+    reasondestroy : Byte;
   end;
 implementation
 
