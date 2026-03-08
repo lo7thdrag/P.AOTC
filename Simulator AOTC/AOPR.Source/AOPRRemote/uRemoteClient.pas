@@ -99,9 +99,9 @@ begin
     TryStrToInt(ParamStr(3),prmColor);
     TryStrToBool(ParamStr(4),prmControl);
     if ParamCount >= 5 then
-      Caption := 'Monitor Student : '+ UpperCase(ParamStr(5))
+      Caption := 'User : '+ UpperCase(ParamStr(5))
     else
-      Caption := 'Monitor Student : ['+ prmIp +']';
+      Caption := 'User : ['+ prmIp +']';
     FClient:= TWSocket.Create(Self);
     FClient.OnSessionConnected := FClientSessionConnected ;
     FClient.OnSessionClosed    := FClientSessionClosed ;

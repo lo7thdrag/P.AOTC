@@ -1,9 +1,12 @@
 object frmRemoteClient: TfrmRemoteClient
   Left = 204
   Top = 116
+  HorzScrollBar.Visible = False
+  VertScrollBar.Visible = False
+  BorderStyle = bsNone
   Caption = 'tttRemoteScreen'
-  ClientHeight = 433
-  ClientWidth = 693
+  ClientHeight = 472
+  ClientWidth = 709
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -13,6 +16,7 @@ object frmRemoteClient: TfrmRemoteClient
   KeyPreview = True
   OldCreateOrder = False
   Position = poDesigned
+  WindowState = wsMaximized
   OnClose = FormClose
   OnCreate = FormCreate
   OnKeyDown = FormKeyDown
@@ -24,15 +28,16 @@ object frmRemoteClient: TfrmRemoteClient
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 693
+    Width = 709
     Height = 24
     Align = alTop
     AutoSize = True
     BevelOuter = bvNone
     TabOrder = 0
-    Visible = False
+    ExplicitTop = 448
+    ExplicitWidth = 701
     object Label1: TLabel
-      Left = 690
+      Left = 706
       Top = 0
       Width = 3
       Height = 24
@@ -40,10 +45,10 @@ object frmRemoteClient: TfrmRemoteClient
       Color = clInfoBk
       ParentColor = False
       Layout = tlCenter
-      ExplicitHeight = 13
+      ExplicitLeft = 698
     end
     object btnConnect: TSpeedButton
-      Left = 378
+      Left = 370
       Top = 2
       Width = 70
       Height = 22
@@ -53,7 +58,7 @@ object frmRemoteClient: TfrmRemoteClient
       OnClick = btnConnectClick
     end
     object btnDisconnect: TSpeedButton
-      Left = 452
+      Left = 444
       Top = 2
       Width = 70
       Height = 22
@@ -64,7 +69,7 @@ object frmRemoteClient: TfrmRemoteClient
       OnClick = btnDisconnectClick
     end
     object cbControl: TCheckBox
-      Left = 8
+      Left = 0
       Top = 6
       Width = 60
       Height = 17
@@ -72,7 +77,7 @@ object frmRemoteClient: TfrmRemoteClient
       TabOrder = 1
     end
     object cbStretch: TCheckBox
-      Left = 72
+      Left = 64
       Top = 6
       Width = 97
       Height = 17
@@ -84,8 +89,10 @@ object frmRemoteClient: TfrmRemoteClient
   object ScrollBox1: TScrollBox
     Left = 0
     Top = 24
-    Width = 693
-    Height = 409
+    Width = 709
+    Height = 448
+    HorzScrollBar.Visible = False
+    VertScrollBar.Visible = False
     Align = alClient
     BorderStyle = bsNone
     Color = clBlack
@@ -93,6 +100,8 @@ object frmRemoteClient: TfrmRemoteClient
     ParentColor = False
     ParentCtl3D = False
     TabOrder = 1
+    ExplicitWidth = 693
+    ExplicitHeight = 409
     object pbScreen: TPaintBox
       Left = 0
       Top = 0

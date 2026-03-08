@@ -5,7 +5,9 @@ uses
   uRemoteServer in 'uRemoteServer.pas' {frmMain},
   uRemoteScreen in 'uRemoteScreen.pas',
   uRemoteData in 'uRemoteData.pas',
-  ZLibEx in '..\SimFramework\LibComponent\ZLibEx\ZLibEx.pas';
+  ZLibEx in '..\SimFramework\LibComponent\ZLibEx\ZLibEx.pas',
+  ZLibExApi in '..\SimFramework\LibComponent\ZLibEx\ZLibExApi.pas',
+  ZLibExGZ in '..\SimFramework\LibComponent\ZLibEx\ZLibExGZ.pas';
 
 {$R *.res}
 
